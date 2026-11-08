@@ -1,0 +1,698 @@
+{
+ "mirrored": {
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-2.4.1-pre-reg.wcp": {
+   "asset": "dxvk-arm64ec-2.4.1-pre-reg.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:13Z",
+   "sha256": "deb3d8c20c4fc798c28e12c18472f7e3142b51a0a3cedb09f6bc2eaa48ac1f4f",
+   "size": 4334840
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-2.4.1.wcp": {
+   "asset": "dxvk-arm64ec-2.4.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:12Z",
+   "sha256": "2aaf74c0bf0e1621c08efa48153cb3f380fa2708e696c2f7fe213d85af13fc1d",
+   "size": 4191056
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-2.6.2.wcp": {
+   "asset": "dxvk-arm64ec-2.6.2.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:22Z",
+   "sha256": "4b80fbd30e2e0670e9f4fb5a3fba4d11edb49065b30d01283183e06e2076c834",
+   "size": 4511643
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-2.7.1-proton11-a676404.wcp": {
+   "asset": "dxvk-arm64ec-2.7.1-proton11-a676404.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:29Z",
+   "sha256": "118010eb7088f798ce8c21b59e89dd26c446b61a2c28a97e77fca91cf18a2c9f",
+   "size": 6098976
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-2.7.1.wcp": {
+   "asset": "dxvk-arm64ec-2.7.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:27Z",
+   "sha256": "6824dfe540250321c4a51e609e5b5ebf5fcd2f245bfbfc7f813fa8e3ac1f598a",
+   "size": 4573076
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-3.0.2.wcp": {
+   "asset": "dxvk-arm64ec-3.0.2.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:36Z",
+   "sha256": "3f0b5341cee87b5814e8e5d85088d2844e49d3321ca1a7c8962b1b5484d55afc",
+   "size": 6595247
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-3.1.1.wcp": {
+   "asset": "dxvk-arm64ec-3.1.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:44Z",
+   "sha256": "f3765e3589a5b84888d52cc03f26e93c2d3db3565def47dc63cb75a183aaaaaa",
+   "size": 6621711
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-3.1.wcp": {
+   "asset": "dxvk-arm64ec-3.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:39Z",
+   "sha256": "80883e3dee4d6685a004182d52cb3686172ff07c85b3c6ac0b7235538a86024a",
+   "size": 6616497
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC-ARM64EC/dxvk-gplasync-arm64ec-2.4.1-1-pre-reg.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-2.4.1-1-pre-reg.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:10Z",
+   "sha256": "bfe7c4c9a47700fb07e7ebdd1de04378228cc39dfc602b77d2cd9de6bedeccd9",
+   "size": 4336463
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC-ARM64EC/dxvk-gplasync-arm64ec-2.4.1-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-2.4.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:08Z",
+   "sha256": "9fbc9a9fb757f43e9c7ae382330646389811fb286463af966865fc5e38009303",
+   "size": 4192741
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC-ARM64EC/dxvk-gplasync-arm64ec-2.6.2-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-2.6.2-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:21Z",
+   "sha256": "ae3e4addfa949a54cecc4a07f1cf556222a76e14e94f9a68c08753de6f0894df",
+   "size": 4512357
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC-ARM64EC/dxvk-gplasync-arm64ec-2.7.1-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-2.7.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:26Z",
+   "sha256": "227aa11dd7eddf94137b6eeea2808dc1ff3f60bd7d58c9dd78586ea1be976646",
+   "size": 4574504
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC-ARM64EC/dxvk-gplasync-arm64ec-3.0-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-3.0-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:33Z",
+   "sha256": "32de2a4170b7d6cbe3dc688838a7f1db822c89acea85bfeecd220f122f44663e",
+   "size": 6550369
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC-ARM64EC/dxvk-gplasync-arm64ec-3.1.1-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-3.1.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:43Z",
+   "sha256": "169eb0c274e7d377ec3922f34c3e1c5c09957ac42e48a6a6cd1e1c5cb64e2204",
+   "size": 6618926
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.3.1-1.wcp": {
+   "asset": "dxvk-gplasync-2.3.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:05Z",
+   "sha256": "f310a9b6f877182ebd57fb6e3a5e989b3826444cd0097f0c1e55578ebab9b372",
+   "size": 6473244
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.4.1-1-pre-reg.wcp": {
+   "asset": "dxvk-gplasync-2.4.1-1-pre-reg.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:11Z",
+   "sha256": "c2f3a626635403774603d8cf104e100df0c547f16dc5fa2539e0226a1f0f20a5",
+   "size": 3647982
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.4.1-1.wcp": {
+   "asset": "dxvk-gplasync-2.4.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:07Z",
+   "sha256": "5433ba9722e0754708888cef5d91319f5c476cedb28ebb22995dc87b87bd4a1f",
+   "size": 3531462
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.5.3-1.wcp": {
+   "asset": "dxvk-gplasync-2.5.3-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:17Z",
+   "sha256": "41bcffed7b0dc61b2629f7ae5a1f396e482ed7ecbea6443f0185a5227f41f6ab",
+   "size": 3750624
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.6.2-1.wcp": {
+   "asset": "dxvk-gplasync-2.6.2-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:20Z",
+   "sha256": "e77e6b4d066eafc08fce71d88a35ed2631d1a165b73e196b08126778bdb34481",
+   "size": 3871554
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.7.1-1.wcp": {
+   "asset": "dxvk-gplasync-2.7.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:25Z",
+   "sha256": "e905591a6abd56d9a51f983c294a57cbde1698e4a9be943a5e05228c9768b127",
+   "size": 3926295
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-3.0-1.wcp": {
+   "asset": "dxvk-gplasync-3.0-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:31Z",
+   "sha256": "aef0ae5f02fc636c3c5ed5320d7879ba6e9ce557388a259865d273a4ae1e4d9e",
+   "size": 5851843
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-3.1.1-1.wcp": {
+   "asset": "dxvk-gplasync-3.1.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:41Z",
+   "sha256": "da50c70f8b9c93d9b85ecd20379ec3208cb23abfbb97602b9329bfd369b28040",
+   "size": 5914054
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-SAREK-ASYNC-ARM64EC/dxvk-sarek-async-arm64ec-1.11.0.wcp": {
+   "asset": "dxvk-sarek-async-arm64ec-1.11.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:49Z",
+   "sha256": "11d457213427f939e761c18c3621585f7a52004b210bdefb489b924f2761d15b",
+   "size": 6200236
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-SAREK-ASYNC-ARM64EC/dxvk-sarek-dyasync-arm64ec-1.13.0.wcp": {
+   "asset": "dxvk-sarek-dyasync-arm64ec-1.13.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:51Z",
+   "sha256": "9fe1e8ac4ddc970941670597fc2c6fa7780f8915ae39cb5f31e296223a0c719f",
+   "size": 3711541
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-SAREK-ASYNC-ARM64EC/dxvk-sarek-dyasync-arm64ec-1.14.0.wcp": {
+   "asset": "dxvk-sarek-dyasync-arm64ec-1.14.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:54Z",
+   "sha256": "3b826479e05e46ae1b10727bf7cfad2899b67cda4435609e5fee0bcbf96d8f70",
+   "size": 3737953
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-SAREK-ASYNC-ARM64EC/dxvk-sarek-dyasync-arm64ec-1.14.1.wcp": {
+   "asset": "dxvk-sarek-dyasync-arm64ec-1.14.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:56Z",
+   "sha256": "bc76384c1c2281b0d6948c6f6deb951349905c0c80e680a6b7cba5b05ffacacb",
+   "size": 3738078
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-async-1.11.0.wcp": {
+   "asset": "dxvk-sarek-async-1.11.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:47Z",
+   "sha256": "74fb1ee1f7bab9647a4c65580e63ec5ccf3305069b09242445970f682c446b3f",
+   "size": 5876496
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-dyasync-1.13.0.wcp": {
+   "asset": "dxvk-sarek-dyasync-1.13.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:50Z",
+   "sha256": "dce24f3862392a7daef23a78e315bced0c2d959c5799aba10b3d47e940e48aed",
+   "size": 3166784
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-dyasync-1.14.0.wcp": {
+   "asset": "dxvk-sarek-dyasync-1.14.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:52Z",
+   "sha256": "468b3a2f0f46859807e939de5dbd243a551eae567ac373c404ffd091cbfd201f",
+   "size": 3198166
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-dyasync-1.14.1.wcp": {
+   "asset": "dxvk-sarek-dyasync-1.14.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:55Z",
+   "sha256": "433147a3fb491a9897d491466fa4cb67853fe07cad5a97c15030786c2ac02036",
+   "size": 3198020
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-1.10.3.wcp": {
+   "asset": "dxvk-1.10.3.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:46Z",
+   "sha256": "14f173dcd6baa5789bfb9d03f788ac801ecbf2530a93b8a59f2270f63ee76418",
+   "size": 2851620
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-1.5.5.wcp": {
+   "asset": "dxvk-1.5.5.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:58Z",
+   "sha256": "915541252fe4f734714ca2ce0e44539817051ef5ce2c54d32760546058997e62",
+   "size": 2982493
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-1.7.2.wcp": {
+   "asset": "dxvk-1.7.2.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:20:59Z",
+   "sha256": "4f5e0cf39897778c43d12738a21170c7f8352eb382f3c5b655cc4f5d8e5c9baf",
+   "size": 3091204
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-1.7.3.wcp": {
+   "asset": "dxvk-1.7.3.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:01Z",
+   "sha256": "34501732bfd32fb73a3cae860db256d77d91811c867c5f9c0897dea4df96d5a7",
+   "size": 3094290
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-1.9.4.wcp": {
+   "asset": "dxvk-1.9.4.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:02Z",
+   "sha256": "4ae8d2431e6fbb04701b5a54e2d97f31eadbaaf72dcf3b9b8cc23bc7d214606b",
+   "size": 2773748
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.3.1.wcp": {
+   "asset": "dxvk-2.3.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:04Z",
+   "sha256": "6644f914a0150a593a71082f618f86d5600a85762a16cecfdfe312dd9340f573",
+   "size": 6464769
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.4.1-pre-reg.wcp": {
+   "asset": "dxvk-2.4.1-pre-reg.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:14Z",
+   "sha256": "3a1adf62c30669df0d6162581fc7fbb07ca4fa0d5b61d83e4f09fd464b6e844c",
+   "size": 3656532
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.4.1.wcp": {
+   "asset": "dxvk-2.4.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:06Z",
+   "sha256": "c6152bc61822b4ed42f84bbe99db8e123a385e0d729717bafd303227c6392643",
+   "size": 3529684
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.5.3.wcp": {
+   "asset": "dxvk-2.5.3.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:16Z",
+   "sha256": "20f77f7a8a6b3947033d747f13ab2e6d8e34f9d4b0e939376dbcb6657a90800e",
+   "size": 3748973
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.6.2.wcp": {
+   "asset": "dxvk-2.6.2.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:18Z",
+   "sha256": "873f59d65ba4c4c9333dd614354fc537b9679cf49d975bfb56326ad83e6d1b2b",
+   "size": 3870441
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.7.1-proton11-a676404.wcp": {
+   "asset": "dxvk-2.7.1-proton11-a676404.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:30Z",
+   "sha256": "a313184d5132ff66592d5e464b44b57e5d7ad427662e7335571f2b96a7ba424e",
+   "size": 5409022
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.7.1.wcp": {
+   "asset": "dxvk-2.7.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:23Z",
+   "sha256": "80615cf57ab9fc5f704ce2812a26727f136cd6eaf0d52b9abb6285a386980c52",
+   "size": 3927117
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-3.0.2.wcp": {
+   "asset": "dxvk-3.0.2.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:34Z",
+   "sha256": "9eaf0caeb14933c8f8be43d9ebd806976fbfaa4a7f3cd9bfeb3f6097dcfad2fd",
+   "size": 5890067
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-3.1.1.wcp": {
+   "asset": "dxvk-3.1.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:40Z",
+   "sha256": "c6ef2fc8c0a318fb77302b880aa013085ff2d38b2a689a7b4b79b8b65e9fcb10",
+   "size": 5912223
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-3.1.wcp": {
+   "asset": "dxvk-3.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:37Z",
+   "sha256": "8123b760e7d95eaac7ba2895014d4189df18945abefcf178958e0a8efb1b501c",
+   "size": 5908718
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-async-1.12.0-no-ddraw.wcp": {
+   "asset": "dxvk-sarek-async-1.12.0-no-ddraw.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:04Z",
+   "sha256": "c07d515b011400bfc8e673f6818241b09488562d892ff4552a04951f874af2f8",
+   "size": 6161001
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-async-v1.10.4.wcp": {
+   "asset": "dxvk-sarek-async-v1.10.4.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:06Z",
+   "sha256": "bc1ac6a32dd8693ac16da81b9fbd25b4fe170d6c24a85432e38f6ffe516b9d89",
+   "size": 6844615
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-async-v1.10.5.wcp": {
+   "asset": "dxvk-sarek-async-v1.10.5.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:07Z",
+   "sha256": "6bd7feb6960ea283072cf9b21e3f0b98ecb0b06ed79c5044d19a4a0c94c2b1b2",
+   "size": 7733902
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-async-v1.10.6.wcp": {
+   "asset": "dxvk-sarek-async-v1.10.6.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:08Z",
+   "sha256": "86dc89301595c00200fe9b1ef2f8f0593afdb5f21c7e69a73433de55572fe918",
+   "size": 7739995
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-async-v1.10.7.wcp": {
+   "asset": "dxvk-sarek-async-v1.10.7.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:10Z",
+   "sha256": "0fdf800efbe890360e64e97eaebfae974eb91dba34b5971c18cb5da5f6b489bc",
+   "size": 7775157
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-async-v1.10.8.wcp": {
+   "asset": "dxvk-sarek-async-v1.10.8.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:11Z",
+   "sha256": "6fe4a0196b1410954d9d9e234af1a4e8082cc15a433193326dfc4039baca1004",
+   "size": 7812414
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-async-v1.10.9.wcp": {
+   "asset": "dxvk-sarek-async-v1.10.9.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:13Z",
+   "sha256": "3e6679882d93d33fa117c8b3774ba5cd572a616a574ea2bfea89b21e1a7007cd",
+   "size": 7896454
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK-ASYNC/dxvk-sarek-dyasync-1.12.0.wcp": {
+   "asset": "dxvk-sarek-dyasync-1.12.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:14Z",
+   "sha256": "da6865e2f7e0935218fd2e9ecae2184d944922728b5be631ee409dceab3259d7",
+   "size": 4547044
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/DXVK-Sarek-11.1.0-249c45a.wcp": {
+   "asset": "DXVK-Sarek-11.1.0-249c45a.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:46Z",
+   "sha256": "f3bf0bdfd4bef37f42b4f72aa9b7fc03d8138d126066d7a958beac8cfc7afd1d",
+   "size": 3306772
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/Dxvk-sarek-1.12.wcp": {
+   "asset": "Dxvk-sarek-1.12.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:45Z",
+   "sha256": "3aa87727fedc4cbcd835b54b25ca5defbc9743dd12e50de44ef9bd27da1d37ac",
+   "size": 4059516
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.10.4.wcp": {
+   "asset": "dxvk-sarek-v1.10.4.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:48Z",
+   "sha256": "c72e6ae8e26b006bceb2a07b5b4943df283d1254671523a573e120216c4bae16",
+   "size": 6812706
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.10.5.wcp": {
+   "asset": "dxvk-sarek-v1.10.5.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:49Z",
+   "sha256": "fe5e295d26603f6abb2841d387d0f07b0c9c93481675e0668390bf52d90cf741",
+   "size": 7685157
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.10.6.wcp": {
+   "asset": "dxvk-sarek-v1.10.6.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:51Z",
+   "sha256": "0c3b4aaf561f36457403931dcfc6211eb55f0837df4c58a04d81cd705fa36ef5",
+   "size": 7713427
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.10.7.wcp": {
+   "asset": "dxvk-sarek-v1.10.7.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:52Z",
+   "sha256": "3fcf850f2bdb89962e9a5b38b2cbdaf2cf5d11aefab539f6fba77f8049e5b110",
+   "size": 7738420
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.10.8.wcp": {
+   "asset": "dxvk-sarek-v1.10.8.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:53Z",
+   "sha256": "864a38c7d48ce837a2154a7799d674ab21dea06eea8ecf2efcdb6a7424a10cbe",
+   "size": 7755159
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.10.9.wcp": {
+   "asset": "dxvk-sarek-v1.10.9.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:55Z",
+   "sha256": "fe236ba1ad2aefaa04b934f3a9c8b5e8bfc024b690cc98595cc21417a00952a5",
+   "size": 7864846
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.11.0.wcp": {
+   "asset": "dxvk-sarek-v1.11.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:57Z",
+   "sha256": "19276d0de10b87fc5b80e1d9a39a043e0185732fd95d8c16f27809569400dd6e",
+   "size": 7764458
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.13.0-d3d10fix.wcp": {
+   "asset": "dxvk-sarek-v1.13.0-d3d10fix.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:58Z",
+   "sha256": "642149e8f2f9a7ee4481ee07baa183bf4de11ac314c632daa8016c9d83032ac2",
+   "size": 3647741
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.13.0.wcp": {
+   "asset": "dxvk-sarek-v1.13.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:21:59Z",
+   "sha256": "7e792940c6ca9793ce9fb61aa8684b4fad7b72a207e84eb07b5f0edd95f41ba7",
+   "size": 3626037
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.14.0-d3d10fix.wcp": {
+   "asset": "dxvk-sarek-v1.14.0-d3d10fix.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:01Z",
+   "sha256": "85d6fc55e23cffe6cf06eff20bcdc13558953606c529f2beeff0f50b865eabaa",
+   "size": 3987726
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/DXVK-SAREK/dxvk-sarek-v1.14.0.wcp": {
+   "asset": "dxvk-sarek-v1.14.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:02Z",
+   "sha256": "dbc573f35dab30d1c6339768676078de9c14dba5cb60026ae38442a80620b7a8",
+   "size": 3987502
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-arm64ec/dxvk-arm64ec-2.3.1.wcp": {
+   "asset": "dxvk-arm64ec-2.3.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:33Z",
+   "sha256": "8b917cd1bf4dcbe501f59e91a5bada03060b24b7786c0f2b7e3aa3f08559d19f",
+   "size": 6726494
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-arm64ec/dxvk-arm64ec-2.5.3.wcp": {
+   "asset": "dxvk-arm64ec-2.5.3.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:36Z",
+   "sha256": "44ba69eb2906e9916d46453c2394fe51d7149c3822c42244b7c8f2bebcd41422",
+   "size": 8229954
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-arm64ec/dxvk-arm64ec-3.0.wcp": {
+   "asset": "dxvk-arm64ec-3.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:41Z",
+   "sha256": "cf9bfe87571647d0436d5fcee3bbb6c8f3d6587c5f4fd26acf4c41aacfcb9d6e",
+   "size": 13338859
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-binsem-gplasync-arm64ec/dxvk-binsem-gplasync-arm64ec-3.0.2-1.wcp": {
+   "asset": "dxvk-binsem-gplasync-arm64ec-3.0.2-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:17Z",
+   "sha256": "338fa985ffa7348e837466a4cbaab937ce53d329a7697ddb5bb09ea673e20a3f",
+   "size": 6288189
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-binsem-gplasync-arm64ec/dxvk-binsem-gplasync-arm64ec-3.1-1.wcp": {
+   "asset": "dxvk-binsem-gplasync-arm64ec-3.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:18Z",
+   "sha256": "5848fe4c13229525c740dfc114a3cd8c12a8687eced5681afa5db75076874f26",
+   "size": 6318986
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-binsem-gplasync-arm64ec/dxvk-binsem-gplasync-arm64ec-3.1.1-1.wcp": {
+   "asset": "dxvk-binsem-gplasync-arm64ec-3.1.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:20Z",
+   "sha256": "4d3a7128669797646f87a67e3889c4e32ea6640b32eb348e6fa95dfaad97131d",
+   "size": 6321195
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-binsem-gplasync/dxvk-binsem-gplasync-3.0.2-1.wcp": {
+   "asset": "dxvk-binsem-gplasync-3.0.2-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:12Z",
+   "sha256": "040909c190bd466c6ec3b959bef9831c3e04f7340ad3d4f29ac3a2d176455718",
+   "size": 7574225
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-binsem-gplasync/dxvk-binsem-gplasync-3.1-1.wcp": {
+   "asset": "dxvk-binsem-gplasync-3.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:14Z",
+   "sha256": "b9d89b3da9f7d51dd4392e0fb245255626899c1656a4c80d9c6ccda285fc4719",
+   "size": 7797976
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-binsem-gplasync/dxvk-binsem-gplasync-3.1.1-1.wcp": {
+   "asset": "dxvk-binsem-gplasync-3.1.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:15Z",
+   "sha256": "e02c5d7258191c500d3a65b506aaf6ef658c7454560a7d76821faff31266b36d",
+   "size": 8783156
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync-arm64ec/dxvk-gplasync-arm64ec-2.3.1-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-2.3.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:58Z",
+   "sha256": "5054643d45def58b7d30b511430ebedaca1deb4f2a87134d43412dc693f89483",
+   "size": 6732370
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync-arm64ec/dxvk-gplasync-arm64ec-2.5.3-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-2.5.3-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:02Z",
+   "sha256": "e7fc115c22aef3634e695fb14a9fe82ceff501c99b4b26ce0186e34376ace54a",
+   "size": 8233266
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync-arm64ec/dxvk-gplasync-arm64ec-3.0.2-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-3.0.2-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:07Z",
+   "sha256": "b9ec9d0748d301c4652cb8cc7e782a95a6d2be51a01f50dca6b11a7ecb0a42e2",
+   "size": 6287548
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync-arm64ec/dxvk-gplasync-arm64ec-3.1-1-binsem.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-3.1-1-binsem.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:08Z",
+   "sha256": "5848fe4c13229525c740dfc114a3cd8c12a8687eced5681afa5db75076874f26",
+   "size": 6318986
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync-arm64ec/dxvk-gplasync-arm64ec-3.1-1.wcp": {
+   "asset": "dxvk-gplasync-arm64ec-3.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:10Z",
+   "sha256": "efb5278c8e2311a82eb7737440df6668503cb4a7789124a6096b200f65dc5503",
+   "size": 6319391
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync/Dxvk-2.6-2-gplasync.wcp": {
+   "asset": "Dxvk-2.6-2-gplasync.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:44Z",
+   "sha256": "70e0b1561decbffa873251dc64ad072970064ffe2768945f1675c48f9087274d",
+   "size": 4431696
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync/dxvk-gplasync-3.0.2-1.wcp": {
+   "asset": "dxvk-gplasync-3.0.2-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:53Z",
+   "sha256": "93cc041e4546d50f8a7302eb6147d779f3dbf3489b26847b8b5c2a10463854e8",
+   "size": 7564523
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync/dxvk-gplasync-3.1-1-binsem.wcp": {
+   "asset": "dxvk-gplasync-3.1-1-binsem.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:54Z",
+   "sha256": "b9d89b3da9f7d51dd4392e0fb245255626899c1656a4c80d9c6ccda285fc4719",
+   "size": 7797976
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk-gplasync/dxvk-gplasync-3.1-1.wcp": {
+   "asset": "dxvk-gplasync-3.1-1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:56Z",
+   "sha256": "cb12812ee0eca9d4e3f236a0494878f48016b7f4fc62ed3747cac9574a5240ea",
+   "size": 7798368
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk/Dxvk-2.4.1.-special-d8.wcp": {
+   "asset": "Dxvk-2.4.1.-special-d8.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:21Z",
+   "sha256": "a04d3521b95fc7e231143e8cbbc67a55b105787efa65ef09022d8b4e5063671a",
+   "size": 3904544
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk/dxvk-3.0.wcp": {
+   "asset": "dxvk-3.0.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:28Z",
+   "sha256": "250a8694c25f06d7bbc8cccd383d733bc048123cb7e2780d7eee7c28ce90bdbc",
+   "size": 10038061
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Dxvk/dxvk-v2.3.1-stripped.wcp": {
+   "asset": "dxvk-v2.3.1-stripped.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:22:31Z",
+   "sha256": "23dc0c58c6d3e43b38f6b4263da946182f60b4cc9d8e064c666bc3e65709c62a",
+   "size": 2425252
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-ARM64EC-v3.1.1-gplasync-arm64ec-829e377d.wcp": {
+   "asset": "DXVK-ARM64EC-v3.1.1-gplasync-arm64ec-829e377d.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:22Z",
+   "sha256": "2eb10be3246e3249a63e63456224078e42bfcd8542c5f86b117c2e3377b4e4c3",
+   "size": 13656151
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-ARM64EC-v3.1.1-gplasync-arm64ec-829e377d.zip": {
+   "asset": "DXVK-ARM64EC-v3.1.1-gplasync-arm64ec-829e377d.zip",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:24Z",
+   "sha256": "7dfb621f391e5c5d66fd5895cbb211bf0d794fea2c50e06a37875a0cc3280bec",
+   "size": 14222988
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-v3.0-binsem-gplasync-97fe0c66.wcp": {
+   "asset": "DXVK-v3.0-binsem-gplasync-97fe0c66.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:29Z",
+   "sha256": "e16d91389f43796ae5e9627673a17ef1eac8f7208e699da5bef7d552fc1ce6fa",
+   "size": 7888200
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-v3.0-binsem-gplasync-97fe0c66.zip": {
+   "asset": "DXVK-v3.0-binsem-gplasync-97fe0c66.zip",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:31Z",
+   "sha256": "befa850c3a8592b5b47d560b509c2c5e13a4d0c1c21ff4850192f5e1132556b7",
+   "size": 17374055
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-v3.0-binsem-gplasync-arm64ec-97fe0c66.wcp": {
+   "asset": "DXVK-v3.0-binsem-gplasync-arm64ec-97fe0c66.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:32Z",
+   "sha256": "df7d08416ae037732ad0ea977320631fcb697618e7d6924fc71e2e73fa099593",
+   "size": 13239208
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-v3.0-binsem-gplasync-arm64ec-97fe0c66.zip": {
+   "asset": "DXVK-v3.0-binsem-gplasync-arm64ec-97fe0c66.zip",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:34Z",
+   "sha256": "a1c5ed9f1a5921d25a95f83b8334ab11320976ba17c8b8e52a34314e14cde34c",
+   "size": 13783054
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-v3.1.1-arm64ec.wcp": {
+   "asset": "DXVK-v3.1.1-arm64ec.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:36Z",
+   "sha256": "488e0420a29b58a68677ab64183a8ddf3da27531d5a81993034c16a1f5fd3034",
+   "size": 6379097
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-v3.1.1-arm64ec.zip": {
+   "asset": "DXVK-v3.1.1-arm64ec.zip",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:37Z",
+   "sha256": "69a643332f70e32487ae649ac52933ce9e43060b0e561949053f2561f05441e4",
+   "size": 13942079
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-v3.1.1.wcp": {
+   "asset": "DXVK-v3.1.1.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:39Z",
+   "sha256": "058fadac291cc57dc44c1012a0c376f545718b764a90d0cc98878a90368f75fc",
+   "size": 8911776
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/DXVK-v3.1.1.zip": {
+   "asset": "DXVK-v3.1.1.zip",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:41Z",
+   "sha256": "42eb8ce15488fad2d9fd39f6d7fb6a67cb2a94f6235ceb1963c1e8e100a887f7",
+   "size": 18041756
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/dxvk-gplasync-829e377d.wcp": {
+   "asset": "dxvk-gplasync-829e377d.wcp",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:25Z",
+   "sha256": "bb4a48c2079324477f82162e2bb951ec7ba21ef973dd9f38fa6cf60df7e9d834",
+   "size": 8842584
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/dxvk-gplasync-829e377d.zip": {
+   "asset": "dxvk-gplasync-829e377d.zip",
+   "bucket": "dxvk",
+   "mtime": "2026-11-08T16:23:27Z",
+   "sha256": "279e3bff6d03bc94c4076399dff7f34b6b9b93eed5de54746066d22eb85dc035",
+   "size": 18053586
+  }
+ },
+ "updated": "2026-11-08T16:23:41Z"
+}
