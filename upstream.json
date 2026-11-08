@@ -49,6 +49,21 @@
       "kind": "github_releases",
       "url": "https://api.github.com/repos/The412Banner/Nightlies/releases?per_page=30",
       "serves": "nightly-* release 的最新构建"
+    },
+    {
+      "id": "catalog",
+      "name": "Curated component catalog",
+      "kind": "catalog",
+      "url": "https://the412banner.github.io/bannerhub-api/simulator/v2/getAllComponentList",
+      "serves": "整理后的组件目录，每条带 file_md5 / file_size / 下载地址",
+      "catalogBuckets": {
+        "2": "drivers",
+        "3": "dxvk",
+        "4": "vkd3d",
+        "5": "settings",
+        "6": "runtime-yml",
+        "7": "steam"
+      }
     }
   ],
   "typeToBucket": {

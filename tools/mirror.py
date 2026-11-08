@@ -35,6 +35,9 @@ BUCKET_TITLES = {
     "fex": "FEXCore",
     "wine-proton": "Wine / Proton",
     "drivers": "GPU 驱动（Adreno / Turnip）",
+    "settings": "游戏配置包",
+    "steam": "Steam 客户端",
+    "runtime-yml": "运行库定义（yml）",
 }
 
 BUCKET_BLURB = {
@@ -45,6 +48,9 @@ BUCKET_BLURB = {
     "fex": "FEXCore x86_64 → ARM64 转换层，含 arm64ec 变体。",
     "wine-proton": "Wine 容器与 Proton 构建。",
     "drivers": "Adreno / Turnip / Qualcomm 系列 GPU 驱动包。",
+    "settings": "按游戏整理的运行参数包，官方目录里 type=5。",
+    "steam": "Steam 客户端打包，官方目录里 type=7。",
+    "runtime-yml": "运行库条目定义，官方目录里 type=6，每项一个 yml。",
 }
 
 FAMILY_HINTS = [
@@ -92,22 +98,25 @@ def collect():
     tmap = cfg["typeToBucket"]
     items, seen = [], set()
 
-    def add(name, url, typ, src):
+    def add(name, url, typ, src, bucket=None, extra=None):
         url = (url or "").strip()
         if not url.startswith("http") or url in seen:
             return
-        bucket = tmap.get(typ)
-        if not bucket:
+        b = bucket or tmap.get(typ)
+        if not b:
             return
         seen.add(url)
-        items.append({
-            "bucket": bucket,
-            "type": typ,
+        rec = {
+            "bucket": b,
+            "type": typ or "",
             "name": name or urllib.parse.unquote(url.rsplit("/", 1)[-1]),
             "url": url,
             "file": urllib.parse.unquote(url.rsplit("/", 1)[-1]),
             "source": src,
-        })
+        }
+        if extra:
+            rec.update(extra)
+        items.append(rec)
 
     for s in cfg["sources"]:
         try:
@@ -115,6 +124,27 @@ def collect():
         except Exception as e:
             log("  !! %s 拉取失败: %s" % (s["id"], e))
             continue
+
+        if s.get("kind") == "catalog":
+            raw = (data or {}).get("data", {}).get("list")
+            lst = json.loads(raw) if isinstance(raw, str) else (raw or [])
+            cmap = s.get("catalogBuckets", {})
+            before = len(items)
+            for x in lst:
+                if not isinstance(x, dict):
+                    continue
+                typ = str(x.get("type"))
+                bucket = cmap.get(typ)
+                if typ == "1":
+                    nm = (x.get("name") or "").lower()
+                    bucket = "box64" if ("box" in nm or "wow" in nm) else "fex"
+                add(x.get("name"), x.get("download_url"), "catalog-" + typ, s["id"],
+                    bucket=bucket,
+                    extra={"md5": x.get("file_md5") or "",
+                           "declared_size": x.get("file_size") or 0})
+            log("  %-14s %4d 条（新增 %d，累计 %d）" % (s["id"], len(lst), len(items) - before, len(items)))
+            continue
+
         if not isinstance(data, list):
             continue
         for x in data:
@@ -215,12 +245,13 @@ def download(url, dest):
         shutil.copyfileobj(r, f, 1024 * 256)
 
 
-def sha256_of(path):
-    h = hashlib.sha256()
+def digests_of(path):
+    h1, h2 = hashlib.sha256(), hashlib.md5()
     with open(path, "rb") as f:
         for chunk in iter(lambda: f.read(1024 * 512), b""):
-            h.update(chunk)
-    return h.hexdigest()
+            h1.update(chunk)
+            h2.update(chunk)
+    return h1.hexdigest(), h2.hexdigest()
 
 
 def upload(rel, path, name):
@@ -300,7 +331,11 @@ def main():
             if size == 0:
                 os.remove(tmp)
                 continue
-            digest = sha256_of(tmp)
+            digest, md5 = digests_of(tmp)
+            if it.get("md5") and md5.lower() != it["md5"].lower():
+                log("  md5 不符，丢弃 %s（期望 %s 实得 %s）" % (name[:50], it["md5"][:8], md5[:8]))
+                os.remove(tmp)
+                continue
             try:
                 up = upload(rel, tmp, name)
             except Exception as e:
@@ -308,7 +343,9 @@ def main():
                 os.remove(tmp)
                 continue
             mirrored[it["url"]] = {"bucket": bucket, "asset": name, "size": size,
-                                   "sha256": digest, "mtime": up.get("updated_at", "")}
+                                   "sha256": digest, "md5": md5,
+                                   "source": it.get("source", ""),
+                                   "mtime": up.get("updated_at", "")}
             done += 1
             bytes_ += size
             log("  [%d] %-12s %7.1f MB  %s" % (done, bucket, size / 1e6, name[:64]))
