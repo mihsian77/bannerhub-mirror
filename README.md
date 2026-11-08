@@ -13,18 +13,24 @@
 | [Arihany/WinlatorWCPHub](https://github.com/Arihany/WinlatorWCPHub) | DXVK / VKD3D-Proton / FEXCore 的 `.wcp` |
 | [The412Banner/Nightlies](https://github.com/The412Banner/Nightlies) | Box64 / FEX / DXVK / VKD3D / D7VK / Wine / Proton 全量构建 |
 | Kimchi / StevenMXZ / MTR / Whitebelyash | Adreno / Turnip 驱动 zip |
+| [bannerhub-api 目录](https://the412banner.github.io/bannerhub-api/simulator/v2/getAllComponentList) | 整理后的组件目录，每条带 `file_md5` / `file_size` / 下载地址 |
 
 ## 分类
 
-| Release | 内容 | 条数 |
-|---|---|---|
-| [`box64`](../../releases/tag/box64) | Box64 与 WOWBox64 | 54 |
-| [`dxvk`](../../releases/tag/dxvk) | DXVK（含 async / gplasync / arm64ec 变体） | 134 |
-| [`vkd3d`](../../releases/tag/vkd3d) | VKD3D-Proton | 25 |
-| [`d7vk`](../../releases/tag/d7vk) | D7VK | 2 |
-| [`fex`](../../releases/tag/fex) | FEXCore | 47 |
-| [`wine-proton`](../../releases/tag/wine-proton) | Wine 容器与 Proton | 28 |
-| [`drivers`](../../releases/tag/drivers) | Adreno / Turnip / Qualcomm 驱动 | 1214 |
+| Release | 内容 |
+|---|---|
+| [`box64`](../../releases/tag/box64) | Box64 与 WOWBox64 |
+| [`fex`](../../releases/tag/fex) | FEXCore |
+| [`dxvk`](../../releases/tag/dxvk) | DXVK（含 async / gplasync / arm64ec 变体） |
+| [`vkd3d`](../../releases/tag/vkd3d) | VKD3D-Proton |
+| [`d7vk`](../../releases/tag/d7vk) | D7VK |
+| [`wine-proton`](../../releases/tag/wine-proton) | Wine 容器与 Proton |
+| [`drivers`](../../releases/tag/drivers) | Adreno / Turnip / Qualcomm 驱动 |
+| [`settings`](../../releases/tag/settings) | 按游戏整理的运行参数包 |
+| [`steam`](../../releases/tag/steam) | Steam 客户端打包 |
+| [`runtime-yml`](../../releases/tag/runtime-yml) | 运行库条目定义，每项一个 yml |
+
+单目录 640 条实测 4.07 GB，其中配置包与驱动各占 1 GB 以上；社区源再补 1504 条、8.59 GB。
 
 直链形如：
 
