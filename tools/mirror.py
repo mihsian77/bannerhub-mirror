@@ -264,6 +264,7 @@ def assets_of(rel):
 
 
 def download(url, dest):
+    url = urllib.parse.quote(url, safe=":/?&=#%+~@!$'()*,;")
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=600) as r, open(dest, "wb") as f:
         shutil.copyfileobj(r, f, 1024 * 256)
