@@ -1,0 +1,145 @@
+{
+ "mirrored": {
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/VKD3D-PROTON-ARM64EC/vkd3d-proton-arm64ec-2.14.1.wcp": {
+   "asset": "vkd3d-proton-arm64ec-2.14.1.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:20:48Z",
+   "sha256": "f46f2963e3ef0778daa59fc76d06f12d625b2d2c66ffbcb3a0538e20a22af116",
+   "size": 2175476
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/VKD3D-PROTON-ARM64EC/vkd3d-proton-arm64ec-3.0.1.wcp": {
+   "asset": "vkd3d-proton-arm64ec-3.0.1.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:20:51Z",
+   "sha256": "b07ffea99eaddf50ff7aa4873a7e478c03aa9c66279571b090fbd8340b24b86e",
+   "size": 3287367
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/VKD3D-PROTON/vkd3d-proton-2.14.1.wcp": {
+   "asset": "vkd3d-proton-2.14.1.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:20:47Z",
+   "sha256": "7e997b954fa195796b27a82b6747f9dbb938b5c5fe292d1cc18657394162bdc7",
+   "size": 1959992
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/VKD3D-PROTON/vkd3d-proton-3.0.1.wcp": {
+   "asset": "vkd3d-proton-3.0.1.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:20:49Z",
+   "sha256": "aa5226d3ebd20de01301081748d032065a7a09f61a1681f8708be6d38338589b",
+   "size": 3087412
+  },
+  "https://github.com/Arihany/WinlatorWCPHub/releases/download/VKD3D-PROTON/vkd3d-proton-3.1.wcp": {
+   "asset": "vkd3d-proton-3.1.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:20:52Z",
+   "sha256": "1e60fdb216cd524f6d502a803065d3d66ec802c48158e08ed445a93a8ae41404",
+   "size": 3220867
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/VKD3D-PROTON-ARM/Vk3dk-3.0b-arm64ec-Tfix.wcp": {
+   "asset": "Vk3dk-3.0b-arm64ec-Tfix.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:20:54Z",
+   "sha256": "c7c8ba08d8a93319f2d98163bca298162aa7746471aa0c92059296c931bd3543",
+   "size": 2795468
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/VKD3D-PROTON-ARM/vkd3d-proton-arm64ec-3.0a.wcp": {
+   "asset": "vkd3d-proton-arm64ec-3.0a.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:20:58Z",
+   "sha256": "3ed1670a1bef18cfa60f9fbd92a23afd99993d188cbd40411b8b07c476a4a3df",
+   "size": 9945848
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/VKD3D-PROTON-ARM/vkd3d-proton-arm64ec-3.0b.wcp": {
+   "asset": "vkd3d-proton-arm64ec-3.0b.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:20:59Z",
+   "sha256": "f02dadfcf5f4d069314c2d5d56b7823f39b5d87670b16a5be288270494a5919b",
+   "size": 3808171
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/VKD3D-PROTON-ARM/vkd3d-proton-arm64ec-3.1.wcp": {
+   "asset": "vkd3d-proton-arm64ec-3.1.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:01Z",
+   "sha256": "35ba77e4ab0efcaed54b446d55ed801bc19a639a237dd9e797dd5eb293e0c291",
+   "size": 4048118
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Vkd3d-proton/Vk3dk-3.0b-Tfix.wcp": {
+   "asset": "Vk3dk-3.0b-Tfix.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:02Z",
+   "sha256": "f58007946df66e0c55eba5b6f5ceb5cbcb65c6e0bee132681a7968b8f940f360",
+   "size": 3309644
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Vkd3d-proton/Vk3dk-proton-3.0b-tilting.wcp": {
+   "asset": "Vk3dk-proton-3.0b-tilting.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:04Z",
+   "sha256": "596d77423032dc6036dde0a76ea5f63bfe04f7bf215dc6d1fcbd1de7bb4f92e1",
+   "size": 3730552
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Vkd3d-proton/vkd3d-proton-2.12.wcp": {
+   "asset": "vkd3d-proton-2.12.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:05Z",
+   "sha256": "ee37591a3ca6c5c9ea5a813a5e338c57362f841749134a6e8b605bb2a4d57808",
+   "size": 2659120
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Vkd3d-proton/vkd3d-proton-2.7.wcp": {
+   "asset": "vkd3d-proton-2.7.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:08Z",
+   "sha256": "a3bc694e3b624e723730a381893a53891ff8beca338088f3dee0fe47135e9c7b",
+   "size": 2373470
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Vkd3d-proton/vkd3d-proton-2.9.wcp": {
+   "asset": "vkd3d-proton-2.9.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:09Z",
+   "sha256": "17c1a95216954dd1b877af310a8abdf84aa10878e33e86b4e778c7a06b7cea0b",
+   "size": 2498177
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Vkd3d-proton/vkd3d-proton-3.0a.wcp": {
+   "asset": "vkd3d-proton-3.0a.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:12Z",
+   "sha256": "7c29676c556dfb2c690ca4f6bd114dd031d00519e36bacb9fe871b173fedaa74",
+   "size": 11761492
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Vkd3d-proton/vkd3d-proton-3.0b.wcp": {
+   "asset": "vkd3d-proton-3.0b.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:14Z",
+   "sha256": "2fe4f55605683dc1d4f709867942499346265a3356e8970582c70659549ef05d",
+   "size": 3809715
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/VKD3D-Proton-3.1-db5628e2.wcp": {
+   "asset": "VKD3D-Proton-3.1-db5628e2.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:16Z",
+   "sha256": "04a723192a45142de8a265310155b3339168f50c2231331fa042533eaa8d8618",
+   "size": 3031320
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/VKD3D-Proton-3.1-db5628e2.zip": {
+   "asset": "VKD3D-Proton-3.1-db5628e2.zip",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:18Z",
+   "sha256": "169fe242b51b32f2f4f65e849e339b2a76ad9d19560f906daf57df219eae35f9",
+   "size": 4246746
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/VKD3D-Proton-arm64ec-3.1-db5628e2.wcp": {
+   "asset": "VKD3D-Proton-arm64ec-3.1-db5628e2.wcp",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:19Z",
+   "sha256": "295b7f4140aa77a45a033a757a09d8c42b1f1d4f475109cda586e5f10c5ccbbd",
+   "size": 4124866
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/VKD3D-Proton-arm64ec-3.1-db5628e2.zip": {
+   "asset": "VKD3D-Proton-arm64ec-3.1-db5628e2.zip",
+   "bucket": "vkd3d",
+   "mtime": "2026-11-08T16:21:21Z",
+   "sha256": "1596cb6d5362e7a03984674f63669c6652fdfebcd5776c33ca4af223980097aa",
+   "size": 4209624
+  }
+ },
+ "updated": "2026-11-08T16:21:21Z"
+}
