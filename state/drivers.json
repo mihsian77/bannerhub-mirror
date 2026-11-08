@@ -5944,6 +5944,96 @@
    "sha256": "0b557c839f90ab467736cef79b01112290bba28fcfc6cf7926c6e84782b52f68",
    "size": 2564328
   },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-710-720-Test-Linux.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-710-720-Test-Linux.zip",
+   "bucket": "drivers-2",
+   "md5": "7dfbff21cfbe1d7b81eefc0570a2a93d",
+   "mtime": "2026-11-08T17:02:49Z",
+   "sha256": "db617303e8e98d7caff542eae075f6b59167207c6dbbdd5fb678dfc2feffddb0",
+   "size": 3144156,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-710-720-Test.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-710-720-Test.zip",
+   "bucket": "drivers-2",
+   "md5": "65e486bf317ea71ea9335c2a60bafb04",
+   "mtime": "2026-11-08T17:02:49Z",
+   "sha256": "91c1bbda53818e1097bd029adda52fe7bf87bbd338eb918527133bcd4e097b3e",
+   "size": 2564522,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-8G2-OneUI-Linux.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-8G2-OneUI-Linux.zip",
+   "bucket": "drivers-2",
+   "md5": "5c60ac1a3bb79c1b6650269ca2a1ba60",
+   "mtime": "2026-11-08T17:02:50Z",
+   "sha256": "4072eb1c8a5685e83b93d2355e247eb73fd76f42851a6c22cab653fa5157200e",
+   "size": 3144127,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-8G2-OneUI.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-8G2-OneUI.zip",
+   "bucket": "drivers-2",
+   "md5": "5ae9d30dd3f89ecb84e33bc79c488f36",
+   "mtime": "2026-11-08T17:02:51Z",
+   "sha256": "62dffe6a8f4376f511719a47152b47586b2b2b47bd51d4d1438792a0e04f4039",
+   "size": 2564365,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-A8xx-Linux.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-A8xx-Linux.zip",
+   "bucket": "drivers-2",
+   "md5": "29ef093bd50d14a5579bc4db46c2a700",
+   "mtime": "2026-11-08T17:02:52Z",
+   "sha256": "c8f1c8fca525cc333dcafeac8dc9c21192163aab0c522afe88d518f1e6389731",
+   "size": 3195696,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-A8xx.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-A8xx.zip",
+   "bucket": "drivers-2",
+   "md5": "6ef417e1ebde2f3def038a0882444916",
+   "mtime": "2026-11-08T17:02:53Z",
+   "sha256": "8875da6eaa609abec56a9ba0b17ff2a4a7629abac1d2beb63fac96199523cd35",
+   "size": 2600394,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-Banners-AIO-Linux.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-Banners-AIO-Linux.zip",
+   "bucket": "drivers-2",
+   "md5": "3db83d2334c3320ef5679d19c10e876c",
+   "mtime": "2026-11-08T17:02:54Z",
+   "sha256": "da2fa515270977a839a483e64f025174072fa305fc1cbf59984c500aa0826b81",
+   "size": 3196270,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-Banners-AIO.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-Banners-AIO.zip",
+   "bucket": "drivers-2",
+   "md5": "8ade4bf1582a72fb83938f79dfbb48d6",
+   "mtime": "2026-11-08T17:02:55Z",
+   "sha256": "5ee1f7dc06ea2e9d07c29faa48a9f2314a0ffc4a224977a90aba913eb14f4bb8",
+   "size": 2602947,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3-Linux.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3-Linux.zip",
+   "bucket": "drivers-2",
+   "md5": "788dc58dd3c3044029734a194ea61100",
+   "mtime": "2026-11-08T17:02:56Z",
+   "sha256": "8d2f37c535ebef85e6bf1c0bb1ffccc7b19e0b0ce3f4e0f1345f8a130e620a12",
+   "size": 3143999,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108-r3/Turnip-v27.0.0-20261108-r3.zip": {
+   "asset": "Turnip-v27.0.0-20261108-r3.zip",
+   "bucket": "drivers-2",
+   "md5": "453ee94ceb8690817bc2940099589ea1",
+   "mtime": "2026-11-08T17:02:57Z",
+   "sha256": "de9ef629906b9b437fc22fdd5334a1055cc4b4de6bf29ff3521af226b27c8809",
+   "size": 2564239,
+   "source": "nightlies"
+  },
   "https://github.com/The412Banner/Banners-Turnip/releases/download/v27.0.0-20261108/Turnip-v27.0.0-20261108-710-720-Test-Linux.zip": {
    "asset": "Turnip-v27.0.0-20261108-710-720-Test-Linux.zip",
    "bucket": "drivers",
@@ -11816,5 +11906,5 @@
    "source": "catalog"
   }
  },
- "updated": "2026-11-08T17:00:44Z"
+ "updated": "2026-11-08T17:02:57Z"
 }
