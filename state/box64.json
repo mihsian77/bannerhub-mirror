@@ -294,6 +294,42 @@
    "sha256": "2f070c176a41081c982dd939429d03414708dfd8859a47eb190a486d4178777d",
    "size": 1259044
   },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-27846b73d-Bionic.wcp": {
+   "asset": "Box64-0.4.5-27846b73d-Bionic.wcp",
+   "bucket": "box64",
+   "md5": "efb46b48381fe3b002c0156a3a2cc3d0",
+   "mtime": "2026-11-08T22:43:02Z",
+   "sha256": "054ac90f04967295b44be1987484ea701545ba35a13b9d5e1b858470a59345b1",
+   "size": 2906332,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-27846b73d-Bionic.zip": {
+   "asset": "Box64-0.4.5-27846b73d-Bionic.zip",
+   "bucket": "box64",
+   "md5": "8ca16d8a6ead0cad4376e5f5c39dcc5b",
+   "mtime": "2026-11-08T22:43:03Z",
+   "sha256": "9012c5ca46395d034b8257922fabf57691b7724ba4ae31e454eeb1e6dbef9421",
+   "size": 5104831,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-3d1b86e0a-Native.wcp": {
+   "asset": "Box64-0.4.5-3d1b86e0a-Native.wcp",
+   "bucket": "box64",
+   "md5": "a8a007cdeff7bbd28ca3429a9fc50cb6",
+   "mtime": "2026-11-08T22:43:05Z",
+   "sha256": "ce87e9c3b79d5e509d744377595a1f8d3a5f2d4ca54979777a6d259bf1bebd4d",
+   "size": 2923424,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-3d1b86e0a-Native.zip": {
+   "asset": "Box64-0.4.5-3d1b86e0a-Native.zip",
+   "bucket": "box64",
+   "md5": "d9ecc0f7f8ebe20f06c5e603dcf016d3",
+   "mtime": "2026-11-08T22:43:06Z",
+   "sha256": "803d2659bf70ce3274e6b9a0bc4f5a763a07ae5f0c9d552f73b252d8ba3326ab",
+   "size": 5103988,
+   "source": "nightlies"
+  },
   "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-65e404476-Bionic.wcp": {
    "asset": "Box64-0.4.5-65e404476-Bionic.wcp",
    "bucket": "box64",
@@ -432,6 +468,24 @@
    "size": 1375037,
    "source": "nightlies"
   },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/WOWBox64-0.4.5-fe7a40d3b.wcp": {
+   "asset": "WOWBox64-0.4.5-fe7a40d3b.wcp",
+   "bucket": "box64",
+   "md5": "b68c5d4399b0f284680c99236abd1ebb",
+   "mtime": "2026-11-08T22:43:07Z",
+   "sha256": "af15782686d813b521b51f60f5ea894036a6e1e8a057cbd4bcd89fd8c2b7d233",
+   "size": 910292,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/WOWBox64-0.4.5-fe7a40d3b.zip": {
+   "asset": "WOWBox64-0.4.5-fe7a40d3b.zip",
+   "bucket": "box64",
+   "md5": "65b47ef57a484f3ff29d3c0500e61a50",
+   "mtime": "2026-11-08T22:43:08Z",
+   "sha256": "4a9c5ac5d3bdc377ac521e24ce1646edd417b55c098f15365dfb7da45e46bfb4",
+   "size": 1375036,
+   "source": "nightlies"
+  },
   "https://github.com/The412Banner/bannerhub-api/releases/download/Components/02ae1d3db4b266abc6bf539d4a953ecf.tzst": {
    "asset": "02ae1d3db4b266abc6bf539d4a953ecf.tzst",
    "bucket": "box64",
@@ -550,5 +604,5 @@
    "source": "catalog"
   }
  },
- "updated": "2026-11-08T17:02:54Z"
+ "updated": "2026-11-08T22:43:08Z"
 }
