@@ -209,20 +209,44 @@ def release_by_tag(tag):
         return None
 
 
+MAX_ASSETS = 1000  # GitHub 单个 release 的资产上限
+
+
+def shard_tag(bucket, i):
+    return bucket if i == 1 else "%s-%d" % (bucket, i)
+
+
 def ensure_release(tag):
     rel = release_by_tag(tag)
     if rel:
         return rel
+    base = tag.split("-")[0] if tag.rsplit("-", 1)[-1].isdigit() else tag
+    title = BUCKET_TITLES.get(base, base)
+    if tag != base:
+        title += " (%s)" % tag.rsplit("-", 1)[-1]
     rel = api("POST", "/repos/%s/releases" % REPO, {
         "tag_name": tag,
-        "name": "%s · 镜像" % BUCKET_TITLES.get(tag, tag),
+        "name": "%s · 镜像" % title,
         "body": "%s\n\n内容来自 bannerhub-revanced 所索引的上游项目，本仓库仅做保留备份。"
-                % BUCKET_BLURB.get(tag, ""),
+                % BUCKET_BLURB.get(base, ""),
         "draft": False,
         "prerelease": False,
     })
     log("  新建 release: %s" % tag)
     return rel
+
+
+def ensure_shard(bucket):
+    """返回第一个未满 1000 个资产的分片。"""
+    i = 1
+    while True:
+        tag = shard_tag(bucket, i)
+        rel = ensure_release(tag)
+        have = assets_of(rel)
+        if len(have) < MAX_ASSETS:
+            return tag, rel, have
+        log("  %s 已满 %d，改用 %s" % (tag, MAX_ASSETS, shard_tag(bucket, i + 1)))
+        i += 1
 
 
 def assets_of(rel):
@@ -308,8 +332,7 @@ def main():
         by_bucket.setdefault(it["bucket"], []).append(it)
 
     for bucket, group in sorted(by_bucket.items(), key=lambda kv: -len(kv[1])):
-        rel = ensure_release(bucket)
-        have = assets_of(rel)
+        tag, rel, have = ensure_shard(bucket)
         for it in group:
             if done >= a.max_files or bytes_ >= a.max_gb * 1e9:
                 log("== 达到单次上限，剩余留到下次")
@@ -317,7 +340,7 @@ def main():
                 return
             name = it["file"]
             if name in have:
-                mirrored[it["url"]] = {"bucket": bucket, "asset": name,
+                mirrored[it["url"]] = {"bucket": tag, "asset": name,
                                        "size": have[name]["size"], "sha256": "",
                                        "mtime": have[name].get("updated_at", "")}
                 continue
@@ -331,6 +354,8 @@ def main():
             if size == 0:
                 os.remove(tmp)
                 continue
+            if len(have) >= MAX_ASSETS:
+                tag, rel, have = ensure_shard(bucket)
             digest, md5 = digests_of(tmp)
             if it.get("md5") and md5.lower() != it["md5"].lower():
                 log("  md5 不符，丢弃 %s（期望 %s 实得 %s）" % (name[:50], it["md5"][:8], md5[:8]))
@@ -342,13 +367,14 @@ def main():
                 log("  上传失败 %s (%s)" % (name[:60], e))
                 os.remove(tmp)
                 continue
-            mirrored[it["url"]] = {"bucket": bucket, "asset": name, "size": size,
+            have[name] = up
+            mirrored[it["url"]] = {"bucket": tag, "asset": name, "size": size,
                                    "sha256": digest, "md5": md5,
                                    "source": it.get("source", ""),
                                    "mtime": up.get("updated_at", "")}
             done += 1
             bytes_ += size
-            log("  [%d] %-12s %7.1f MB  %s" % (done, bucket, size / 1e6, name[:64]))
+            log("  [%d] %-14s %7.1f MB  %s" % (done, tag, size / 1e6, name[:60]))
             os.remove(tmp)
             if done % 20 == 0:
                 st["mirrored"] = mirrored
