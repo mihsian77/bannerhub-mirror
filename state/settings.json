@@ -369,6 +369,15 @@
    "size": 813073,
    "source": "catalog"
   },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Wine.tzst": {
+   "asset": "Wine.tzst",
+   "bucket": "settings",
+   "md5": "8c434506ff7e8fbe72b207698d4940cb",
+   "mtime": "2026-11-08T17:03:34Z",
+   "sha256": "bd668abb9b30ea29c86733cad9d4b53d2937a6a41240f661f0b93eff2afa22e0",
+   "size": 69486,
+   "source": "catalog"
+  },
   "https://github.com/The412Banner/bannerhub-api/releases/download/Components/a53518feaa1213130be8cf045537ceb6.tzst": {
    "asset": "a53518feaa1213130be8cf045537ceb6.tzst",
    "bucket": "settings",
@@ -475,6 +484,87 @@
    "mtime": "2026-11-08T17:03:29Z",
    "sha256": "402fa0f12ec9571993aacafde0bf5eacdfc101963a2688c09288f9842af6b500",
    "size": 1947595,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_10.0.tar.zst": {
+   "asset": "wine_10.0.tar.zst",
+   "bucket": "settings",
+   "md5": "66e25e9a8fde74e8feb4e3b2ba9f6201",
+   "mtime": "2026-11-08T17:03:59Z",
+   "sha256": "5c47abf61322e4db095024a49ec8d20c845c01d65f98b51e2b4435f5441c38ec",
+   "size": 163346754,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_10.6_arm64x-2.tar.zst": {
+   "asset": "wine_10.6_arm64x-2.tar.zst",
+   "bucket": "settings",
+   "md5": "aeb9ee7dccf887d5d543963ce823f1cc",
+   "mtime": "2026-11-08T17:04:06Z",
+   "sha256": "750eaf165da457fb9fbff9821d961a918abacc8ad6ccd02d9a783acc0acec0fa",
+   "size": 220083873,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_9.13.tar.zst": {
+   "asset": "wine_9.13.tar.zst",
+   "bucket": "settings",
+   "md5": "7b17485af1933955f2cb82958b7d45b7",
+   "mtime": "2026-11-08T17:03:45Z",
+   "sha256": "10e0c4e42cef8955578535fabbb6326b68e89e2b28af2f3adbfa929562d117de",
+   "size": 154179227,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_9.16.tar.zst": {
+   "asset": "wine_9.16.tar.zst",
+   "bucket": "settings",
+   "md5": "830a254f9b3c92aa850a502621037ae9",
+   "mtime": "2026-11-08T17:03:51Z",
+   "sha256": "5ad83f3e593599f2c47cfed2679c46d7438f466e76fda11259c11b46a008f65d",
+   "size": 153061370,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_9.5.tar.zst": {
+   "asset": "wine_9.5.tar.zst",
+   "bucket": "settings",
+   "md5": "e78be524fd1b01fb7565eb01a9fd4187",
+   "mtime": "2026-11-08T17:03:39Z",
+   "sha256": "a06513534c53b19bff43097a0d58260141e1875d653aab5d3601416fc7f86fa9",
+   "size": 157199545,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton10.0-arm64x-5.5.tar.zst": {
+   "asset": "wine_proton10.0-arm64x-5.5.tar.zst",
+   "bucket": "settings",
+   "md5": "70f5f263fb7c4d2932a099b277764341",
+   "mtime": "2026-11-08T17:04:39Z",
+   "sha256": "485bc935b325c0c4176939b0cfe527d2b951b9e9bc85c81d82945ca5717cbc78",
+   "size": 237065859,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton_10.0_x64.tar.zst": {
+   "asset": "wine_proton_10.0_x64.tar.zst",
+   "bucket": "settings",
+   "md5": "ac15e5a378b17aefd93adf360e875494",
+   "mtime": "2026-11-08T17:04:28Z",
+   "sha256": "cf753848bd8cf7665edd5389b50da903881bb28d86883b8fca5d882f76a9dd89",
+   "size": 164876854,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton_9.0_arm64x.tar.zst": {
+   "asset": "wine_proton_9.0_arm64x.tar.zst",
+   "bucket": "settings",
+   "md5": "2ff6952b6eec0ef881e97bde57ddc8e6",
+   "mtime": "2026-11-08T17:04:15Z",
+   "sha256": "e35b0a452d6c84653d57eae049c8638a0835c3d5db5ca6e06b83afd1b674c599",
+   "size": 211725844,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton_9.0_x64.tar.zst": {
+   "asset": "wine_proton_9.0_x64.tar.zst",
+   "bucket": "settings",
+   "md5": "83b3a2a16f7d643ce366c8ad686cbcf7",
+   "mtime": "2026-11-08T17:04:22Z",
+   "sha256": "f04050e95461be7cca29bd8df6b754ad9cd455a7a05e9c6b651b3e09f1d3a607",
+   "size": 156893611,
    "source": "catalog"
   }
  },

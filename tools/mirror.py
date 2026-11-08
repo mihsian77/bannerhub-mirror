@@ -48,7 +48,7 @@ BUCKET_BLURB = {
     "fex": "FEXCore x86_64 → ARM64 转换层，含 arm64ec 变体。",
     "wine-proton": "Wine 容器与 Proton 构建。",
     "drivers": "Adreno / Turnip / Qualcomm 系列 GPU 驱动包。",
-    "settings": "按游戏整理的运行参数包，官方目录里 type=5（Wine 容器已拆到 wine-proton）。",
+    "settings": "官方目录 type=5 整体：60 个游戏配置包 + 10 个 Wine / Proton 容器。",
     "steam": "Steam 客户端打包，官方目录里 type=7。",
     "runtime-yml": "运行库条目定义，官方目录里 type=6，每项一个 yml。",
 }
@@ -138,8 +138,6 @@ def collect():
                 nm = (x.get("name") or "").lower()
                 if typ == "1":
                     bucket = "box64" if ("box" in nm or "wow" in nm) else "fex"
-                elif typ == "5" and ("wine" in nm or "proton" in nm):
-                    bucket = "wine-proton"   # type 5 里混了 Wine 容器
                 add(x.get("name"), x.get("download_url"), "catalog-" + typ, s["id"],
                     bucket=bucket,
                     extra={"md5": x.get("file_md5") or "",

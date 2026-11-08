@@ -26,7 +26,7 @@
 | [`d7vk`](../../releases/tag/d7vk) | D7VK |
 | [`wine-proton`](../../releases/tag/wine-proton) | Wine 容器与 Proton |
 | [`drivers`](../../releases/tag/drivers) | Adreno / Turnip / Qualcomm 驱动 |
-| [`settings`](../../releases/tag/settings) | 按游戏整理的运行参数包 |
+| [`settings`](../../releases/tag/settings) | 官方目录 type=5：60 个游戏配置包 + 10 个 Wine / Proton 容器 |
 | [`steam`](../../releases/tag/steam) | Steam 客户端打包 |
 | [`runtime-yml`](../../releases/tag/runtime-yml) | 运行库条目定义，每项一个 yml |
 
@@ -55,6 +55,8 @@ tools/mirror.py        同步脚本，标准库实现，无依赖
 每天定时任务按分类并行拉取：比对 `state/<bucket>.json` → 只下载缺失的 → 上传到对应 Release → 回写状态。单分类上限 12 GB / 3000 个文件，超出的下一轮继续，不会半途丢进度。
 
 GitHub 对单个 Release 的资产数上限是 1000，分类超过这个数会自动开 `drivers-2`、`drivers-3` 这样的分片，`state` 里记的是实际落到的 tag。
+
+首次全量约 2100 个文件、12 GB。GitHub 对短时间内的批量上传有风控，超过一定量会返回 403，脚本会跳过并在下一轮补 —— 所以第一次跑完可能需要两三天才真正齐，之后每天只增量几条，不会再触发。
 
 手动触发：
 
