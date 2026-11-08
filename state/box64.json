@@ -1,5 +1,19 @@
 {
  "mirrored": {
+  "https://github.com/The412Banner/Nightlies/releases/download/Box64-Bionic/Box64-0.4.2-hybrid.wcp": {
+   "asset": "Box64-0.4.2-hybrid.wcp",
+   "bucket": "box64",
+   "mtime": "2026-11-08T16:20:55Z",
+   "sha256": "",
+   "size": 2752032
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/Box64-Bionic/Box64-0.4.2.wcp": {
+   "asset": "Box64-0.4.2.wcp",
+   "bucket": "box64",
+   "mtime": "2026-11-08T16:20:56Z",
+   "sha256": "",
+   "size": 2754524
+  },
   "https://github.com/The412Banner/Nightlies/releases/download/Box64-Bionic/Box64-0.4.4-Bionic.wcp": {
    "asset": "Box64-0.4.4-Bionic.wcp",
    "bucket": "box64",
@@ -363,7 +377,124 @@
    "mtime": "2026-11-08T16:21:39Z",
    "sha256": "a65519aee96bee9788faeee7c09c0c70819d3eeea7e0e0ce16b54183e96a08c8",
    "size": 1375037
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/02ae1d3db4b266abc6bf539d4a953ecf.tzst": {
+   "asset": "02ae1d3db4b266abc6bf539d4a953ecf.tzst",
+   "bucket": "box64",
+   "md5": "02ae1d3db4b266abc6bf539d4a953ecf",
+   "mtime": "2026-11-08T16:49:19Z",
+   "sha256": "ee17b506bb094d8feb4eec181dadc0cdd4fc0329e48ddd3bcd290364f7648c65",
+   "size": 4796628,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/2381fcfbf3f0c0bae006c3904b57ebd8.tzst": {
+   "asset": "2381fcfbf3f0c0bae006c3904b57ebd8.tzst",
+   "bucket": "box64",
+   "md5": "2381fcfbf3f0c0bae006c3904b57ebd8",
+   "mtime": "2026-11-08T16:49:21Z",
+   "sha256": "1df8618d9b51e189395cfd22fe52bee42300b8d15607ce72f15c2d56a5244a36",
+   "size": 4590382,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/30a7c5210e11f084430195a3a679e1e5.tzst": {
+   "asset": "30a7c5210e11f084430195a3a679e1e5.tzst",
+   "bucket": "box64",
+   "md5": "30a7c5210e11f084430195a3a679e1e5",
+   "mtime": "2026-11-08T16:49:15Z",
+   "sha256": "51376ba3770246b6267b3de966cc8df706d61b2684fcfa92d8f9cac1717f895a",
+   "size": 4321814,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/6926cf09b236b5a885435e3a47eac234.tzst": {
+   "asset": "6926cf09b236b5a885435e3a47eac234.tzst",
+   "bucket": "box64",
+   "md5": "6926cf09b236b5a885435e3a47eac234",
+   "mtime": "2026-11-08T16:49:18Z",
+   "sha256": "94543a445668fc37988601e49bf3472de7465b392c8cfd5db53697b7761ba7c0",
+   "size": 7475260,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/7d91a3edb0b829b9359dd494754ab521.tzst": {
+   "asset": "7d91a3edb0b829b9359dd494754ab521.tzst",
+   "bucket": "box64",
+   "md5": "7d91a3edb0b829b9359dd494754ab521",
+   "mtime": "2026-11-08T16:49:14Z",
+   "sha256": "dfba63a1a061f995a1ceb52aa27bb036bfa3f46d47a440a51eeac4fe035697f2",
+   "size": 4279460,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/bfb6b3914b8f7abb792d8acafa676861.tzst": {
+   "asset": "bfb6b3914b8f7abb792d8acafa676861.tzst",
+   "bucket": "box64",
+   "md5": "bfb6b3914b8f7abb792d8acafa676861",
+   "mtime": "2026-11-08T16:49:12Z",
+   "sha256": "eb6592b73604b32c55d47c3e4e94a7bb95910a0837dc4fe9a43ca35bf258e283",
+   "size": 4272182,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/box64-0.28-b1.tzst": {
+   "asset": "box64-0.28-b1.tzst",
+   "bucket": "box64",
+   "md5": "a86826840ee879c662e54e9efc8f70ef",
+   "mtime": "2026-11-08T16:49:11Z",
+   "sha256": "961d0da032abbcd89517630ca2116e55727939257d21d55b55699288a106288a",
+   "size": 3440386,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/box64_0.31_b1.tzst": {
+   "asset": "box64_0.31_b1.tzst",
+   "bucket": "box64",
+   "md5": "96eae3fb9ff6f471d4c6761e1d6cd214",
+   "mtime": "2026-11-08T16:49:08Z",
+   "sha256": "07a3da4cbae8c591288ca68b420d0a968f907b4340c03f05fad11515a27c7ecf",
+   "size": 3868724,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/box64_0.37_1.tzst": {
+   "asset": "box64_0.37_1.tzst",
+   "bucket": "box64",
+   "md5": "b9dd3f72f7c1a2789f8a3fb92d0e9d71",
+   "mtime": "2026-11-08T16:49:09Z",
+   "sha256": "8495d824f39a90621638b1ed9920140ff9b32725912147c84a715b17b84944a7",
+   "size": 4172166,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/cd7fe18882bcc8d5e37a7893288f8703.tzst": {
+   "asset": "cd7fe18882bcc8d5e37a7893288f8703.tzst",
+   "bucket": "box64",
+   "md5": "cd7fe18882bcc8d5e37a7893288f8703",
+   "mtime": "2026-11-08T16:49:16Z",
+   "sha256": "e70c04f9badb131c07192907cb662488fb7abbb82caf7d5bf2594a5d825fd094",
+   "size": 4210617,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/ce297db381a68a52dcc04f21ea938f52.tzst": {
+   "asset": "ce297db381a68a52dcc04f21ea938f52.tzst",
+   "bucket": "box64",
+   "md5": "ce297db381a68a52dcc04f21ea938f52",
+   "mtime": "2026-11-08T16:49:25Z",
+   "sha256": "8287a2321c6b5721cc0486a1c5fdf4bdbb0afb9b5efe3ca643e0b5233ddd5ef2",
+   "size": 4623183,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/f14ac89965e7f374ba178d16df5fda38.tzst": {
+   "asset": "f14ac89965e7f374ba178d16df5fda38.tzst",
+   "bucket": "box64",
+   "md5": "f14ac89965e7f374ba178d16df5fda38",
+   "mtime": "2026-11-08T16:49:24Z",
+   "sha256": "166696dac2899ced7d9ee05ceaf9e93088914220e7445ad4bc4464fc23996699",
+   "size": 4620277,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/fd9286b60940d620425d07fe26ea4983.tzst": {
+   "asset": "fd9286b60940d620425d07fe26ea4983.tzst",
+   "bucket": "box64",
+   "md5": "fd9286b60940d620425d07fe26ea4983",
+   "mtime": "2026-11-08T16:49:22Z",
+   "sha256": "346998febfb30e580f8f60ada5f0ef0659822b624212a4f80aa110e7c2c82878",
+   "size": 4590835,
+   "source": "catalog"
   }
  },
- "updated": "2026-11-08T16:21:41Z"
+ "updated": "2026-11-08T16:49:25Z"
 }
