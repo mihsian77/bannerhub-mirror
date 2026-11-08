@@ -195,7 +195,14 @@
    "mtime": "2026-11-08T16:24:34Z",
    "sha256": "4257aaee38a14949cfe91a7d756582ec6dbcd4c90c7d9d6eec6298885bf1390e",
    "size": 56106776
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Wine.tzst": {
+   "asset": "Wine.tzst",
+   "bucket": "wine-proton",
+   "mtime": "2026-11-08T17:15:52Z",
+   "sha256": "",
+   "size": 69486
   }
  },
- "updated": "2026-11-08T17:09:03Z"
+ "updated": "2026-11-08T17:19:59Z"
 }
