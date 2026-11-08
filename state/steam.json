@@ -1,0 +1,32 @@
+{
+ "mirrored": {
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/08c498cef5c15d710d253681751068c1.tzst": {
+   "asset": "08c498cef5c15d710d253681751068c1.tzst",
+   "bucket": "steam",
+   "md5": "08c498cef5c15d710d253681751068c1",
+   "mtime": "2026-11-08T17:03:05Z",
+   "sha256": "51f7f438b0442568d64c6b8173e6d9186468a89f4490c34650745c61ed6427a4",
+   "size": 64897035,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/steam_9866232.tar.zst": {
+   "asset": "steam_9866232.tar.zst",
+   "bucket": "steam",
+   "md5": "3d9d01362622a782a27ae691427b786c",
+   "mtime": "2026-11-08T17:02:57Z",
+   "sha256": "633d5bdc635457dfaf4403ad7b0fb63d66d2c74345c99dd58ff7f245dd37f066",
+   "size": 41192642,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/steam_9866233.tar.zst": {
+   "asset": "steam_9866233.tar.zst",
+   "bucket": "steam",
+   "md5": "250a0996b2949022c44f274baa525411",
+   "mtime": "2026-11-08T17:03:00Z",
+   "sha256": "9e70b20fcf90ec9ea37b5e0e271c14031d9856cbfc384ee66c3a00396b17f59a",
+   "size": 41821882,
+   "source": "catalog"
+  }
+ },
+ "updated": "2026-11-08T17:03:05Z"
+}
