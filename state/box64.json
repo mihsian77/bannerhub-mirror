@@ -294,6 +294,24 @@
    "sha256": "2f070c176a41081c982dd939429d03414708dfd8859a47eb190a486d4178777d",
    "size": 1259044
   },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-65e404476-Bionic.wcp": {
+   "asset": "Box64-0.4.5-65e404476-Bionic.wcp",
+   "bucket": "box64",
+   "md5": "473cf87ca4766d9e3ea06509456aac08",
+   "mtime": "2026-11-08T17:02:45Z",
+   "sha256": "a624d0ae3b2b13a0548bd655964a741de8b124828a5346d83e1fd26ebccd9598",
+   "size": 2916452,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-65e404476-Bionic.zip": {
+   "asset": "Box64-0.4.5-65e404476-Bionic.zip",
+   "bucket": "box64",
+   "md5": "13d02dd8f7f187864fe5cfb3200fb525",
+   "mtime": "2026-11-08T17:02:47Z",
+   "sha256": "2586ce0f513c70a88e90a7fe285337f3a4b8e931eb7c42b1d630d34c84a630d6",
+   "size": 5105494,
+   "source": "nightlies"
+  },
   "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-Hybrid-c8ad5c378-Bionic.wcp": {
    "asset": "Box64-0.4.5-Hybrid-c8ad5c378-Bionic.wcp",
    "bucket": "box64",
@@ -321,6 +339,24 @@
    "mtime": "2026-11-08T16:21:38Z",
    "sha256": "21ed1b3cb81a7af39f8d05ae51fedc00340903bbc92d93ddc01971753bed5ccb",
    "size": 5105048
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-dd443b06e-Native.wcp": {
+   "asset": "Box64-0.4.5-dd443b06e-Native.wcp",
+   "bucket": "box64",
+   "md5": "54d51a2eb34cd9bbc14fb8987ac0977d",
+   "mtime": "2026-11-08T17:02:48Z",
+   "sha256": "d99d4c1113cdffec99725c3c96ba1402ee8f0c65f8a6ea380ed449d54249d594",
+   "size": 2898920,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-dd443b06e-Native.zip": {
+   "asset": "Box64-0.4.5-dd443b06e-Native.zip",
+   "bucket": "box64",
+   "md5": "915f88f1d6c8f53db365a93d36805ad5",
+   "mtime": "2026-11-08T17:02:50Z",
+   "sha256": "cab04170ed43a4d32c1122bb1fff2ceba3da3c0c3bec5336d0dcf504816910c8",
+   "size": 5103960,
+   "source": "nightlies"
   },
   "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/Box64-0.4.5-ddcd21197-Bionic.wcp": {
    "asset": "Box64-0.4.5-ddcd21197-Bionic.wcp",
@@ -377,6 +413,24 @@
    "mtime": "2026-11-08T16:21:39Z",
    "sha256": "a65519aee96bee9788faeee7c09c0c70819d3eeea7e0e0ce16b54183e96a08c8",
    "size": 1375037
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/WOWBox64-0.4.5-fc0e6f10b.wcp": {
+   "asset": "WOWBox64-0.4.5-fc0e6f10b.wcp",
+   "bucket": "box64",
+   "md5": "5187e811bf397fb1f9a14116a8d903e1",
+   "mtime": "2026-11-08T17:02:52Z",
+   "sha256": "94030552957b3bf55f9c234ecd1702f516dd9c90e8a62adace8f5935c9ece4e0",
+   "size": 910300,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/WOWBox64-0.4.5-fc0e6f10b.zip": {
+   "asset": "WOWBox64-0.4.5-fc0e6f10b.zip",
+   "bucket": "box64",
+   "md5": "03fde15069a05099372f2984a991b619",
+   "mtime": "2026-11-08T17:02:54Z",
+   "sha256": "3264b53a0a7cdb3d5d55be5bb36cab62655d5909cded18306d5c52e32820b120",
+   "size": 1375037,
+   "source": "nightlies"
   },
   "https://github.com/The412Banner/bannerhub-api/releases/download/Components/02ae1d3db4b266abc6bf539d4a953ecf.tzst": {
    "asset": "02ae1d3db4b266abc6bf539d4a953ecf.tzst",
@@ -496,5 +550,5 @@
    "source": "catalog"
   }
  },
- "updated": "2026-11-08T16:49:25Z"
+ "updated": "2026-11-08T17:02:54Z"
 }
