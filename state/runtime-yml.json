@@ -1,0 +1,959 @@
+{
+ "mirrored": {
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/0d1145c0aa9a45de3e7688dc57fb01a7.yml": {
+   "asset": "0d1145c0aa9a45de3e7688dc57fb01a7.yml",
+   "bucket": "runtime-yml",
+   "md5": "0d1145c0aa9a45de3e7688dc57fb01a7",
+   "mtime": "2026-11-08T17:03:48Z",
+   "sha256": "c1a999f5eed67114308a537d447319d6729e25ea9b1c2510ea31fce5b7fb35b3",
+   "size": 408,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/VulkanRT.yml": {
+   "asset": "VulkanRT.yml",
+   "bucket": "runtime-yml",
+   "md5": "9875d27394bd0395d71307f98f32075c",
+   "mtime": "2026-11-08T17:04:39Z",
+   "sha256": "bce1cbcc3f0e781d3a72980657835a42402126d39e6ea8db829a956337063f96",
+   "size": 547,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/aairruntime.yml": {
+   "asset": "aairruntime.yml",
+   "bucket": "runtime-yml",
+   "md5": "782d01b434cb87e3fe911c748d3a0e2e",
+   "mtime": "2026-11-08T17:02:46Z",
+   "sha256": "6fd61df963d8e259f79731730c95c04edfadfe75fbec0b8d3c1e1d9fc231eb8f",
+   "size": 419,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/amstream.yml": {
+   "asset": "amstream.yml",
+   "bucket": "runtime-yml",
+   "md5": "fbfa4c9189aeb5db699989bf35bd1463",
+   "mtime": "2026-11-08T17:02:47Z",
+   "sha256": "ecfedf8ea28328a0dcf0930e1abc481b6141e28764d4c5bbf548ebfc18b69bbc",
+   "size": 1424,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/art2k7min.yml": {
+   "asset": "art2k7min.yml",
+   "bucket": "runtime-yml",
+   "md5": "69402b4b1b2ebb47824a8ccb576ceaa2",
+   "mtime": "2026-11-08T17:02:48Z",
+   "sha256": "804a97c4d991f87c6f3a64effcf6fd9bd77f6dd5891c04163d7886c60b350942",
+   "size": 420,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/art2kmin.yml": {
+   "asset": "art2kmin.yml",
+   "bucket": "runtime-yml",
+   "md5": "cfeb9c4f2a376f265ee3cc6ab89e6106",
+   "mtime": "2026-11-08T17:02:49Z",
+   "sha256": "2a23ebc650a0175c6778952f2fea11632079e575484daba7c563f8602dafcf87",
+   "size": 431,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/atmlib.yml": {
+   "asset": "atmlib.yml",
+   "bucket": "runtime-yml",
+   "md5": "ca55c745bb06aae4f4e3449fed32e23a",
+   "mtime": "2026-11-08T17:02:50Z",
+   "sha256": "86f16d03d7f18fc36db46b3d7573e856cd8b7e4c4eabfc0965b74b3518069c01",
+   "size": 558,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/bannerlord2.yml": {
+   "asset": "bannerlord2.yml",
+   "bucket": "runtime-yml",
+   "md5": "15f00ab7bbb362a5522f9fed788f0818",
+   "mtime": "2026-11-08T17:02:51Z",
+   "sha256": "fb32f65628df946cac62bf1cc1a5058c782fa3ce58c8665bc6441af5a2f1e959",
+   "size": 398,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/cjkfonts.yml": {
+   "asset": "cjkfonts.yml",
+   "bucket": "runtime-yml",
+   "md5": "a7907ac50b78a6de437e3eb6c1360037",
+   "mtime": "2026-11-08T17:02:52Z",
+   "sha256": "ffc37b8f149b27d0164d39a3cc7c7e39bfe36030884f94dfc1efa2e6b63767d3",
+   "size": 4013,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/cnc-ddraw.yml": {
+   "asset": "cnc-ddraw.yml",
+   "bucket": "runtime-yml",
+   "md5": "98d084fd7b915230a42ea49e3b115b2c",
+   "mtime": "2026-11-08T17:02:53Z",
+   "sha256": "035d2922dc48147e5852fcf7aea403fb515f010695bc9f29d7ad887b37fec67d",
+   "size": 1867,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/d3dcompiler_42.yml": {
+   "asset": "d3dcompiler_42.yml",
+   "bucket": "runtime-yml",
+   "md5": "399d1445bf0a6acea6a7a95be0b550bb",
+   "mtime": "2026-11-08T17:02:54Z",
+   "sha256": "4174d917e3d514325dd4eb030a929f201af492d5360439d6c7731e92fe54bdc7",
+   "size": 1173,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/d3dcompiler_43.yml": {
+   "asset": "d3dcompiler_43.yml",
+   "bucket": "runtime-yml",
+   "md5": "2f27055ae83c37366717b4a2847169d0",
+   "mtime": "2026-11-08T17:02:55Z",
+   "sha256": "06066ea7beb9c3cf89360c8174e6703b861e3c778a07b74ed0c8a8b7ea4358d4",
+   "size": 727,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/d3dcompiler_46.yml": {
+   "asset": "d3dcompiler_46.yml",
+   "bucket": "runtime-yml",
+   "md5": "328f925569cfbc754b859b8dd1689981",
+   "mtime": "2026-11-08T17:02:56Z",
+   "sha256": "fa34f8d046cd21b1344ca4c7312db4eaed2b738ea43561b2e12bf60e5cced519",
+   "size": 1226,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/d3dcompiler_47.yml": {
+   "asset": "d3dcompiler_47.yml",
+   "bucket": "runtime-yml",
+   "md5": "4e8fad5a4fd140fd776b51577543573f",
+   "mtime": "2026-11-08T17:02:57Z",
+   "sha256": "464cafde305ef0daf6049d19f9fac3eebfbe509807125400122044ee5989b8d9",
+   "size": 725,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/d3dx11.yml": {
+   "asset": "d3dx11.yml",
+   "bucket": "runtime-yml",
+   "md5": "f42670a4e5d21bc635bcda58228aef40",
+   "mtime": "2026-11-08T17:02:59Z",
+   "sha256": "2970f0cce3028493c41c11d5321ea31a3cd6389afa73b6692bfe08ac1d2a1b14",
+   "size": 786,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/d3dx9.yml": {
+   "asset": "d3dx9.yml",
+   "bucket": "runtime-yml",
+   "md5": "7bb573c4352c633fd183cb5e9f168b85",
+   "mtime": "2026-11-08T17:02:58Z",
+   "sha256": "544a960c2e56289de78f92309ef813b45fe9712f6738f022717835c43179e2b9",
+   "size": 1694,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/devenum.yml": {
+   "asset": "devenum.yml",
+   "bucket": "runtime-yml",
+   "md5": "56165080cf8b32a66f68a06b992d3fa5",
+   "mtime": "2026-11-08T17:03:00Z",
+   "sha256": "743ada07b832995ccf911ebd3ee1a12f97d9cfc49641b885eb0d1cced291158c",
+   "size": 848,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dirac.yml": {
+   "asset": "dirac.yml",
+   "bucket": "runtime-yml",
+   "md5": "4f53a1d9e18899bd70ede7490f2f9d23",
+   "mtime": "2026-11-08T17:03:02Z",
+   "sha256": "d2646561ae017dbb8314e7c54a3ecbdddec9aa326aebfdeb60233d88dfc6fd01",
+   "size": 458,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/directmusic.yml": {
+   "asset": "directmusic.yml",
+   "bucket": "runtime-yml",
+   "md5": "b459a7c782257c6438021649f9fd52a3",
+   "mtime": "2026-11-08T17:03:03Z",
+   "sha256": "3f45aefc2dca9f3cd0e37a895079aa632c5d9240b1ded0f3241e1a1de503f135",
+   "size": 346,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/directplay.yml": {
+   "asset": "directplay.yml",
+   "bucket": "runtime-yml",
+   "md5": "918c7a54903bb697c426482b43479a9b",
+   "mtime": "2026-11-08T17:03:04Z",
+   "sha256": "232d5ed6b4e7269ff863479e96b6107d852478432250f1159a7de52778537081",
+   "size": 1713,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/directshow.yml": {
+   "asset": "directshow.yml",
+   "bucket": "runtime-yml",
+   "md5": "da1604c1db8460b4163a25875dfeed9a",
+   "mtime": "2026-11-08T17:03:05Z",
+   "sha256": "516759d2aef39139da1d31c73b5df8a393aea9f4903f41ddb396845194b73a89",
+   "size": 275,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmband.yml": {
+   "asset": "dmband.yml",
+   "bucket": "runtime-yml",
+   "md5": "bd2661e784aaeef48497114ef3a72894",
+   "mtime": "2026-11-08T17:03:06Z",
+   "sha256": "54295a69fbd3c756780e5a6d8503f368b4dabb08f83d8724ed4ecccbff682657",
+   "size": 640,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmc52.yml": {
+   "asset": "dmc52.yml",
+   "bucket": "runtime-yml",
+   "md5": "e6e26d8b9fd2afc8225ea14565cb3a65",
+   "mtime": "2026-11-08T17:03:08Z",
+   "sha256": "85e362105e50795d96da5f18643c3908ca95a36eee5b5b717c6c2f359fe563e0",
+   "size": 364,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmcompos.yml": {
+   "asset": "dmcompos.yml",
+   "bucket": "runtime-yml",
+   "md5": "feaa61e7366f4a94a49195e2ccc06048",
+   "mtime": "2026-11-08T17:03:09Z",
+   "sha256": "9257f6a7a7068d02222335c7e6674a2296314ea0e08a1f497570a384aea977f6",
+   "size": 650,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmime.yml": {
+   "asset": "dmime.yml",
+   "bucket": "runtime-yml",
+   "md5": "642d0c6e353e38a82c3e5a3c366afc12",
+   "mtime": "2026-11-08T17:03:10Z",
+   "sha256": "6e8b303a72fd44ac3d8a305b68575d183e06e26c55538892c43ebc6cde170c5a",
+   "size": 635,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmloader.yml": {
+   "asset": "dmloader.yml",
+   "bucket": "runtime-yml",
+   "md5": "ed57cb2a5a36cc5bdfc1030c720082d4",
+   "mtime": "2026-11-08T17:03:11Z",
+   "sha256": "77548944d0c61c12d4f5af8f1a8854bbdece5ee3fa4a09706f62a0ab9177e20d",
+   "size": 650,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmscript.yml": {
+   "asset": "dmscript.yml",
+   "bucket": "runtime-yml",
+   "md5": "df1759c8cfe95a27f344e2a8b7bc7030",
+   "mtime": "2026-11-08T17:03:12Z",
+   "sha256": "603b434c8eac5e05876fd8f51680b5de09de6ed823e3527e63bd93fcbf43a090",
+   "size": 650,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmstyle.yml": {
+   "asset": "dmstyle.yml",
+   "bucket": "runtime-yml",
+   "md5": "ba2768abd9419f8b801e512dbac5699b",
+   "mtime": "2026-11-08T17:03:13Z",
+   "sha256": "36498a2e6ebcae2712828e0c34026405658f3b487e9fbcd6f32a13e423ac9ebd",
+   "size": 645,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmsynth.yml": {
+   "asset": "dmsynth.yml",
+   "bucket": "runtime-yml",
+   "md5": "5b7ef503141fbbc0cdcb0912dc00c19c",
+   "mtime": "2026-11-08T17:03:14Z",
+   "sha256": "0442006c7114bba77a380ea0abd6ab5168cd06d4d532ca311a61f3d9009fdc6e",
+   "size": 645,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmusic.yml": {
+   "asset": "dmusic.yml",
+   "bucket": "runtime-yml",
+   "md5": "65100eacc5ae266c648ffd78c4ff313c",
+   "mtime": "2026-11-08T17:03:15Z",
+   "sha256": "9d78147a58b8d61ea80504ec318d83c21fbd3c0aa2895f6c563756e7c15f42bf",
+   "size": 640,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmusic32.yml": {
+   "asset": "dmusic32.yml",
+   "bucket": "runtime-yml",
+   "md5": "a71702987d1e822712139c077cdb5d1b",
+   "mtime": "2026-11-08T17:03:16Z",
+   "sha256": "97a04cdf708ea474085411d867cea84bfd7160ed0fad99cda7b1cb6a97bfbec9",
+   "size": 702,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet20.yml": {
+   "asset": "dotnet20.yml",
+   "bucket": "runtime-yml",
+   "md5": "0d5262d73fb35b0140dd243923db2d7f",
+   "mtime": "2026-11-08T17:03:17Z",
+   "sha256": "645055a9bfa2b11542943404fa43e6768ea67361a0189a9725933f220b1ec758",
+   "size": 878,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet20sp1.yml": {
+   "asset": "dotnet20sp1.yml",
+   "bucket": "runtime-yml",
+   "md5": "9e5a174d1f24577910f5960e9ebd1670",
+   "mtime": "2026-11-08T17:03:18Z",
+   "sha256": "974e3187430094ac0b0c73be4d91fbeb95f8353862d4113d91cb5cad7e250c96",
+   "size": 981,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet35.yml": {
+   "asset": "dotnet35.yml",
+   "bucket": "runtime-yml",
+   "md5": "205d3fd3c3369ea9c3aede1a6dad35ff",
+   "mtime": "2026-11-08T17:03:19Z",
+   "sha256": "6d77d6e86aa8e1473de5d780e7bb8ed262466ac803fe5c73b9530145dd8ae212",
+   "size": 728,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet35sp1.yml": {
+   "asset": "dotnet35sp1.yml",
+   "bucket": "runtime-yml",
+   "md5": "0418f2d655954af00266c3f1e083e6f8",
+   "mtime": "2026-11-08T17:03:20Z",
+   "sha256": "1ff81011e3f6216fd6a6253affdb34c4755cc446e42a602afc2bb6b26313d802",
+   "size": 752,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet40.yml": {
+   "asset": "dotnet40.yml",
+   "bucket": "runtime-yml",
+   "md5": "78506908dda3609d07f0446d48211b65",
+   "mtime": "2026-11-08T17:03:21Z",
+   "sha256": "4748d120d9abc3c0ed4cf7859e603e1c9938ac182dfe91beba13e57c9798957c",
+   "size": 1079,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet45.yml": {
+   "asset": "dotnet45.yml",
+   "bucket": "runtime-yml",
+   "md5": "0ad45c7886af90fd2d3f2325da1bd3ae",
+   "mtime": "2026-11-08T17:03:22Z",
+   "sha256": "d3ed605ae143a914f7bee5c7a993bc777f17efef8e60e7cf5099f45dcfe12bba",
+   "size": 731,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet452.yml": {
+   "asset": "dotnet452.yml",
+   "bucket": "runtime-yml",
+   "md5": "96b0de75f429d17a5c8c24e3313a4995",
+   "mtime": "2026-11-08T17:03:27Z",
+   "sha256": "07edb1aad9c64945406a4a5faff5f04f88af8ed30527107bbafcd913fcadceb8",
+   "size": 766,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet46.yml": {
+   "asset": "dotnet46.yml",
+   "bucket": "runtime-yml",
+   "md5": "a86e6a0d1618f2e5441699a77f7b15b8",
+   "mtime": "2026-11-08T17:03:23Z",
+   "sha256": "a9fee8773e9ebf5d711b3d89d870b1df582765a914be227ab1b166a719cdc7eb",
+   "size": 805,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet461.yml": {
+   "asset": "dotnet461.yml",
+   "bucket": "runtime-yml",
+   "md5": "ead6f7e6dd1d4b00fe2d4be83b49eafb",
+   "mtime": "2026-11-08T17:03:28Z",
+   "sha256": "cf37b0f35e8a625af0aac95576ed07cf859e591d1070fd4b34020dd7b6bef212",
+   "size": 777,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet462.yml": {
+   "asset": "dotnet462.yml",
+   "bucket": "runtime-yml",
+   "md5": "867604e9e12d26225450a06ec06ce5f9",
+   "mtime": "2026-11-08T17:03:29Z",
+   "sha256": "c7d73bd980c1c37f8f6796a2d1d36a0044e716b60b4ff1972d56e222bbe42fef",
+   "size": 821,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet472.yml": {
+   "asset": "dotnet472.yml",
+   "bucket": "runtime-yml",
+   "md5": "93eb08ee99602ca05e76714344a4d72b",
+   "mtime": "2026-11-08T17:03:30Z",
+   "sha256": "f765430bdcda2fedcf7a6f66e3a4dc735a33c8098063b81d34c1d400897b6bbc",
+   "size": 809,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet48.yml": {
+   "asset": "dotnet48.yml",
+   "bucket": "runtime-yml",
+   "md5": "c286f1ec357c69f6bdf187b8259253bc",
+   "mtime": "2026-11-08T17:03:25Z",
+   "sha256": "81f97e62145b7e194f11091f2d939aa327657e2f8f88ff8d9cd7d0d1bd7d01fc",
+   "size": 797,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnet50.yml": {
+   "asset": "dotnet50.yml",
+   "bucket": "runtime-yml",
+   "md5": "f6d0ef7859067e09b0d7e29cbfcb7c8b",
+   "mtime": "2026-11-08T17:03:26Z",
+   "sha256": "efabb48be5dccb0a3725ddf4120a1a333fc637d3af451b43fdd59bc84163a861",
+   "size": 901,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnetcore3.yml": {
+   "asset": "dotnetcore3.yml",
+   "bucket": "runtime-yml",
+   "md5": "a23b4c7bb87932afe472f05306152585",
+   "mtime": "2026-11-08T17:03:31Z",
+   "sha256": "9b498fd4c6bf963486f9a8f960a1cb712e5658bd3f914023571c13bad74e3190",
+   "size": 984,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnetcoredesktop3.yml": {
+   "asset": "dotnetcoredesktop3.yml",
+   "bucket": "runtime-yml",
+   "md5": "2917aa7d20075e5bc64f019f0d6c4b2b",
+   "mtime": "2026-11-08T17:03:32Z",
+   "sha256": "996164b1d5ab7d1058a7927329067103d1ce966ac507d3fc641c29d2de757d3b",
+   "size": 1047,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnetcoredesktop6.yml": {
+   "asset": "dotnetcoredesktop6.yml",
+   "bucket": "runtime-yml",
+   "md5": "5fa75ab0ff48c0c85551149ef5400550",
+   "mtime": "2026-11-08T17:03:33Z",
+   "sha256": "f3efc9b0a4576bc35566c373172bc13d9ad174647a810d3e39af2bcab00fc454",
+   "size": 1047,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnetcoredesktop7.yml": {
+   "asset": "dotnetcoredesktop7.yml",
+   "bucket": "runtime-yml",
+   "md5": "ed653bbb66806041e1830519e5f84efc",
+   "mtime": "2026-11-08T17:03:34Z",
+   "sha256": "244287b537a9e7c9d2bfc2094f188ff3fd4378c1302de37b85b8fb4421d04335",
+   "size": 1046,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dotnetcoredesktop8.yml": {
+   "asset": "dotnetcoredesktop8.yml",
+   "bucket": "runtime-yml",
+   "md5": "61c4694f9dd992551e3b2ecaec815d42",
+   "mtime": "2026-11-08T17:03:35Z",
+   "sha256": "590599598c234882fb3942af866ac29fd56d8c1d779e40e64d23b3d132bf60cd",
+   "size": 1041,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dsdmo.yml": {
+   "asset": "dsdmo.yml",
+   "bucket": "runtime-yml",
+   "md5": "f908abb5995439deaff9f5a82abae9b9",
+   "mtime": "2026-11-08T17:03:36Z",
+   "sha256": "ea077028811086826e517e9b4da7de01b2921f7925db5dff1db5631dec64404e",
+   "size": 797,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dsound.yml": {
+   "asset": "dsound.yml",
+   "bucket": "runtime-yml",
+   "md5": "4ef76d20e6c4be2ff42005a354805d82",
+   "mtime": "2026-11-08T17:03:37Z",
+   "sha256": "3f87f7142463b83529c689f601d4120ab0e75b4de50cb46295812f5e9bccfba4",
+   "size": 591,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dswave.yml": {
+   "asset": "dswave.yml",
+   "bucket": "runtime-yml",
+   "md5": "f817927b634eeb3915dbef017a596ad8",
+   "mtime": "2026-11-08T17:03:38Z",
+   "sha256": "1f872300206d8a1f83935a3b57ffaa807e58485da9a517a84c18ca6d9a0c5af3",
+   "size": 591,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dx8vb.yml": {
+   "asset": "dx8vb.yml",
+   "bucket": "runtime-yml",
+   "md5": "6a2b4e175344f82d11f4b733b8d9e77d",
+   "mtime": "2026-11-08T17:03:39Z",
+   "sha256": "ca1734a6a2b4bcc54a3dd7810b05e737f0e50e42170abe40228eb03ad5b4f3a9",
+   "size": 475,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/ffdshow.yml": {
+   "asset": "ffdshow.yml",
+   "bucket": "runtime-yml",
+   "md5": "eaa239c540b228c8ff237a88295019a4",
+   "mtime": "2026-11-08T17:03:40Z",
+   "sha256": "bfe1bc47b866234c002a6a7a7d6f7a2da48127f0ea38912023765e24ccab2af3",
+   "size": 470,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/gdiplus.yml": {
+   "asset": "gdiplus.yml",
+   "bucket": "runtime-yml",
+   "md5": "4f4f7f053c8a7c29a577a1dba143d81f",
+   "mtime": "2026-11-08T17:03:41Z",
+   "sha256": "3924d5df00b71500ee9838c8e92ac98c6ead5bc1e89cc30c5454887bbc88a2f3",
+   "size": 1244,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/gecko.yml": {
+   "asset": "gecko.yml",
+   "bucket": "runtime-yml",
+   "md5": "39bf8130cf0a66c8dd8c5e6358ad0004",
+   "mtime": "2026-11-08T17:03:42Z",
+   "sha256": "ff4202798d920e5b63a3ebd636db2d3341dbf25f769224fb6679405171eb366b",
+   "size": 677,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/gfw.yml": {
+   "asset": "gfw.yml",
+   "bucket": "runtime-yml",
+   "md5": "a81b0b0b134d071cacf2c3faf3d094ba",
+   "mtime": "2026-11-08T17:03:43Z",
+   "sha256": "1e0a639d62d22d8eaaaa1e446f562f39b13d4f236db94a2344eb44975156e531",
+   "size": 412,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/gmdls.yml": {
+   "asset": "gmdls.yml",
+   "bucket": "runtime-yml",
+   "md5": "a90121e51972a2224c8b86f292e7dd66",
+   "mtime": "2026-11-08T17:03:44Z",
+   "sha256": "0e70af7d4f7ea6db339dcdb8aa1bb2db9e4b2686da2b0e4be2dba214757752a9",
+   "size": 715,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/ie8_kb2936068.yml": {
+   "asset": "ie8_kb2936068.yml",
+   "bucket": "runtime-yml",
+   "md5": "2d3a19c8939755fa87c3bfe0996ad3c5",
+   "mtime": "2026-11-08T17:03:45Z",
+   "sha256": "29b6b017bb96118d95976af2b49d2b38639ea3b8b9b4d7c432065ef733ce63a9",
+   "size": 581,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/iertutil.yml": {
+   "asset": "iertutil.yml",
+   "bucket": "runtime-yml",
+   "md5": "2601d8eafdbe014691bb57c72ce284fc",
+   "mtime": "2026-11-08T17:03:46Z",
+   "sha256": "bbde94bc0640b45c8e0807cd0ff8028a485ebf22862ec3b41d3b942f28a9bef9",
+   "size": 1393,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/jet40.yml": {
+   "asset": "jet40.yml",
+   "bucket": "runtime-yml",
+   "md5": "4081c29cceda4afca23af48d97d9e10c",
+   "mtime": "2026-11-08T17:03:47Z",
+   "sha256": "aabea19d1ca1542903211e20e59bf88ee3a94b301c6a268ad42c5b135b6b8406",
+   "size": 516,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/l3codecx.yml": {
+   "asset": "l3codecx.yml",
+   "bucket": "runtime-yml",
+   "md5": "0329f91aea8c87c3a43e215dc7c84123",
+   "mtime": "2026-11-08T17:03:49Z",
+   "sha256": "ddde89cf88deca4e5f8ac4da118d9686753bab04f22055459fbc80edb7d904c7",
+   "size": 505,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/lavfilters702.yml": {
+   "asset": "lavfilters702.yml",
+   "bucket": "runtime-yml",
+   "md5": "8945fcbf1e987c62628f05f1bbc3e5ef",
+   "mtime": "2026-11-08T17:03:50Z",
+   "sha256": "b519c7e4cdc6b7d9e76fd0c7866b93f9d737bb5373781e8ecb35c6d7d4224b0c",
+   "size": 439,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/lavfilters741.yml": {
+   "asset": "lavfilters741.yml",
+   "bucket": "runtime-yml",
+   "md5": "813233aaaa01693f6cd429265c85706e",
+   "mtime": "2026-11-08T17:03:52Z",
+   "sha256": "9170d1e8e9d51d55490232ac5322c488dcf6e631b83ba76f1faf624add6faafd",
+   "size": 439,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mdac28.yml": {
+   "asset": "mdac28.yml",
+   "bucket": "runtime-yml",
+   "md5": "5bfe5d937ce35a49aedebcc8daec7137",
+   "mtime": "2026-11-08T17:03:53Z",
+   "sha256": "823b3393ffd7a07ffe249b0b0c7a5686d952316de832fdefdb394b21437f5db3",
+   "size": 700,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mediafoundation.yml": {
+   "asset": "mediafoundation.yml",
+   "bucket": "runtime-yml",
+   "md5": "3fc5ebc3b449a2e0ac8922325e767baa",
+   "mtime": "2026-11-08T17:03:54Z",
+   "sha256": "91a2b0477c1fd597e3c4f131e211b8dcad070c28f1472815d1e7397071125bcf",
+   "size": 1426,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mfc40.yml": {
+   "asset": "mfc40.yml",
+   "bucket": "runtime-yml",
+   "md5": "9b1fce1029a3cb4dbb0a78b5888d7124",
+   "mtime": "2026-11-08T17:03:55Z",
+   "sha256": "31f5a3c2e20a185d07f5ad705016aeef3e990c2f0b425bde275a8cc1842a26aa",
+   "size": 953,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mfc42.yml": {
+   "asset": "mfc42.yml",
+   "bucket": "runtime-yml",
+   "md5": "e7df704343416f9905028dbdb9bf42c5",
+   "mtime": "2026-11-08T17:03:56Z",
+   "sha256": "161aa2bc6d328c0f0733c971edf5bfe2a1ba53dc7127822f4a7d64c1dd4d5a83",
+   "size": 709,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mono-10.1.0.yml": {
+   "asset": "mono-10.1.0.yml",
+   "bucket": "runtime-yml",
+   "md5": "294e578d4325b19d60e98f81012ecf3f",
+   "mtime": "2026-11-08T17:03:58Z",
+   "sha256": "53ad5ba251e6d120d5dfaa6d537620c5f513dd91fe733f27f67b21ec39b0f619",
+   "size": 494,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mono-10.3.0.yml": {
+   "asset": "mono-10.3.0.yml",
+   "bucket": "runtime-yml",
+   "md5": "4862ad0883ef2dd6419f0f1ac38c225c",
+   "mtime": "2026-11-08T17:03:59Z",
+   "sha256": "7e7b282d3fefd23610ae4ee3272b0c3b296ff0f89d9bc0e892d4f6e805a76a1a",
+   "size": 494,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mono-10.4.1.yml": {
+   "asset": "mono-10.4.1.yml",
+   "bucket": "runtime-yml",
+   "md5": "294e578d4325b19d60e98f81012ecf3f",
+   "mtime": "2026-11-08T17:04:00Z",
+   "sha256": "53ad5ba251e6d120d5dfaa6d537620c5f513dd91fe733f27f67b21ec39b0f619",
+   "size": 494,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mono.yml": {
+   "asset": "mono.yml",
+   "bucket": "runtime-yml",
+   "md5": "b9d6016c3aab2bb836c8335b2e06a04b",
+   "mtime": "2026-11-08T17:03:57Z",
+   "sha256": "8bc391503a9361257f973a8dd183374ae2f492ac1cd35a5493d07fae442e30b7",
+   "size": 490,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/msasn1.yml": {
+   "asset": "msasn1.yml",
+   "bucket": "runtime-yml",
+   "md5": "4ee39d4875d3d297568a9b48145011c6",
+   "mtime": "2026-11-08T17:04:01Z",
+   "sha256": "5c102785b7c81f0515efa6a71b033640046bbf90fe5b0300bad7a7c200622048",
+   "size": 369,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/msftedit.yml": {
+   "asset": "msftedit.yml",
+   "bucket": "runtime-yml",
+   "md5": "14120f30867685d47776d4893ae08a9c",
+   "mtime": "2026-11-08T17:04:02Z",
+   "sha256": "0bdc47a1d86eaf4e9324e0155e53e702abfdeacd6abc380d3eef1be9a59e713d",
+   "size": 1494,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/msls31.yml": {
+   "asset": "msls31.yml",
+   "bucket": "runtime-yml",
+   "md5": "60764205b32a2bd2e726ce5097b78ae4",
+   "mtime": "2026-11-08T17:04:03Z",
+   "sha256": "ad0b193ecb8a145ab1d37a7c39fbe3434a81da062ea6dbb18f826f1c3226664b",
+   "size": 547,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mspatcha.yml": {
+   "asset": "mspatcha.yml",
+   "bucket": "runtime-yml",
+   "md5": "03d69473b0dfc14c10cbe2cec6ccf81b",
+   "mtime": "2026-11-08T17:04:04Z",
+   "sha256": "b464fe563ac9b395bb76836196082221a2d6515f6c4910460cf16271dea577f5",
+   "size": 609,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/msxml3.yml": {
+   "asset": "msxml3.yml",
+   "bucket": "runtime-yml",
+   "md5": "993555b5b9be8e563640cf413fa070d0",
+   "mtime": "2026-11-08T17:04:05Z",
+   "sha256": "eb8d59b266af7611ca5947b9e76534052778380d2b5ded9a7f1cd8a30f5e2389",
+   "size": 559,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/msxml4.yml": {
+   "asset": "msxml4.yml",
+   "bucket": "runtime-yml",
+   "md5": "cd82a0528f2cc54ec0935222650881a7",
+   "mtime": "2026-11-08T17:04:06Z",
+   "sha256": "c0b45d636f622ccde97042c899221f3c3d25b59bf03a0ca22e285137a173a6fd",
+   "size": 651,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/msxml6.yml": {
+   "asset": "msxml6.yml",
+   "bucket": "runtime-yml",
+   "md5": "6bc7c1c2e00d896e7f40995980453cae",
+   "mtime": "2026-11-08T17:04:07Z",
+   "sha256": "2bba6da8036bea768daeb5f0fb967ae6941b1dd7858b11e1ed3481df49d11cc9",
+   "size": 1295,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/oalinst.yml": {
+   "asset": "oalinst.yml",
+   "bucket": "runtime-yml",
+   "md5": "c131cd67a1f028c82dff21628a2f6c95",
+   "mtime": "2026-11-08T17:04:08Z",
+   "sha256": "ff196a68db89bfe04fe4fde8026e2444448b50ce4cc8d0f10de93c7407698486",
+   "size": 407,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/physx.yml": {
+   "asset": "physx.yml",
+   "bucket": "runtime-yml",
+   "md5": "6d9e00fa670ac3f5eedd0006b10040e5",
+   "mtime": "2026-11-08T17:04:09Z",
+   "sha256": "0202a37d4b4b02d67e9e4fc0f14a170a178c779e83a1d56a578999139f1ff619",
+   "size": 523,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/powershell.yml": {
+   "asset": "powershell.yml",
+   "bucket": "runtime-yml",
+   "md5": "bd128bd0fae3a8e177dc6f70ac82b36f",
+   "mtime": "2026-11-08T17:04:13Z",
+   "sha256": "6894a2324aee066465900ced79c69ce95fccd7cc2d10e413bf5237b31a21b721",
+   "size": 934,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/powershell_core.yml": {
+   "asset": "powershell_core.yml",
+   "bucket": "runtime-yml",
+   "md5": "14342b3b86063512f26cebd9cbf4288f",
+   "mtime": "2026-11-08T17:04:14Z",
+   "sha256": "775316fbeff1a2294e32a5761bede25f295d22c342f7a88a20872460b477fba2",
+   "size": 917,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/qasf.yml": {
+   "asset": "qasf.yml",
+   "bucket": "runtime-yml",
+   "md5": "f494b021d1ff9e9b2ede23b3c9b386f3",
+   "mtime": "2026-11-08T17:04:15Z",
+   "sha256": "2eae2452ab7b47d06dd4de31ebd1792a696d828f1d3fce6829987468ee537c38",
+   "size": 1396,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/qcap.yml": {
+   "asset": "qcap.yml",
+   "bucket": "runtime-yml",
+   "md5": "fb1949e9ff85c50ca88074c6ea8ba357",
+   "mtime": "2026-11-08T17:04:16Z",
+   "sha256": "7dba49852b48c587a46dbdfce479abeeafbd701bc4686fea3c7c388127f4d368",
+   "size": 1404,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/qdvd.yml": {
+   "asset": "qdvd.yml",
+   "bucket": "runtime-yml",
+   "md5": "df6e06e295db4c656afe63ea22c36171",
+   "mtime": "2026-11-08T17:04:17Z",
+   "sha256": "63a65b73384b335d18d6206dea84340b38be80972117d4f2a2d72d529c073512",
+   "size": 1410,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/qedit.yml": {
+   "asset": "qedit.yml",
+   "bucket": "runtime-yml",
+   "md5": "33b1a69fec867be9ca5312ad99575e5f",
+   "mtime": "2026-11-08T17:04:18Z",
+   "sha256": "79357e186e2292b3f01b968567ab2fb92981728d34e58a33c052df98294ca155",
+   "size": 1384,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/quartz.yml": {
+   "asset": "quartz.yml",
+   "bucket": "runtime-yml",
+   "md5": "8f9517777a732242271c8f33d802880c",
+   "mtime": "2026-11-08T17:04:20Z",
+   "sha256": "860ae5779077cc016ff1136a473f622dc23b1d52d23a0369f1b5805ec495d7b2",
+   "size": 1410,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/quicktime72.yml": {
+   "asset": "quicktime72.yml",
+   "bucket": "runtime-yml",
+   "md5": "c38ccc67d3916ad11742d3f595ac8381",
+   "mtime": "2026-11-08T17:04:20Z",
+   "sha256": "cbe22e92a0f818fbb16cb0bd5c1509b5ce7897d04dc3d6e00c2cbe00d77804b4",
+   "size": 480,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/riched20.yml": {
+   "asset": "riched20.yml",
+   "bucket": "runtime-yml",
+   "md5": "8cd21a26570e7750710e7f852b739d5d",
+   "mtime": "2026-11-08T17:04:22Z",
+   "sha256": "a1532bd79666089cac2ee5b0f8cc817813c9a1c0a81a2ea0e5406404bbbdeb34",
+   "size": 714,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/sf62.yml": {
+   "asset": "sf62.yml",
+   "bucket": "runtime-yml",
+   "md5": "73529fc5bca9da4ec968a998d02ae961",
+   "mtime": "2026-11-08T17:04:22Z",
+   "sha256": "f68836c6b327e907a236559b3ce183311b3c3b61ebf5299d0e0e83faf276c762",
+   "size": 361,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/sqlite3.yml": {
+   "asset": "sqlite3.yml",
+   "bucket": "runtime-yml",
+   "md5": "6c345372e6f762c81ede15cec5a781b7",
+   "mtime": "2026-11-08T17:04:24Z",
+   "sha256": "75636872a287738027dd2fac3794cb5ed83289a3343c133f553767a7c3870493",
+   "size": 421,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/tloul.yml": {
+   "asset": "tloul.yml",
+   "bucket": "runtime-yml",
+   "md5": "392e52e4db8a762feb7d84d72cdad715",
+   "mtime": "2026-11-08T17:04:25Z",
+   "sha256": "ad530f50b3a5a54cc2aeb37d6e62a2df33cf9a8c2b815570049f539ce3545845",
+   "size": 363,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/tloull1.yml": {
+   "asset": "tloull1.yml",
+   "bucket": "runtime-yml",
+   "md5": "aa3f32b1fd43443e698e1b96ba563492",
+   "mtime": "2026-11-08T17:04:26Z",
+   "sha256": "261fc60438013867457a9069c598724a64d587359cbb4b19643c37bf9bf49720",
+   "size": 387,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/urlmon.yml": {
+   "asset": "urlmon.yml",
+   "bucket": "runtime-yml",
+   "md5": "62ffd6725222d6bdc8b9098bd66bcfc4",
+   "mtime": "2026-11-08T17:04:27Z",
+   "sha256": "42e869a84f6833ce10a4f4a56ed739f98e50e2acdd1c9c49c727c95bf35760ee",
+   "size": 1389,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vbrun6.yml": {
+   "asset": "vbrun6.yml",
+   "bucket": "runtime-yml",
+   "md5": "bf965ec29acb84ef13a30f58278ff3a4",
+   "mtime": "2026-11-08T17:04:28Z",
+   "sha256": "101dd53ffb7e393ef359442b4ccbb524da2a8a66c535c9a812b8d71fbd1a7552",
+   "size": 1137,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist2005.yml": {
+   "asset": "vcredist2005.yml",
+   "bucket": "runtime-yml",
+   "md5": "3ff1b801eaa4760b3c02830374ce2677",
+   "mtime": "2026-11-08T17:04:31Z",
+   "sha256": "713fde0abaa5e926d5382a7b107e962f7f2df8006a906da1e97495c9cc08e27a",
+   "size": 1091,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist2008.yml": {
+   "asset": "vcredist2008.yml",
+   "bucket": "runtime-yml",
+   "md5": "dc4f22dd8028c6eba432ba8d46998c05",
+   "mtime": "2026-11-08T17:04:32Z",
+   "sha256": "9dd7e27aa53b7deb56d27b9ad87025abfe9d6b110d297f24e233b5340585551d",
+   "size": 1105,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist2010.yml": {
+   "asset": "vcredist2010.yml",
+   "bucket": "runtime-yml",
+   "md5": "315fd6cc33ca6ff33d795e501a63d6be",
+   "mtime": "2026-11-08T17:04:33Z",
+   "sha256": "fb9737723f0eedd7526443103d67e9eb1a2cb80e6a9c1abe88c3a19dd10126ca",
+   "size": 1049,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist2012.yml": {
+   "asset": "vcredist2012.yml",
+   "bucket": "runtime-yml",
+   "md5": "b6498f6b34280ed2fb7e089e6eb74124",
+   "mtime": "2026-11-08T17:04:34Z",
+   "sha256": "d76d5a4d4d4a0f8a8cba03a0123ae6affd372e86380585d9126fb3bfd8c5d09a",
+   "size": 1049,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist2013.yml": {
+   "asset": "vcredist2013.yml",
+   "bucket": "runtime-yml",
+   "md5": "879107e90ead0ea22a5c7a20849c8865",
+   "mtime": "2026-11-08T17:04:35Z",
+   "sha256": "5dfe23bd9e95334e3b1a2109977db2f25f3306967580d32a55db247c7fbb6f71",
+   "size": 1118,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist2015.yml": {
+   "asset": "vcredist2015.yml",
+   "bucket": "runtime-yml",
+   "md5": "f7d385146463652a72bd8260d8b09e3f",
+   "mtime": "2026-11-08T17:04:36Z",
+   "sha256": "9279d61176bce8ceaf77677e7d90a394bcdc1a0b66dda24fdfd52f8db83fab6f",
+   "size": 2511,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist2019.yml": {
+   "asset": "vcredist2019.yml",
+   "bucket": "runtime-yml",
+   "md5": "f39ba8651acd6d4db7771843955bd74a",
+   "mtime": "2026-11-08T17:04:37Z",
+   "sha256": "9c710e7e0f205d10d3211081efa87be61a8d5472289f9164eba2af5a8061b377",
+   "size": 2244,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist2022.yml": {
+   "asset": "vcredist2022.yml",
+   "bucket": "runtime-yml",
+   "md5": "793aa93426d903a6526d434cd1652aa3",
+   "mtime": "2026-11-08T17:04:38Z",
+   "sha256": "6de920fa304695ee0597f4b9262d808f3bd5e140226c108e0bb1a6c8975cd45b",
+   "size": 1629,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist6.yml": {
+   "asset": "vcredist6.yml",
+   "bucket": "runtime-yml",
+   "md5": "1513e15b0b391c7883e5744c39cb9d23",
+   "mtime": "2026-11-08T17:04:29Z",
+   "sha256": "aa3bcbd4397afa06041278151a1d3faabdf2c796e3c80d572b145f13593629db",
+   "size": 2163,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vcredist6sp6.yml": {
+   "asset": "vcredist6sp6.yml",
+   "bucket": "runtime-yml",
+   "md5": "964124d0c227ed8ba10e3788cb26f665",
+   "mtime": "2026-11-08T17:04:30Z",
+   "sha256": "73755f733af90aaa1f816eeb4a7780e6df3103df220755c5c088e8b59390bace",
+   "size": 1199,
+   "source": "catalog"
+  }
+ },
+ "updated": "2026-11-08T17:04:48Z"
+}
