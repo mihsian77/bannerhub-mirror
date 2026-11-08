@@ -1,0 +1,65 @@
+{
+  "note": "bannerhub-revanced 的 BhComponentRepo.REPOS 原样转录。镜像脚本只认这份文件，不认其它来源。",
+  "sources": [
+    {
+      "id": "arihany",
+      "name": "Arihany WCPHub",
+      "kind": "feed",
+      "url": "https://raw.githubusercontent.com/Arihany/WinlatorWCPHub/refs/heads/main/pack.json",
+      "serves": "DXVK / VKD3D-Proton / FEXCore 的 .wcp 打包"
+    },
+    {
+      "id": "kimchi",
+      "name": "Kimchi GPU Drivers",
+      "kind": "feed",
+      "url": "https://raw.githubusercontent.com/The412Banner/Nightlies/refs/heads/main/kimchi_drivers.json",
+      "serves": "Adreno / Turnip 驱动 zip"
+    },
+    {
+      "id": "stevenmxz",
+      "name": "StevenMXZ GPU Drivers",
+      "kind": "feed",
+      "url": "https://raw.githubusercontent.com/The412Banner/Nightlies/refs/heads/main/stevenmxz_drivers.json",
+      "serves": "Adreno / Turnip 驱动 zip"
+    },
+    {
+      "id": "mtr",
+      "name": "MTR GPU Drivers",
+      "kind": "feed",
+      "url": "https://raw.githubusercontent.com/The412Banner/Nightlies/refs/heads/main/mtr_drivers.json",
+      "serves": "Turnip 驱动 zip"
+    },
+    {
+      "id": "white",
+      "name": "Whitebelyash GPU Drivers",
+      "kind": "feed",
+      "url": "https://raw.githubusercontent.com/The412Banner/Nightlies/refs/heads/main/white_drivers.json",
+      "serves": "mainline Turnip 驱动 zip"
+    },
+    {
+      "id": "nightlies",
+      "name": "The412Banner Nightlies",
+      "kind": "feed",
+      "url": "https://raw.githubusercontent.com/The412Banner/Nightlies/refs/heads/main/nightlies_components.json",
+      "serves": "Box64 / FEX / DXVK / VKD3D / D7VK / Wine / Proton 全量构建"
+    },
+    {
+      "id": "nightly_builds",
+      "name": "Nightly builds",
+      "kind": "github_releases",
+      "url": "https://api.github.com/repos/The412Banner/Nightlies/releases?per_page=30",
+      "serves": "nightly-* release 的最新构建"
+    }
+  ],
+  "typeToBucket": {
+    "Box64": "box64",
+    "WOWBox64": "box64",
+    "DXVK": "dxvk",
+    "D7VK": "d7vk",
+    "VKD3D": "vkd3d",
+    "FEXCore": "fex",
+    "Wine": "wine-proton",
+    "Proton": "wine-proton",
+    "GpuDriver": "drivers"
+  }
+}

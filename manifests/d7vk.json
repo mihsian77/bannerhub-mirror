@@ -1,0 +1,21 @@
+{
+ "schema": "emubox-source-manifest/1",
+ "generated": "2026-11-08",
+ "category": "d7vk",
+ "title": "D7VK",
+ "count": 2,
+ "items": [
+  {
+   "name": "d7vk-v2.5_WIP-635f4c79c-nightly",
+   "url": "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/d7vk-v2.5_WIP-635f4c79c-nightly.wcp",
+   "source": "nightlies",
+   "type": "D7VK"
+  },
+  {
+   "name": "d7vk-v2.5_WIP-635f4c79c-nightly",
+   "url": "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/d7vk-v2.5_WIP-635f4c79c-nightly.zip",
+   "source": "nightlies",
+   "type": "D7VK"
+  }
+ ]
+}
