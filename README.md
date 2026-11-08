@@ -54,6 +54,8 @@ tools/mirror.py        同步脚本，标准库实现，无依赖
 
 每天定时任务按分类并行拉取：比对 `state/<bucket>.json` → 只下载缺失的 → 上传到对应 Release → 回写状态。单分类上限 12 GB / 3000 个文件，超出的下一轮继续，不会半途丢进度。
 
+GitHub 对单个 Release 的资产数上限是 1000，分类超过这个数会自动开 `drivers-2`、`drivers-3` 这样的分片，`state` 里记的是实际落到的 tag。
+
 手动触发：
 
 ```bash
