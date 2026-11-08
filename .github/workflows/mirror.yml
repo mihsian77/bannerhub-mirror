@@ -33,7 +33,10 @@ jobs:
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import json
           cfg = json.load(open("upstream.json"))
-          b = sorted(set(cfg["typeToBucket"].values()))
+          b = set(cfg["typeToBucket"].values())
+          for src in cfg["sources"]:
+              b |= set((src.get("catalogBuckets") or {}).values())
+          b = sorted(b)
           want = "${{ github.event.inputs.bucket }}"
           if want:
               b = [x for x in b if x == want]
