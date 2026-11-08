@@ -144,6 +144,15 @@
    "size": 1617,
    "source": "catalog"
   },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/98b2e6918f362a024c2eb8e354af7d5b.tzst": {
+   "asset": "98b2e6918f362a024c2eb8e354af7d5b.tzst",
+   "bucket": "settings",
+   "md5": "98b2e6918f362a024c2eb8e354af7d5b",
+   "mtime": "2026-11-08T17:23:01Z",
+   "sha256": "b9e492b5c829e03e0eeed542980d4fe2f0b00c0c74d5065140549b65b162878d",
+   "size": 873,
+   "source": "catalog"
+  },
   "https://github.com/The412Banner/bannerhub-api/releases/download/Components/APlague_Settings.tzst": {
    "asset": "APlague_Settings.tzst",
    "bucket": "settings",
@@ -369,6 +378,24 @@
    "size": 813073,
    "source": "catalog"
   },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WUCHANG.tzst": {
+   "asset": "WUCHANG.tzst",
+   "bucket": "settings",
+   "md5": "f355b90beebafc1b2f251a0d4c2d27aa",
+   "mtime": "2026-11-08T17:23:02Z",
+   "sha256": "99bb86efafb3a4007c28bf0af0efb2f516975ead04b640ad2b4d52d119351889",
+   "size": 27969,
+   "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WUKONG.tzst": {
+   "asset": "WUKONG.tzst",
+   "bucket": "settings",
+   "md5": "10fa8b5e104e32bd5f59b52e7dcf436f",
+   "mtime": "2026-11-08T17:23:03Z",
+   "sha256": "0c5cb9b4c68c7c36bbfd4ae89a018fb76355c80d1bff7d3e1cdb0dccf810087a",
+   "size": 28319,
+   "source": "catalog"
+  },
   "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Wine.tzst": {
    "asset": "Wine.tzst",
    "bucket": "settings",
@@ -568,5 +595,5 @@
    "source": "catalog"
   }
  },
- "updated": "2026-11-08T17:08:18Z"
+ "updated": "2026-11-08T17:23:03Z"
 }
