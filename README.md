@@ -75,3 +75,5 @@ python3 tools/mirror.py --check        # 只看差多少，不下载
 - 本仓库自身代码为 MIT。
 
 > 上游清单本身可能滞后于真实发布。`manifests/` 里的条目数是镜像启动时的快照，`state/` 才是实际已备到的文件。
+>
+> 已知上游缺文件：`Resident Evil 3`、`Torchlight II`、`WRC 9` 三条约目录里有、`bannerhub-api` 的 release 里没有，两种文件名写法都是 404。补不了，等上游自己修。
