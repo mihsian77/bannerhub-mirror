@@ -18,6 +18,13 @@
    "size": 547,
    "source": "catalog"
   },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/XLiveRedist.yml": {
+   "asset": "XLiveRedist.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:26Z",
+   "sha256": "",
+   "size": 409
+  },
   "https://github.com/The412Banner/bannerhub-api/releases/download/Components/aairruntime.yml": {
    "asset": "aairruntime.yml",
    "bucket": "runtime-yml",
@@ -960,7 +967,98 @@
    "mtime": "2026-11-08T17:04:40Z",
    "sha256": "",
    "size": 601
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/win7.yml": {
+   "asset": "win7.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:12:32Z",
+   "sha256": "",
+   "size": 224
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/winXP.yml": {
+   "asset": "winXP.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:13:59Z",
+   "sha256": "",
+   "size": 227
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/winhttp.yml": {
+   "asset": "winhttp.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:13:52Z",
+   "sha256": "",
+   "size": 681
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wininet.yml": {
+   "asset": "wininet.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:13:56Z",
+   "sha256": "",
+   "size": 1394
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/witcher32.yml": {
+   "asset": "witcher32.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:03Z",
+   "sha256": "",
+   "size": 387
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wsh57.yml": {
+   "asset": "wsh57.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:06Z",
+   "sha256": "",
+   "size": 935
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wuchang.yml": {
+   "asset": "wuchang.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:09Z",
+   "sha256": "",
+   "size": 376
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/xact.yml": {
+   "asset": "xact.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:12Z",
+   "sha256": "",
+   "size": 3848
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/xact_x64.yml": {
+   "asset": "xact_x64.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:15Z",
+   "sha256": "",
+   "size": 3852
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/xaudio2.7.yml": {
+   "asset": "xaudio2.7.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:19Z",
+   "sha256": "",
+   "size": 846
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/xinput.yml": {
+   "asset": "xinput.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:23Z",
+   "sha256": "",
+   "size": 889
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/xna31.yml": {
+   "asset": "xna31.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:30Z",
+   "sha256": "",
+   "size": 473
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/xna40.yml": {
+   "asset": "xna40.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:14:34Z",
+   "sha256": "",
+   "size": 462
   }
  },
- "updated": "2026-11-08T17:08:22Z"
+ "updated": "2026-11-08T22:43:00Z"
 }
