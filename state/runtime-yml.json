@@ -953,7 +953,14 @@
    "sha256": "73755f733af90aaa1f816eeb4a7780e6df3103df220755c5c088e8b59390bace",
    "size": 1199,
    "source": "catalog"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/webview2.yml": {
+   "asset": "webview2.yml",
+   "bucket": "runtime-yml",
+   "mtime": "2026-11-08T17:04:40Z",
+   "sha256": "",
+   "size": 601
   }
  },
- "updated": "2026-11-08T17:04:48Z"
+ "updated": "2026-11-08T17:08:22Z"
 }
