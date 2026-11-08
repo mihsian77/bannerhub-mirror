@@ -315,6 +315,60 @@
    "sha256": "8a2390b40e040e00b4871cba85023e3620abe8995ca2baa1562adc05b9f29eb7",
    "size": 2080698
   },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/FEX-2611+17-Nightly-16c100025-PPA-unix.wcp": {
+   "asset": "FEX-2611+17-Nightly-16c100025-PPA-unix.wcp",
+   "bucket": "fex",
+   "md5": "ddeef27258a838e65def52bcc73e0da8",
+   "mtime": "2026-11-08T22:43:02Z",
+   "sha256": "9db4110697cba3b9660fdbe80b1839fc0c18a853fd4fb0ba116e3ebe82c5175f",
+   "size": 1564988,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/FEX-2611+17-Nightly-16c100025-PPA.wcp": {
+   "asset": "FEX-2611+17-Nightly-16c100025-PPA.wcp",
+   "bucket": "fex",
+   "md5": "cac6a725a4151467392e5550b3c18274",
+   "mtime": "2026-11-08T22:43:03Z",
+   "sha256": "12425b00d51ead6d178f4ad2c009aa9eadab2d75253a13a190a52a914a4eae64",
+   "size": 1534656,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/FEX-2611+17-Nightly-16c100025-PPA.zip": {
+   "asset": "FEX-2611+17-Nightly-16c100025-PPA.zip",
+   "bucket": "fex",
+   "md5": "4e5ba4506c43221d267384a81b250b8e",
+   "mtime": "2026-11-08T22:43:04Z",
+   "sha256": "d68c6ba3b7df525c9ff29c96a28b2eab024257264c63464e6ce1c712570469dc",
+   "size": 2792956,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/FEX-2611+17-Nightly-16c100025-unix.wcp": {
+   "asset": "FEX-2611+17-Nightly-16c100025-unix.wcp",
+   "bucket": "fex",
+   "md5": "357734274a14e249c4d1b1bed4b9a9c3",
+   "mtime": "2026-11-08T22:43:05Z",
+   "sha256": "77dbd4c74013d235332aad7548b2bdf2e3a52a22c5c0cbc9ce01987a6984e698",
+   "size": 1137116,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/FEX-2611+17-Nightly-16c100025.wcp": {
+   "asset": "FEX-2611+17-Nightly-16c100025.wcp",
+   "bucket": "fex",
+   "md5": "45e80edde5c0a0a20120268efe2cedd8",
+   "mtime": "2026-11-08T22:43:06Z",
+   "sha256": "f6e64524d368e5143a07cd4821380d368b5300b370b560c32d6b465c950eb4fe",
+   "size": 1105620,
+   "source": "nightlies"
+  },
+  "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/FEX-2611+17-Nightly-16c100025.zip": {
+   "asset": "FEX-2611+17-Nightly-16c100025.zip",
+   "bucket": "fex",
+   "md5": "cdb4f2a5f631752db59f1f4245094f0a",
+   "mtime": "2026-11-08T22:43:08Z",
+   "sha256": "0be7bd1c69624704609104ae365bc65bb88a16391eaba8c4651b5bdcdeb1fd6a",
+   "size": 2080689,
+   "source": "nightlies"
+  },
   "https://github.com/The412Banner/Nightlies/releases/download/nightly-latest/FEXCore-2611-official-ppa-unix.wcp": {
    "asset": "FEXCore-2611-official-ppa-unix.wcp",
    "bucket": "fex",
@@ -609,5 +663,5 @@
    "source": "catalog"
   }
  },
- "updated": "2026-11-08T16:49:49Z"
+ "updated": "2026-11-08T22:43:08Z"
 }
