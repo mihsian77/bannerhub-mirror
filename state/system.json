@@ -1,0 +1,85 @@
+{
+ "mirrored": {
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/imagefs.zst": {
+   "asset": "imagefs.zst",
+   "bucket": "system",
+   "md5": "27fd516411780c91dace321dd3b73d66",
+   "mtime": "2026-11-09T03:18:29Z",
+   "official_file": "imagefs.zst",
+   "sha256": "570562d32f57d3984995379aa58c85411cc7d2fc4cd75e04d1f17bf99170d3ce",
+   "size": 168943620,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/imagefs_136.zst": {
+   "asset": "imagefs_136.zst",
+   "bucket": "system",
+   "md5": "bc95fcb8dc02dac7d61e1be7dd374aeb",
+   "mtime": "2026-11-09T03:18:39Z",
+   "official_file": "imagefs_136.zst",
+   "sha256": "cbe90145f3330eea032680ef8198d59ae60b89a9106ed267948feccdae2c6b29",
+   "size": 171913961,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/imagefs_137.zst": {
+   "asset": "imagefs_137.zst",
+   "bucket": "system",
+   "md5": "82e98261e4dbe0a59bbdf2d390ac771d",
+   "mtime": "2026-11-09T03:18:51Z",
+   "official_file": "imagefs_137.zst",
+   "sha256": "1accf67b8b967cefbbfda3fb1cfb9ff8c1bb5cf5a36500ba44a88c5a0f18099b",
+   "size": 171913811,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/imagefs_138.zst": {
+   "asset": "imagefs_138.zst",
+   "bucket": "system",
+   "md5": "51ff980cbd8bc314730d1d8e119faece",
+   "mtime": "2026-11-09T03:19:03Z",
+   "official_file": "imagefs_138.zst",
+   "sha256": "d4ce7a899d7209e47ea133527e556ed966638e5b49cfd0b73c73ea926b79127c",
+   "size": 171675606,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/imagefs_141.zst": {
+   "asset": "imagefs_141.zst",
+   "bucket": "system",
+   "md5": "643024d54f11d01196ffdb2918dc3c85",
+   "mtime": "2026-11-09T03:19:14Z",
+   "official_file": "imagefs_141.zst",
+   "sha256": "857c644e9a32d64fe74e5bf238a9533a129abc8e554c9fbe1a3f18e6e1174f14",
+   "size": 172206649,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/imagefs_142.zst": {
+   "asset": "imagefs_142.zst",
+   "bucket": "system",
+   "md5": "6bcdc2568d26d6dbe90468fcdb4490ce",
+   "mtime": "2026-11-09T03:19:22Z",
+   "official_file": "imagefs_142.zst",
+   "sha256": "75a6ac26baee451252fa73ce7176e036170504f4b3990a6f294b00c0ee1a7c50",
+   "size": 173024718,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/imagefs_v134.zst": {
+   "asset": "imagefs_v134.zst",
+   "bucket": "system",
+   "md5": "76a186c04196c0ffe31ea1ab88705b83",
+   "mtime": "2026-11-09T03:19:32Z",
+   "official_file": "imagefs_v134.zst",
+   "sha256": "c1fb4d32b65ed75dc056f13e8f5c214f41b1e0da22fea24198b427fd2eeb85a3",
+   "size": 168890206,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/imagefs_v135.zst": {
+   "asset": "imagefs_v135.zst",
+   "bucket": "system",
+   "md5": "d2242c284e42cbbe49289caf4506b95d",
+   "mtime": "2026-11-09T03:19:46Z",
+   "official_file": "imagefs_v135.zst",
+   "sha256": "5ac255a5e3a55b03731ffe6820b7544a8f8b9b772e9c071b7e9d5471c6a9a675",
+   "size": 171913896,
+   "source": "components"
+  }
+ },
+ "updated": "2026-11-09T03:19:46Z"
+}
