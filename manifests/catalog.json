@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-09T03:27:59Z",
+ "generated": "2026-11-09T03:35:51Z",
  "source": "https://the412banner.github.io/bannerhub-api/simulator/v2/getAllComponentList",
- "total": 705,
- "totalBytes": 7813301152,
+ "total": 702,
+ "totalBytes": 7812760895,
  "buckets": {
   "box64": 13,
   "fex": 31,
@@ -12,7 +12,7 @@
   "settings": 69,
   "runtime-yml": 122,
   "steam": 3,
-  "unindexed": 35,
+  "unindexed": 32,
   "runtimes-bin": 14,
   "system": 8,
   "wine": 5
@@ -6831,10 +6831,10 @@
    "version": "1.0.0",
    "gpu": "",
    "asset": "Resident_Evil_3.tzst",
-   "official_file": "Resident Evil 3.tzst",
+   "official_file": "Resident.20Evil.203.tzst",
    "size": 5631,
    "md5": "bcd58042f6dad5038e6b044538aaae6a",
-   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Resident%20Evil%203.tzst"
+   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Resident.20Evil.203.tzst"
   },
   {
    "bucket": "settings",
@@ -7013,10 +7013,10 @@
    "version": "1.0.0",
    "gpu": "",
    "asset": "Torchlight_II.tzst",
-   "official_file": "Torchlight II.tzst",
+   "official_file": "Torchlight.20II.tzst",
    "size": 202960,
    "md5": "747c4ed9595726421abc7c2b9ba0c779",
-   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Torchlight%20II.tzst"
+   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Torchlight.20II.tzst"
   },
   {
    "bucket": "settings",
@@ -7167,10 +7167,10 @@
    "version": "1.0.0",
    "gpu": "",
    "asset": "WRC_9.tzst",
-   "official_file": "WRC 9.tzst",
+   "official_file": "WRC.209.tzst",
    "size": 331666,
    "md5": "43d05983f9cc23cd62824ada397a3503",
-   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WRC%209.tzst"
+   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WRC.209.tzst"
   },
   {
    "bucket": "settings",
@@ -9637,20 +9637,6 @@
    "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/PhysX-9.14.0702-SystemSoftware.msi"
   },
   {
-   "bucket": "unindexed",
-   "type": "release-extra",
-   "id": null,
-   "name": "Resident.20Evil.203",
-   "display": "（未索引）Resident.20Evil.203",
-   "version": "",
-   "gpu": "",
-   "asset": "Resident.20Evil.203.tzst",
-   "official_file": "Resident.20Evil.203.tzst",
-   "size": 5631,
-   "md5": "",
-   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Resident.20Evil.203.tzst"
-  },
-  {
    "bucket": "runtimes-bin",
    "type": "release-extra",
    "id": null,
@@ -9691,20 +9677,6 @@
    "size": 100352,
    "md5": "",
    "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/tloull1.exe"
-  },
-  {
-   "bucket": "unindexed",
-   "type": "release-extra",
-   "id": null,
-   "name": "Torchlight.20II",
-   "display": "（未索引）Torchlight.20II",
-   "version": "",
-   "gpu": "",
-   "asset": "Torchlight.20II.tzst",
-   "official_file": "Torchlight.20II.tzst",
-   "size": 202960,
-   "md5": "",
-   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Torchlight.20II.tzst"
   },
   {
    "bucket": "runtimes-bin",
@@ -9859,20 +9831,6 @@
    "size": 102912,
    "md5": "",
    "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/witcher32.exe"
-  },
-  {
-   "bucket": "unindexed",
-   "type": "release-extra",
-   "id": null,
-   "name": "WRC.209",
-   "display": "（未索引）WRC.209",
-   "version": "",
-   "gpu": "",
-   "asset": "WRC.209.tzst",
-   "official_file": "WRC.209.tzst",
-   "size": 331666,
-   "md5": "",
-   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WRC.209.tzst"
   },
   {
    "bucket": "runtimes-bin",

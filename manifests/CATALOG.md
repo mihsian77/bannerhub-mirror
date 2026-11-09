@@ -2,7 +2,7 @@
 
 来源：`getAllComponentList` + `bannerhub-api` 的 `Components` release
 
-共 **705** 个文件，合计 **7.81 GB**。本表由 `tools/mirror.py --manifest` 生成，不要手改。
+共 **702** 个文件，合计 **7.81 GB**。本表由 `tools/mirror.py --manifest` 生成，不要手改。
 
 `资产名` 是 release 里实际的文件名，已从 md5 命名规范化为可读名；`官方文件名` 是 GameHub 目录/Release 里的原名，用于反查。
 
@@ -19,7 +19,7 @@
 | Wine / Proton 容器 | 5 | 1.18 GB |
 | 系统镜像（imagefs） | 8 | 1.37 GB |
 | 运行库安装包（msi / exe） | 14 | 0.31 GB |
-| 未索引的独有文件 | 35 | 0.87 GB |
+| 未索引的独有文件 | 32 | 0.87 GB |
 
 ## GPU 驱动（326）
 
@@ -746,7 +746,7 @@
 | （未索引）witcher32 |  | `witcher32.exe` | 0.1 MB |
 | （未索引）wuchang |  | `wuchang.exe` | 0.1 MB |
 
-## 未索引的独有文件（35）
+## 未索引的独有文件（32）
 
 | 名称 | 版本 | 资产名 | 大小 |
 | --- | --- | --- | ---: |
@@ -782,6 +782,3 @@
 | （未索引）f5a5de984166acf774eb0771a56e4deb |  | `f5a5de984166acf774eb0771a56e4deb.tzst` | 2.8 MB |
 | （未索引）f71af255a6cd68348da825dcd698df76 |  | `f71af255a6cd68348da825dcd698df76.tzst` | 32.3 MB |
 | （未索引）f855339e3d05b3824538c462548c06c3 |  | `f855339e3d05b3824538c462548c06c3.tzst` | 4.0 MB |
-| （未索引）Resident.20Evil.203 |  | `Resident.20Evil.203.tzst` | 0.0 MB |
-| （未索引）Torchlight.20II |  | `Torchlight.20II.tzst` | 0.2 MB |
-| （未索引）WRC.209 |  | `WRC.209.tzst` | 0.3 MB |
