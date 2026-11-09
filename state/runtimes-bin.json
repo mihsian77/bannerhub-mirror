@@ -1,0 +1,145 @@
+{
+ "mirrored": {
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/K-Lite_1982.exe": {
+   "asset": "K-Lite_1982.exe",
+   "bucket": "runtimes-bin",
+   "md5": "dd0e786cc88f9c186c7f4a57883da0f8",
+   "mtime": "2026-11-09T03:17:10Z",
+   "official_file": "K-Lite_1982.exe",
+   "sha256": "d9f1328a972fe86eb2771790480442d39d0e0fc6512424c09a88e7510a0e913f",
+   "size": 40782662,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/PhysX-9.14.0702-SystemSoftware.msi": {
+   "asset": "PhysX-9.14.0702-SystemSoftware.msi",
+   "bucket": "runtimes-bin",
+   "md5": "1066fa24fe2684b2ce81b5fb54005156",
+   "mtime": "2026-11-09T03:17:16Z",
+   "official_file": "PhysX-9.14.0702-SystemSoftware.msi",
+   "sha256": "0a022e28accf5851be9d6577487cdcd3d3a3e2a8a21a64456b72b415c217f03c",
+   "size": 60039168,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/VC_redist.x64.exe": {
+   "asset": "VC_redist.x64.exe",
+   "bucket": "runtimes-bin",
+   "md5": "486f81facf798678c3244c7cf35a557f",
+   "mtime": "2026-11-09T03:17:21Z",
+   "official_file": "VC_redist.x64.exe",
+   "sha256": "cc0ff0eb1dc3f5188ae6300faef32bf5beeba4bdd6e8e445a9184072096b713b",
+   "size": 25635768,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/VC_redist.x86.exe": {
+   "asset": "VC_redist.x86.exe",
+   "bucket": "runtimes-bin",
+   "md5": "99f52708b06b9c695a8d64a44740bf08",
+   "mtime": "2026-11-09T03:17:23Z",
+   "official_file": "VC_redist.x86.exe",
+   "sha256": "0c09f2611660441084ce0df425c51c11e147e6447963c3690f97e0b25c55ed64",
+   "size": 13953392,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/VulkanRT-1.3.283.0-Installer.exe": {
+   "asset": "VulkanRT-1.3.283.0-Installer.exe",
+   "bucket": "runtimes-bin",
+   "md5": "5c2f359d0295758bd4cddbcccf9f2a56",
+   "mtime": "2026-11-09T03:17:25Z",
+   "official_file": "VulkanRT-1.3.283.0-Installer.exe",
+   "sha256": "a00e79a390b08565129ee81aaa8bf48e1f87e2144ef5d2601e376c9eb7140f8a",
+   "size": 1939304,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/bannerlord2.exe": {
+   "asset": "bannerlord2.exe",
+   "bucket": "runtimes-bin",
+   "md5": "604934f230cf80cb4bff08b6859e8cf0",
+   "mtime": "2026-11-09T03:17:06Z",
+   "official_file": "bannerlord2.exe",
+   "sha256": "2530d3dd737415ff87ccaa2330138a549e34f8a96c8a524e81ed971f30c39282",
+   "size": 102912,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/dmc52.exe": {
+   "asset": "dmc52.exe",
+   "bucket": "runtimes-bin",
+   "md5": "ba4c277562289f509ba2051588e6ce8d",
+   "mtime": "2026-11-09T03:17:07Z",
+   "official_file": "dmc52.exe",
+   "sha256": "8db7771fe8d9414945177b9730e52a9afbbb2660b08c93963e825df4847c1497",
+   "size": 102912,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/sf62.exe": {
+   "asset": "sf62.exe",
+   "bucket": "runtimes-bin",
+   "md5": "272d83add7e21462331839b223d02275",
+   "mtime": "2026-11-09T03:17:17Z",
+   "official_file": "sf62.exe",
+   "sha256": "ffa9995cf5205b9a2b96c0741500aeba7b547717e48b0a335191f5530c4e4cf4",
+   "size": 107520,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/tloul.exe": {
+   "asset": "tloul.exe",
+   "bucket": "runtimes-bin",
+   "md5": "99938cd2f5b6d1febcff1109e4d30d01",
+   "mtime": "2026-11-09T03:17:18Z",
+   "official_file": "tloul.exe",
+   "sha256": "8259bd0549c19ffb0214ce1def1b010a29a2beb354db092856a5313d8207f7aa",
+   "size": 24064,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/tloull1.exe": {
+   "asset": "tloull1.exe",
+   "bucket": "runtimes-bin",
+   "md5": "076c7add77d3b8e690c96313c486900d",
+   "mtime": "2026-11-09T03:17:19Z",
+   "official_file": "tloull1.exe",
+   "sha256": "3c64b494f38c0787db34c314546cc13ba4dcf6f13e93e1dd4c751263a86de16b",
+   "size": 100352,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine-mono-10.3.0-x86.msi": {
+   "asset": "wine-mono-10.3.0-x86.msi",
+   "bucket": "runtimes-bin",
+   "md5": "30a145e628630865212118e695b535a0",
+   "mtime": "2026-11-09T03:17:30Z",
+   "official_file": "wine-mono-10.3.0-x86.msi",
+   "sha256": "cece5c63180094dffdf01d0fbe362a4b606e5280b98cdfd1b8568cdf9b572f98",
+   "size": 85515264,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine-mono-8.0.0-x86.msi": {
+   "asset": "wine-mono-8.0.0-x86.msi",
+   "bucket": "runtimes-bin",
+   "md5": "4fe5c683fcd9634c7f6571f252b3603c",
+   "mtime": "2026-11-09T03:17:36Z",
+   "official_file": "wine-mono-8.0.0-x86.msi",
+   "sha256": "75b3f45dca1dc89857fe9e932da78710f64cc6d49ef1ab0c723a177085b4711b",
+   "size": 84587008,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/witcher32.exe": {
+   "asset": "witcher32.exe",
+   "bucket": "runtimes-bin",
+   "md5": "6653fa90c91b9f8e971a643ef0ec9ae6",
+   "mtime": "2026-11-09T03:17:37Z",
+   "official_file": "witcher32.exe",
+   "sha256": "953e91dc2c660ff29fdf76e197239585675060672dbe2c3cbc6ac25b560f5dba",
+   "size": 102912,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wuchang.exe": {
+   "asset": "wuchang.exe",
+   "bucket": "runtimes-bin",
+   "md5": "4ae114162175ac0f9355ff243faaa0d3",
+   "mtime": "2026-11-09T03:17:38Z",
+   "official_file": "wuchang.exe",
+   "sha256": "884abb2e39147259c97cddd731a14ff6ce59ba448446d0ca02d57d5b288a9096",
+   "size": 110592,
+   "source": "components"
+  }
+ },
+ "updated": "2026-11-09T03:17:38Z"
+}
