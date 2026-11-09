@@ -17,7 +17,10 @@
         "7": "steam"
       },
       "splitBuckets": {
-        "1": ["box64", "fex"]
+        "1": [
+          "box64",
+          "fex"
+        ]
       }
     },
     {
@@ -29,8 +32,8 @@
     }
   ],
   "nameFixes": {
-    "Resident.Evil.3.tzst": "Resident.20Evil.203.tzst",
-    "Torchlight.II.tzst": "Torchlight.20II.tzst",
-    "WRC.9.tzst": "WRC.209.tzst"
+    "Resident Evil 3.tzst": "Resident.20Evil.203.tzst",
+    "Torchlight II.tzst": "Torchlight.20II.tzst",
+    "WRC 9.tzst": "WRC.209.tzst"
   }
 }
