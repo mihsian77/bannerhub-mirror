@@ -7,6 +7,7 @@
 """
 
 import argparse
+import base64
 import hashlib
 import json
 import os
@@ -63,6 +64,8 @@ MD5_NAME = re.compile(r"^([0-9a-f]{32})\.")
 
 def bucket_for_asset(fname, is_md5):
     n = fname.lower()
+    if n.endswith((".png", ".jpg", ".jpeg", ".gif", ".webp")):
+        return None
     if is_md5:
         return "unindexed"
     if n.endswith((".yml", ".yaml")):
@@ -239,6 +242,38 @@ def collect():
 
 def state_path(bucket):
     return os.path.join(STATE_DIR, "%s.json" % (bucket or "all"))
+
+
+def push_state(bucket):
+    """通过 contents API 单独提交 state 文件，避免并发 rebase 打架。"""
+    path = state_path(bucket)
+    rel = "state/%s.json" % bucket
+    body = {
+        "message": "state: %s %s" % (bucket, time.strftime("%Y-%m-%dT%H:%MZ", time.gmtime())),
+        "content": base64.b64encode(open(path, "rb").read()).decode(),
+        "branch": "main",
+    }
+    try:
+        body["sha"] = api("GET", "/repos/%s/contents/%s" % (REPO, rel))["sha"]
+    except Exception:
+        pass
+    for i in range(4):
+        try:
+            api("PUT", "/repos/%s/contents/%s" % (REPO, rel), body)
+            log("  state 已提交：%s" % rel)
+            return True
+        except SystemExit as e:
+            msg = str(e)
+            if "409" in msg or "422" in msg:  # sha 过期，重新取
+                try:
+                    body["sha"] = api("GET", "/repos/%s/contents/%s" % (REPO, rel))["sha"]
+                except Exception:
+                    pass
+            if i == 3:
+                log("  state 提交失败：%s" % msg[:120])
+                return False
+            time.sleep(3)
+    return False
 
 
 def load_state(bucket):
@@ -478,6 +513,8 @@ def main():
             if done >= a.max_files or bytes_ >= a.max_gb * 1e9:
                 log("== 达到单次上限，剩余留到下次")
                 save_state(st, a.bucket)
+                if a.bucket:
+                    push_state(a.bucket)
                 return
             name = it.get("asset") or it["file"]
             if name in have:
@@ -524,6 +561,8 @@ def main():
                 save_state(st, a.bucket)
         st["mirrored"] = mirrored
         save_state(st, a.bucket)
+        if a.bucket:
+            push_state(a.bucket)
 
     log("== 本轮 %d 个，%.2f GB" % (done, bytes_ / 1e9))
 
