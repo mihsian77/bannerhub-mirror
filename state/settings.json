@@ -360,6 +360,16 @@
    "size": 76162,
    "source": "gamehub"
   },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Resident.20Evil.203.tzst": {
+   "asset": "Resident_Evil_3.tzst",
+   "bucket": "settings",
+   "md5": "bcd58042f6dad5038e6b044538aaae6a",
+   "mtime": "2026-11-09T03:36:17Z",
+   "official_file": "Resident.20Evil.203.tzst",
+   "sha256": "94937da11134b646d3cca86bcc4cc8be7179da30782fce391886624840a52d93",
+   "size": 5631,
+   "source": "gamehub"
+  },
   "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Rev_Settings.tzst": {
    "asset": "Rev_Settings.tzst",
    "bucket": "settings",
@@ -418,6 +428,26 @@
    "official_file": "TheWitcher2.tzst",
    "sha256": "f6880deae98d589723288659f32b0d04c185aecacbafd30c4b689156b33728cf",
    "size": 813073,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Torchlight.20II.tzst": {
+   "asset": "Torchlight_II.tzst",
+   "bucket": "settings",
+   "md5": "747c4ed9595726421abc7c2b9ba0c779",
+   "mtime": "2026-11-09T03:36:18Z",
+   "official_file": "Torchlight.20II.tzst",
+   "sha256": "ec4c14d2dcea67989a0fc5722131a93f48458f00c2325b14d9d4937fbe818ace",
+   "size": 202960,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WRC.209.tzst": {
+   "asset": "WRC_9.tzst",
+   "bucket": "settings",
+   "md5": "43d05983f9cc23cd62824ada397a3503",
+   "mtime": "2026-11-09T03:36:19Z",
+   "official_file": "WRC.209.tzst",
+   "sha256": "b213170a24758d76d5a55899d206c58bdedf6aa0bbd8b1de5aa027e985b7c0d4",
+   "size": 331666,
    "source": "gamehub"
   },
   "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WUCHANG.tzst": {
@@ -651,5 +681,5 @@
    "source": "gamehub"
   }
  },
- "updated": "2026-11-09T03:28:26Z"
+ "updated": "2026-11-09T03:36:20Z"
 }
