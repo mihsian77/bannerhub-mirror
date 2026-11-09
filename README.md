@@ -82,4 +82,12 @@ python3 tools/mirror.py --manifest     # 重写 manifests/ 两份清单
 - 每个文件的权利归其上游作者。本仓库只做保留备份，收到作者异议即下架对应资产。
 - 本仓库自身代码为 MIT。
 
-> 已知上游缺文件：`Resident Evil 3`、`Torchlight II`、`WRC 9` 三条例在目录里、`bannerhub-api` 的 release 里却没有，两种文件名写法都是 404。补不了，等上游自己修。
+> **已知上游缺件（5 条）**：目录里列着、`bannerhub-api` 的 `Components` release 里实际没有，逐个 URL 直连都是 404，不是本仓库的问题：
+>
+> - `Resident Evil 3`（`Resident.Evil.3.tzst`）
+> - `Torchlight II`（`Torchlight.II.tzst`）
+> - `WRC 9`（`WRC.9.tzst`）
+> - `turnip_v25.2.0_R6`（release 里有 `Turnip_v25.2.0_R6_mem`，没有无后缀版）
+> - `turnip_v25.2.0_R4_mem`（release 里有 `R4` / `R3_mem` / `R5_mem`，独缺 `R4_mem`）
+>
+> 所以实际可镜像数是 **634 / 639**。等上游补文件，脚本每轮都会重试这 5 条。
