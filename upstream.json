@@ -1,12 +1,12 @@
 {
-  "note": "唯一数据源 = GameHub 官方组件目录接口 getAllComponentList。本文件不出现任何第三方 feed 或社区整理源。改这里之前想清楚：多加一个源，这个仓库就不再是「GameHub 官方文件备份」。",
+  "note": "两个源，都是 GameHub 官方：组件目录（有名字有 md5 的索引）与 Components release（实际文件全集）。目录索引不全，release 里有 145 个没被索引的文件；反过来 release 里有一批 md5 命名的重复件，靠 md5 比对剔除。",
   "sources": [
     {
       "id": "gamehub",
       "name": "GameHub 官方组件目录",
       "kind": "catalog",
       "url": "https://the412banner.github.io/bannerhub-api/simulator/v2/getAllComponentList",
-      "serves": "客户端能拉到的全部可下载组件：640 条，每条带 file_md5 / file_size / download_url",
+      "serves": "客户端拉取的组件索引：640 条，每条带 name / file_md5 / file_size / download_url",
       "catalogBuckets": {
         "1": "box64",
         "2": "drivers",
@@ -19,6 +19,18 @@
       "splitBuckets": {
         "1": ["box64", "fex"]
       }
+    },
+    {
+      "id": "components",
+      "name": "Components release 实际资产",
+      "kind": "release_assets",
+      "url": "https://api.github.com/repos/The412Banner/bannerhub-api/releases/tags/Components",
+      "serves": "目录未索引的文件：Wine / Proton 容器、imagefs 系统镜像、运行库安装包，以及 31 个无索引独有件"
     }
-  ]
+  ],
+  "nameFixes": {
+    "Resident.Evil.3.tzst": "Resident.20Evil.203.tzst",
+    "Torchlight.II.tzst": "Torchlight.20II.tzst",
+    "WRC.9.tzst": "WRC.209.tzst"
+  }
 }
