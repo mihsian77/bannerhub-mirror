@@ -34,21 +34,61 @@ BUCKET_TITLES = {
     "vkd3d": "VKD3D-Proton",
     "fex": "FEXCore",
     "drivers": "GPU 驱动",
-    "settings": "游戏配置包与 Wine 容器",
+    "settings": "游戏配置包",
     "steam": "Steam 客户端",
     "runtime-yml": "运行库定义（yml）",
+    "wine": "Wine / Proton 容器",
+    "system": "系统镜像（imagefs）",
+    "runtimes-bin": "运行库安装包（msi / exe）",
+    "unindexed": "未索引的独有文件",
 }
 
 BUCKET_BLURB = {
-    "box64": "GameHub 目录 type=1 中 Box64 系列，共 13 条。",
-    "fex": "GameHub 目录 type=1 中 FEXCore 系列，共 31 条。",
-    "dxvk": "GameHub 目录 type=3 整体，共 68 条。",
-    "vkd3d": "GameHub 目录 type=4 整体，共 11 条。",
-    "drivers": "GameHub 目录 type=2 整体，共 323 条，Adreno / Turnip / Qualcomm 驱动包。",
-    "settings": "GameHub 目录 type=5 整体，共 70 条：游戏配置包与 Wine / Proton 容器。",
-    "steam": "GameHub 目录 type=7 整体，共 3 条。",
-    "runtime-yml": "GameHub 目录 type=6 整体，共 121 条，每项一个运行库定义 yml。",
+    "box64": "GameHub 目录 type=1 中 Box64 系列。",
+    "fex": "GameHub 目录 type=1 中 FEXCore 系列。",
+    "dxvk": "GameHub 目录 type=3 整体。",
+    "vkd3d": "GameHub 目录 type=4 整体。",
+    "drivers": "GameHub 目录 type=2 整体，Adreno / Turnip / Qualcomm 驱动包；另含未索引的 Banners-Turnip 构建。",
+    "settings": "GameHub 目录 type=5 整体：游戏配置包。",
+    "steam": "GameHub 目录 type=7 整体。",
+    "runtime-yml": "GameHub 目录 type=6 整体，每项一个安装脚本 yml；另含 1 个未索引的 yml。",
+    "wine": "Wine / Proton 容器镜像，组件目录未索引，来自 Components release 实际资产。",
+    "system": "imagefs 系统镜像与 base 基础包，组件目录未索引。",
+    "runtimes-bin": "运行库安装包本体（VC++ / PhysX / wine-mono / K-Lite 等），yml 里引用的 exe / msi。",
+    "unindexed": "在 Components release 里存在、但不在组件目录里、也无法从名字判断归属的文件。保留原样，附 SHA-256 与体积，供比对。",
 }
+
+MD5_NAME = re.compile(r"^([0-9a-f]{32})\.")
+
+
+def bucket_for_asset(fname, is_md5):
+    n = fname.lower()
+    if is_md5:
+        return "unindexed"
+    if n.endswith((".yml", ".yaml")):
+        return "runtime-yml"
+    if n.startswith("imagefs") or n.startswith("base_"):
+        return "system"
+    if "wine_proton" in n or n.endswith(".tar.zst"):
+        return "wine"
+    if n.endswith((".msi", ".exe")):
+        return "runtimes-bin"
+    if "turnip" in n or "adreno" in n:
+        return "drivers"
+    if n.endswith((".png", ".jpg", ".jpeg", ".gif")):
+        return None
+    return "unindexed"
+
+
+def pretty(name, fname):
+    """把目录里的 name 变成干净的资产名，保留真实扩展名。"""
+    ext = os.path.splitext(fname)[1].lower()
+    base = (name or os.path.splitext(fname)[0]).strip()
+    base = base.replace("/", "_").replace("\\", "_")
+    base = re.sub(r"\s+", "_", base)
+    base = re.sub(r"[^\w\u4e00-\u9fa5.\-]+", "", base)
+    base = base.strip("._-") or "unnamed"
+    return base + ext
 
 
 def log(*a):
@@ -71,13 +111,15 @@ def get_json(url, retries=4):
 
 
 def collect():
-    """读官方目录，返回去重后的条目列表。非 catalog 源一律忽略。"""
+    """读组件目录 + Components release 实际资产，合并成一份去重清单。"""
     cfg = json.load(open(UPSTREAM, encoding="utf-8"))
-    items, seen = [], set()
+    fixes = cfg.get("nameFixes") or {}
+    items, seen_url = [], set()
+    cat_files, cat_md5 = set(), set()
 
+    # 第一遍：组件目录（有名字、有 md5 的那批）
     for s in cfg["sources"]:
         if s.get("kind") != "catalog":
-            log("  !! 跳过非官方源 %s（本仓库只镜像 GameHub 目录内的文件）" % s["id"])
             continue
         try:
             data = get_json(s["url"])
@@ -94,21 +136,28 @@ def collect():
                 continue
             typ = str(x.get("type"))
             bucket = cmap.get(typ)
-            if typ == "1":  # 转换层里混着 Box64 和 FEXCore，按名字分
+            if typ == "1":
                 bucket = "box64" if "box" in (x.get("name") or "").lower() else "fex"
             if not bucket:
                 continue
             url = (x.get("download_url") or "").strip()
-            if not url.startswith("http") or url in seen:
+            if not url.startswith("http") or url in seen_url:
                 continue
-            seen.add(url)
             fname = urllib.parse.unquote(url.rsplit("/", 1)[-1])
+            if fname in fixes:  # 目录写错名字的，换成 release 里的真实资产名
+                url = url.rsplit("/", 1)[0] + "/" + urllib.parse.quote(fixes[fname])
+                fname = fixes[fname]
+            seen_url.add(url)
+            cat_files.add(fname)
+            if x.get("file_md5"):
+                cat_md5.add(x["file_md5"].lower())
             items.append({
                 "bucket": bucket,
                 "type": "catalog-" + typ,
                 "name": x.get("name") or fname,
                 "display": x.get("display_name") or x.get("name") or fname,
                 "ver": x.get("version") or "",
+                "gpu": x.get("gpu_range") or "",
                 "id": x.get("id"),
                 "url": url,
                 "file": fname,
@@ -117,6 +166,74 @@ def collect():
                 "declared_size": x.get("file_size") or 0,
             })
         log("  %-14s %4d 条（新增 %d，累计 %d）" % (s["id"], len(lst), len(items) - before, len(items)))
+
+    # 第二遍：release 实际资产，补目录没索引的
+    for s in cfg["sources"]:
+        if s.get("kind") != "release_assets":
+            continue
+        try:
+            rel = get_json(s["url"])
+        except Exception as e:
+            log("  !! %s 拉取失败: %s" % (s["id"], e))
+            continue
+        assets, page = [], 1
+        while True:
+            batch = get_json("%s/releases/%d/assets?per_page=100&page=%d" % (
+                s["url"].split("/releases/")[0], rel["id"], page))
+            if not batch:
+                break
+            assets += batch
+            if len(batch) < 100:
+                break
+            page += 1
+
+        added = skipped_dup = 0
+        for a in assets:
+            fname = a["name"]
+            if fname in cat_files:
+                continue  # 目录里已经有了
+            m = MD5_NAME.match(fname)
+            if m and m.group(1) in cat_md5:
+                skipped_dup += 1  # 同一份文件被另存成 md5 名，内容已有
+                continue
+            b = bucket_for_asset(fname, bool(m))
+            if not b:
+                continue
+            url = a.get("browser_download_url") or ""
+            if url in seen_url:
+                continue
+            seen_url.add(url)
+            items.append({
+                "bucket": b,
+                "type": "release-extra",
+                "name": os.path.splitext(fname)[0],
+                "display": "（未索引）" + os.path.splitext(fname)[0],
+                "ver": "",
+                "gpu": "",
+                "id": None,
+                "url": url,
+                "file": fname,
+                "source": s["id"],
+                "md5": m.group(1) if m else "",
+                "declared_size": a.get("size") or 0,
+            })
+            added += 1
+        log("  %-14s release 资产 %d 个：补入 %d，按 md5 判定重复跳过 %d"
+            % (s["id"], len(assets), added, skipped_dup))
+
+    # 资产名去重
+    used = {}
+    for it in items:
+        base = pretty(it["name"], it["file"])
+        if base in used:
+            stem, ext = os.path.splitext(base)
+            used[base] += 1
+            base = "%s-%d%s" % (stem, used[base], ext)
+        else:
+            used[base] = 1
+        it["asset"] = base
+    log("合计 %d 个文件，%.2f GB"
+        % (len(items), sum(i.get("declared_size", 0) for i in items) / 1e9))
     return items
 
 
@@ -261,7 +378,8 @@ def upload(rel, path, name):
 def write_manifest(items):
     """把官方目录落成两份人类可读清单：JSON 给程序，Markdown 给人看。"""
     os.makedirs(os.path.join(ROOT, "manifests"), exist_ok=True)
-    order = ["drivers", "box64", "fex", "dxvk", "vkd3d", "settings", "runtime-yml", "steam"]
+    order = ["drivers", "settings", "runtime-yml", "dxvk", "fex", "box64", "vkd3d",
+             "steam", "wine", "system", "runtimes-bin", "unindexed"]
     labels = BUCKET_TITLES
 
     doc = {
@@ -278,16 +396,20 @@ def write_manifest(items):
         doc["items"].append({
             "bucket": it["bucket"], "type": it["type"], "id": it.get("id"),
             "name": it["name"], "display": it["display"], "version": it["ver"],
-            "file": it["file"], "size": it.get("declared_size", 0),
+            "gpu": it.get("gpu", ""),
+            "asset": it.get("asset") or it["file"],
+            "official_file": it["file"],
+            "size": it.get("declared_size", 0),
             "md5": it["md5"], "url": it["url"],
         })
     json.dump(doc, open(os.path.join(ROOT, "manifests", "catalog.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
 
-    md = ["# GameHub 官方组件清单", "",
-          "来源：`getAllComponentList`（%s）" % doc["source"], "",
+    md = ["# GameHub 组件清单", "",
+          "来源：`getAllComponentList` + `bannerhub-api` 的 `Components` release", "",
           "共 **%d** 个文件，合计 **%.2f GB**。本表由 `tools/mirror.py --manifest` 生成，不要手改。"
           % (doc["total"], doc["totalBytes"] / 1e9), "",
+          "`资产名` 是 release 里实际的文件名，已从 md5 命名规范化为可读名；`官方文件名` 是 GameHub 目录/Release 里的原名，用于反查。", "",
           "| 分类 | 条数 | 体积 |", "| --- | ---: | ---: |"]
     for b in order:
         if b not in doc["buckets"]:
@@ -300,10 +422,10 @@ def write_manifest(items):
         if not rows:
             continue
         md += ["## %s（%d）" % (labels.get(b, b), len(rows)), "",
-               "| 名称 | 版本 | 文件 | 大小 |", "| --- | --- | --- | ---: |"]
+               "| 名称 | 版本 | 资产名 | 大小 |", "| --- | --- | --- | ---: |"]
         for i in sorted(rows, key=lambda x: (x["name"] or "").lower()):
             md.append("| %s | %s | `%s` | %.1f MB |"
-                      % (i["display"], i["version"], i["file"], i["size"] / 1e6))
+                      % (i["display"], i["version"], i["asset"], i["size"] / 1e6))
         md.append("")
     open(os.path.join(ROOT, "manifests", "CATALOG.md"), "w", encoding="utf-8").write("\n".join(md))
     log("  清单已写入 manifests/catalog.json 与 manifests/CATALOG.md")
@@ -319,16 +441,13 @@ def main():
     ap.add_argument("--bucket", default="", help="只处理某个分类")
     a = ap.parse_args()
 
-    log("== 采集官方目录")
+    log("== 采集")
     items = collect()
+    if a.manifest:
+        write_manifest(items)
+        return
     if a.bucket:
         items = [i for i in items if i["bucket"] == a.bucket]
-    log("合计 %d 个文件，%.2f GB"
-        % (len(items), sum(i.get("declared_size", 0) for i in items) / 1e9))
-
-    if a.manifest:
-        write_manifest(collect())
-        return
 
     if not REPO or not TOKEN:
         raise SystemExit("需要 MIRROR_REPO 与 GH_TOKEN")
@@ -360,9 +479,10 @@ def main():
                 log("== 达到单次上限，剩余留到下次")
                 save_state(st, a.bucket)
                 return
-            name = it["file"]
+            name = it.get("asset") or it["file"]
             if name in have:
                 mirrored[it["url"]] = {"bucket": tag, "asset": name,
+                                       "official_file": it["file"],
                                        "size": have[name]["size"], "sha256": "",
                                        "mtime": have[name].get("updated_at", "")}
                 continue
@@ -391,6 +511,7 @@ def main():
                 continue
             have[name] = up
             mirrored[it["url"]] = {"bucket": tag, "asset": name, "size": size,
+                                   "official_file": it["file"],
                                    "sha256": digest, "md5": md5,
                                    "source": it.get("source", ""),
                                    "mtime": up.get("updated_at", "")}
