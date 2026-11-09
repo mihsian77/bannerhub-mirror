@@ -15,6 +15,9 @@
         "5": "settings",
         "6": "runtime-yml",
         "7": "steam"
+      },
+      "splitBuckets": {
+        "1": ["box64", "fex"]
       }
     }
   ]
