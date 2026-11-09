@@ -1,0 +1,655 @@
+{
+ "mirrored": {
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/0085e7cae61107dcc51b5c3457fc6692.tzst": {
+   "asset": "TinasWonderlands_Settings.tzst",
+   "bucket": "settings",
+   "md5": "0085e7cae61107dcc51b5c3457fc6692",
+   "mtime": "2026-11-09T03:19:04Z",
+   "official_file": "0085e7cae61107dcc51b5c3457fc6692.tzst",
+   "sha256": "dd3e68c08de84bbfc46667c6b0ea2d6b8febaf0ee9caad8599083496e4e535db",
+   "size": 3745,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/1a0b587288325ca4a29949af0222b745.tzst": {
+   "asset": "SILENT_HILL_F.tzst",
+   "bucket": "settings",
+   "md5": "1a0b587288325ca4a29949af0222b745",
+   "mtime": "2026-11-09T03:18:56Z",
+   "official_file": "1a0b587288325ca4a29949af0222b745.tzst",
+   "sha256": "fff40044d68e433ffec0728f635b48d76749861102128e9c75f2e0a7c79bcac0",
+   "size": 60445,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/1e2e9469187a4d50221e6ce8ae4d2b7c.tzst": {
+   "asset": "ACM.tzst",
+   "bucket": "settings",
+   "md5": "1e2e9469187a4d50221e6ce8ae4d2b7c",
+   "mtime": "2026-11-09T03:17:56Z",
+   "official_file": "1e2e9469187a4d50221e6ce8ae4d2b7c.tzst",
+   "sha256": "1a551edb63f5a4179769025cae82a289f2e7a0defdea7d710c3bcb0e8b763afb",
+   "size": 991,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/1f09565d8d042bcec69323aebd2ab6f0.tzst": {
+   "asset": "EuroTruck2_Settings.tzst",
+   "bucket": "settings",
+   "md5": "1f09565d8d042bcec69323aebd2ab6f0",
+   "mtime": "2026-11-09T03:18:18Z",
+   "official_file": "1f09565d8d042bcec69323aebd2ab6f0.tzst",
+   "sha256": "42777a430a03329714dfc0556789c2046ad3a928d74da8fd4db3da217b36b9c6",
+   "size": 2560,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/331db94341bd49359ffd4cab3659c0b3.tzst": {
+   "asset": "DeadSpace2023.tzst",
+   "bucket": "settings",
+   "md5": "331db94341bd49359ffd4cab3659c0b3",
+   "mtime": "2026-11-09T03:18:14Z",
+   "official_file": "331db94341bd49359ffd4cab3659c0b3.tzst",
+   "sha256": "c9d1c638740b991b7606d13d7265a4ecc9820d0ed399e9641c9731fc356671dd",
+   "size": 462261,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/3e20de8eb12a74bcbb41a815b84859a3.tzst": {
+   "asset": "mod.io_Settings.tzst",
+   "bucket": "settings",
+   "md5": "3e20de8eb12a74bcbb41a815b84859a3",
+   "mtime": "2026-11-09T03:18:45Z",
+   "official_file": "3e20de8eb12a74bcbb41a815b84859a3.tzst",
+   "sha256": "611620feceb56a4749c5ae8f7bb55e74c0f1997e1c309a840372be812def8a04",
+   "size": 471,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/3ea6e9806cc1b7ce249434cee78d3490.tzst": {
+   "asset": "GrimDawnController_Settings.tzst",
+   "bucket": "settings",
+   "md5": "3ea6e9806cc1b7ce249434cee78d3490",
+   "mtime": "2026-11-09T03:18:32Z",
+   "official_file": "3ea6e9806cc1b7ce249434cee78d3490.tzst",
+   "sha256": "e71815f06191b23e18a424e38b2fe6882659a5b0d26c57a3527e46e9551850ca",
+   "size": 61334912,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/44a86207563ca327ca74ea84293d8843.tzst": {
+   "asset": "SteamAgent2.tzst",
+   "bucket": "settings",
+   "md5": "44a86207563ca327ca74ea84293d8843",
+   "mtime": "2026-11-09T03:18:59Z",
+   "official_file": "44a86207563ca327ca74ea84293d8843.tzst",
+   "sha256": "5386d18616b6b1c011448461e413f53f73f7f3fbd13025c751dee3f97c7a9cd2",
+   "size": 1022529,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/46655c21cc8911f9c54f7a1aed926cab.tzst": {
+   "asset": "TheHinokamiChronicles2_Settings.tzst",
+   "bucket": "settings",
+   "md5": "46655c21cc8911f9c54f7a1aed926cab",
+   "mtime": "2026-11-09T03:19:01Z",
+   "official_file": "46655c21cc8911f9c54f7a1aed926cab.tzst",
+   "sha256": "582a41166345481142489d8016d2890f70b97d3004da92f4401778139bcb4812",
+   "size": 1657,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/4eab0113521066e467e4ab42e55989d3.tzst": {
+   "asset": "GSE.tzst",
+   "bucket": "settings",
+   "md5": "4eab0113521066e467e4ab42e55989d3",
+   "mtime": "2026-11-09T03:18:34Z",
+   "official_file": "4eab0113521066e467e4ab42e55989d3.tzst",
+   "sha256": "6f5360316a43b39780e7b23762fa270b353e94b9b9cf970f4b26b8f1a89b5c51",
+   "size": 32253,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/565796c13769026a2d1b12a777293f9e.tzst": {
+   "asset": "id_Software.tzst",
+   "bucket": "settings",
+   "md5": "565796c13769026a2d1b12a777293f9e",
+   "mtime": "2026-11-09T03:18:39Z",
+   "official_file": "565796c13769026a2d1b12a777293f9e.tzst",
+   "sha256": "14a596913f971baee24c2102902e34ca48dae7a8adbb22e02f6e1ffcd4184c9a",
+   "size": 212967,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/56fc3c89329fc14a09b09b98cf005383.tzst": {
+   "asset": "MountandBlade2_Settings.tzst",
+   "bucket": "settings",
+   "md5": "56fc3c89329fc14a09b09b98cf005383",
+   "mtime": "2026-11-09T03:18:46Z",
+   "official_file": "56fc3c89329fc14a09b09b98cf005383.tzst",
+   "sha256": "6e67c2d7c6efc0701086573dcaa182581f03f7362567e089032ff1c6496975e3",
+   "size": 5529,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/5c4e8b3c447f3015bcadd12e94a5c23f.tzst": {
+   "asset": "GOOD.tzst",
+   "bucket": "settings",
+   "md5": "5c4e8b3c447f3015bcadd12e94a5c23f",
+   "mtime": "2026-11-09T03:18:27Z",
+   "official_file": "5c4e8b3c447f3015bcadd12e94a5c23f.tzst",
+   "sha256": "6a77388d249d2e849caae55cbf4bdf569b18e9e6f2392e087f009094c63ff1e1",
+   "size": 25508581,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/66f4c616a62aea2f83f3776fb5662ed9.tzst": {
+   "asset": "DontStarve_Settings.tzst",
+   "bucket": "settings",
+   "md5": "66f4c616a62aea2f83f3776fb5662ed9",
+   "mtime": "2026-11-09T03:18:15Z",
+   "official_file": "66f4c616a62aea2f83f3776fb5662ed9.tzst",
+   "sha256": "e60841807299436e4a382b8eec4ac9fb4da07f71139d6d71035c448f032f88cd",
+   "size": 657,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/724ee89efc09e42c40d15488ee50ad61.tzst": {
+   "asset": "FINAL_FANTASY_7_Settings.tzst",
+   "bucket": "settings",
+   "md5": "724ee89efc09e42c40d15488ee50ad61",
+   "mtime": "2026-11-09T03:18:21Z",
+   "official_file": "724ee89efc09e42c40d15488ee50ad61.tzst",
+   "sha256": "32b12f928ddf5bee89989673cf839c30353157c3a676ff34a9fd3b7b6a6bcf27",
+   "size": 1018,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/81d93f983ce0e2ad65e0ea0b76268e26.tzst": {
+   "asset": "sifu_Settings.tzst",
+   "bucket": "settings",
+   "md5": "81d93f983ce0e2ad65e0ea0b76268e26",
+   "mtime": "2026-11-09T03:18:55Z",
+   "official_file": "81d93f983ce0e2ad65e0ea0b76268e26.tzst",
+   "sha256": "cb1f1e6c88d0185f681a62b71e257a031a7af0abb6a7000322080665495cf296",
+   "size": 1617,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/98b2e6918f362a024c2eb8e354af7d5b.tzst": {
+   "asset": "Wreckfest_Settings.tzst",
+   "bucket": "settings",
+   "md5": "98b2e6918f362a024c2eb8e354af7d5b",
+   "mtime": "2026-11-09T03:20:40Z",
+   "official_file": "98b2e6918f362a024c2eb8e354af7d5b.tzst",
+   "sha256": "b9e492b5c829e03e0eeed542980d4fe2f0b00c0c74d5065140549b65b162878d",
+   "size": 873,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/APlague_Settings.tzst": {
+   "asset": "APlague_Settings.tzst",
+   "bucket": "settings",
+   "md5": "81b8196420fe320086d7758c9404372e",
+   "mtime": "2026-11-09T03:17:58Z",
+   "official_file": "APlague_Settings.tzst",
+   "sha256": "d73712afce57a22d5061a60d1144804eeaf843314e2ace2c875ea453fb253952",
+   "size": 34660,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Alice_Settings.tzst": {
+   "asset": "Alice_Settings.tzst",
+   "bucket": "settings",
+   "md5": "026ec394e980e628f71eb57b09abfa6d",
+   "mtime": "2026-11-09T03:17:57Z",
+   "official_file": "Alice_Settings.tzst",
+   "sha256": "56db967f0bc40ab271e7d1c227d425e71c12c1b19bc62b601dea92fd45add006",
+   "size": 29735,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/AssettoCorsa.tzst": {
+   "asset": "AssettoCorsa.tzst",
+   "bucket": "settings",
+   "md5": "194e04f85df76ecab9832b785b99023e",
+   "mtime": "2026-11-09T03:17:59Z",
+   "official_file": "AssettoCorsa.tzst",
+   "sha256": "6fc4e6122ad8cb15082cd0e2eef253f86ac6abcdd296311907e65bf7b36e70a1",
+   "size": 3206710,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/BBQ_Settings.tzst": {
+   "asset": "BBQ_Settings.tzst",
+   "bucket": "settings",
+   "md5": "e86baf2b0664d3d89b198c9fcb733ead",
+   "mtime": "2026-11-09T03:18:07Z",
+   "official_file": "BBQ_Settings.tzst",
+   "sha256": "e259a4d19311508a0c66be1dbdae319be77e816945a3135a8cf3c841f1169107",
+   "size": 18258681,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/BLEACH.tzst": {
+   "asset": "BLEACH.tzst",
+   "bucket": "settings",
+   "md5": "f351015813a32259ae182ac43e4c18c3",
+   "mtime": "2026-11-09T03:18:08Z",
+   "official_file": "BLEACH.tzst",
+   "sha256": "34308728e2e89f19d8cc17e344b59924749d6653d6eaee8b1ac951e167a8ff79",
+   "size": 18504,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Bt3_Settings.tzst": {
+   "asset": "Bt3_Settings.tzst",
+   "bucket": "settings",
+   "md5": "b30deb3e6f472faf2f4be2d5778af14b",
+   "mtime": "2026-11-09T03:18:09Z",
+   "official_file": "Bt3_Settings.tzst",
+   "sha256": "c2e8037abf3ce1b031dd1c69d22255a9bf5b81b70f22a0360a66729b222130b8",
+   "size": 995409,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Bt4_Settings.tzst": {
+   "asset": "Bt4_Settings.tzst",
+   "bucket": "settings",
+   "md5": "391d91a4a1e1a91f444ff0a1e521cd51",
+   "mtime": "2026-11-09T03:18:10Z",
+   "official_file": "Bt4_Settings.tzst",
+   "sha256": "268e44e90eee3eca75b0961d721ba467575246e39ee9f9200d5053e20f11f5ea",
+   "size": 72910,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Cyberpunk2077.tzst": {
+   "asset": "Cyberpunk2077.tzst",
+   "bucket": "settings",
+   "md5": "20592ce6c765d44fcc2677e4fecc72a3",
+   "mtime": "2026-11-09T03:18:11Z",
+   "official_file": "Cyberpunk2077.tzst",
+   "sha256": "ef174c905643ae9e654b4b6973ab77ccbef624089307bb826c34a471a09a501a",
+   "size": 41029,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/DARK_Settings.tzst": {
+   "asset": "DARK_Settings.tzst",
+   "bucket": "settings",
+   "md5": "3dbc98268cccfbe6a21500e15daa6531",
+   "mtime": "2026-11-09T03:18:13Z",
+   "official_file": "DARK_Settings.tzst",
+   "sha256": "ab8a78aa9dd97486c9ff9b380562e4012f61c90bcb571e51b0e1ec9fb15d7798",
+   "size": 9310345,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/FIFA11_Settings.tzst": {
+   "asset": "FIFA11_Settings.tzst",
+   "bucket": "settings",
+   "md5": "a99457c4d28aebcb3eb688d807786652",
+   "mtime": "2026-11-09T03:18:20Z",
+   "official_file": "FIFA11_Settings.tzst",
+   "sha256": "c3ca5e4579253f6a6765e5256b258c5e090a0bb4d0ca072676bb9cca4f36164f",
+   "size": 22028,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Fall_Settings.tzst": {
+   "asset": "Fall_Settings.tzst",
+   "bucket": "settings",
+   "md5": "ab9b0acfbeaccacba23a832bdb0096d6",
+   "mtime": "2026-11-09T03:18:19Z",
+   "official_file": "Fall_Settings.tzst",
+   "sha256": "292eaef815ece59c3fc176a9284ee9532d229205b6659aa9f3e9edd6b940afba",
+   "size": 549351,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/God_Settings.tzst": {
+   "asset": "God_Settings.tzst",
+   "bucket": "settings",
+   "md5": "f312222580f8849faad9e521d8d83693",
+   "mtime": "2026-11-09T03:18:23Z",
+   "official_file": "God_Settings.tzst",
+   "sha256": "4eab17b1c17b48f8ce151edba729ea378914eeb5a2038a75cd4c6868caa0f216",
+   "size": 3937096,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Gta5_Setting.tzst": {
+   "asset": "Gta5_Setting.tzst",
+   "bucket": "settings",
+   "md5": "870551a49cb491af5b1ea7b34af9f978",
+   "mtime": "2026-11-09T03:18:35Z",
+   "official_file": "Gta5_Setting.tzst",
+   "sha256": "fdc46e1f6ef1962165b6d63e54cecb11a77c5c778028d52ef8b74f35d2671426",
+   "size": 1064,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Hzd_Settings.tzst": {
+   "asset": "Hzd_Settings.tzst",
+   "bucket": "settings",
+   "md5": "563d3a4ce3085e0d718b0600f41b39ca",
+   "mtime": "2026-11-09T03:18:38Z",
+   "official_file": "Hzd_Settings.tzst",
+   "sha256": "3d7b7281ba0cb9438159f07cb4ed1f3cf73edc435b20564161b132f548767dd2",
+   "size": 2264951,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/ItTakesTwo.tzst": {
+   "asset": "ItTakesTwo.tzst",
+   "bucket": "settings",
+   "md5": "38d1bd16398c5e2c6ef6fb1d064ac1d9",
+   "mtime": "2026-11-09T03:18:40Z",
+   "official_file": "ItTakesTwo.tzst",
+   "sha256": "cc0ed0ec16b84572a5d1b182f3dbdad83084ad8794d6a4597939e84e08116136",
+   "size": 13835,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Kena_Settings.tzst": {
+   "asset": "Kena_Settings.tzst",
+   "bucket": "settings",
+   "md5": "bc72c3c58c670afc1d2f04bcd15ab90e",
+   "mtime": "2026-11-09T03:18:41Z",
+   "official_file": "Kena_Settings.tzst",
+   "sha256": "e45d634cf3298b34d17a7a7020cb8ff48008e32a8a7ff9784250bc7bf93d0b0a",
+   "size": 3531,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Msmm_Settings.tzst": {
+   "asset": "Msmm_Settings.tzst",
+   "bucket": "settings",
+   "md5": "e4c7e5bebcb3381f0133027134d51f17",
+   "mtime": "2026-11-09T03:18:47Z",
+   "official_file": "Msmm_Settings.tzst",
+   "sha256": "2bce42e4ba8b30a46bfee23ab1540c9e4409bfcbe9fc354a96eceb1f156718ee",
+   "size": 29829,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/NFS17.tzst": {
+   "asset": "NFS17.tzst",
+   "bucket": "settings",
+   "md5": "83dda09285a2054f707fd4fa3535c165",
+   "mtime": "2026-11-09T03:18:48Z",
+   "official_file": "NFS17.tzst",
+   "sha256": "5da2882dc7e2e657650108489d1e305c8730a13017cadc8a9829d79441b59fbf",
+   "size": 118880,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Pal7s_Settings.tzst": {
+   "asset": "Pal7s_Settings.tzst",
+   "bucket": "settings",
+   "md5": "33d9c13e03d358bc8d6a54ef17cfe6cc",
+   "mtime": "2026-11-09T03:18:49Z",
+   "official_file": "Pal7s_Settings.tzst",
+   "sha256": "638ff7e37d3b8e99f7fc17133c2105d77c4d04e075ddc88b8bcc8f4f702d18c9",
+   "size": 76162,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Rev_Settings.tzst": {
+   "asset": "Rev_Settings.tzst",
+   "bucket": "settings",
+   "md5": "a889c50558991f086ff308a3b543b1ab",
+   "mtime": "2026-11-09T03:18:51Z",
+   "official_file": "Rev_Settings.tzst",
+   "sha256": "d0aa35e494cfe813f142123628aeefd8c12dced3d2177a3afb9250af44812ccb",
+   "size": 385595,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Riders_Settings.tzst": {
+   "asset": "Riders_Settings.tzst",
+   "bucket": "settings",
+   "md5": "835f0f81689a451c68b05d22279b5a05",
+   "mtime": "2026-11-09T03:18:52Z",
+   "official_file": "Riders_Settings.tzst",
+   "sha256": "e7356765e40cd26e69905b20a629ea3d1575ad80681f98733169c1c579ce0ac0",
+   "size": 5579,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Rock_Settings.tzst": {
+   "asset": "Rock_Settings.tzst",
+   "bucket": "settings",
+   "md5": "5182f7fa5baa82f7b65524eb682b3a23",
+   "mtime": "2026-11-09T03:18:54Z",
+   "official_file": "Rock_Settings.tzst",
+   "sha256": "47a6927f3fe31f3bc94eb8708bdd89875b0030b3cf909e96a38360400e87500c",
+   "size": 8532232,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/SKR_Settings.tzst": {
+   "asset": "SKR_Settings.tzst",
+   "bucket": "settings",
+   "md5": "2a0597f2eb180cb9d2267c1d5093c9eb",
+   "mtime": "2026-11-09T03:18:57Z",
+   "official_file": "SKR_Settings.tzst",
+   "sha256": "528de947e5f9a44d35b06ac60325422edc5faeab774eb5cf86e4a06290060051",
+   "size": 109714,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/TESV_Settings.tzst": {
+   "asset": "TESV_Settings.tzst",
+   "bucket": "settings",
+   "md5": "bdba9041455ed62ec9013edee142b784",
+   "mtime": "2026-11-09T03:19:00Z",
+   "official_file": "TESV_Settings.tzst",
+   "sha256": "88472371c52a973330e1dd3173b545bc7c417d0b9500930b7a88f5ec711dd07c",
+   "size": 4133,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/TheWitcher2.tzst": {
+   "asset": "TheWitcher2.tzst",
+   "bucket": "settings",
+   "md5": "6465fcf36f660cf4134a0ee2606a6840",
+   "mtime": "2026-11-09T03:19:03Z",
+   "official_file": "TheWitcher2.tzst",
+   "sha256": "f6880deae98d589723288659f32b0d04c185aecacbafd30c4b689156b33728cf",
+   "size": 813073,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WUCHANG.tzst": {
+   "asset": "WUCHANG.tzst",
+   "bucket": "settings",
+   "md5": "f355b90beebafc1b2f251a0d4c2d27aa",
+   "mtime": "2026-11-09T03:20:41Z",
+   "official_file": "WUCHANG.tzst",
+   "sha256": "99bb86efafb3a4007c28bf0af0efb2f516975ead04b640ad2b4d52d119351889",
+   "size": 27969,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/WUKONG.tzst": {
+   "asset": "WUKONG.tzst",
+   "bucket": "settings",
+   "md5": "10fa8b5e104e32bd5f59b52e7dcf436f",
+   "mtime": "2026-11-09T03:20:42Z",
+   "official_file": "WUKONG.tzst",
+   "sha256": "0c5cb9b4c68c7c36bbfd4ae89a018fb76355c80d1bff7d3e1cdb0dccf810087a",
+   "size": 28319,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/Wine.tzst": {
+   "asset": "Wine.tzst",
+   "bucket": "settings",
+   "md5": "8c434506ff7e8fbe72b207698d4940cb",
+   "mtime": "2026-11-09T03:19:05Z",
+   "official_file": "Wine.tzst",
+   "sha256": "bd668abb9b30ea29c86733cad9d4b53d2937a6a41240f661f0b93eff2afa22e0",
+   "size": 69486,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/a53518feaa1213130be8cf045537ceb6.tzst": {
+   "asset": "Absolum.tzst",
+   "bucket": "settings",
+   "md5": "a53518feaa1213130be8cf045537ceb6",
+   "mtime": "2026-11-09T03:17:55Z",
+   "official_file": "a53518feaa1213130be8cf045537ceb6.tzst",
+   "sha256": "d67df020f5ff44d9e7baafa279405553278e40818a0f1c5e26684b2d9a1648ca",
+   "size": 1675,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/b1cd740e61ca79e7743755a37221b354.tzst": {
+   "asset": "MetroExodus_Settings.tzst",
+   "bucket": "settings",
+   "md5": "b1cd740e61ca79e7743755a37221b354",
+   "mtime": "2026-11-09T03:18:44Z",
+   "official_file": "b1cd740e61ca79e7743755a37221b354.tzst",
+   "sha256": "bcff541d90bfe1701a0e3c5ae5eee8b8baf8b0e9038eb6a2d1c23a7a778147f9",
+   "size": 3403,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/b43c7da08a4557f041bdf54ed93d9d95.tzst": {
+   "asset": "WRC10.tzst",
+   "bucket": "settings",
+   "md5": "b43c7da08a4557f041bdf54ed93d9d95",
+   "mtime": "2026-11-09T03:20:39Z",
+   "official_file": "b43c7da08a4557f041bdf54ed93d9d95.tzst",
+   "sha256": "ddafa1a827280f12f47472ae6da6cae3f2dfe5cad77bdafa489afbe6a1330429",
+   "size": 1339,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/base_v101.tzst": {
+   "asset": "base.tzst",
+   "bucket": "settings",
+   "md5": "96df60f3cff612a9747e56cae9d4c6e8",
+   "mtime": "2026-11-09T03:18:04Z",
+   "official_file": "base_v101.tzst",
+   "sha256": "ffc1af444d376fc8eded634fa10d8cde4dfd03a0afb17973bb160e0898ae5118",
+   "size": 83424612,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/c1ef2ce110c16e540b772e96678f5311.tzst": {
+   "asset": "DyingLight_Settings.tzst",
+   "bucket": "settings",
+   "md5": "c1ef2ce110c16e540b772e96678f5311",
+   "mtime": "2026-11-09T03:18:17Z",
+   "official_file": "c1ef2ce110c16e540b772e96678f5311.tzst",
+   "sha256": "11391145afb3e8b77fbe9f34de5fa71e182a0e63fe2c953108d03f6519bec8cd",
+   "size": 1176,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/d29609bed803165de777bafa8cff629d.tzst": {
+   "asset": "A_Plague_Settings.tzst",
+   "bucket": "settings",
+   "md5": "d29609bed803165de777bafa8cff629d",
+   "mtime": "2026-11-09T03:17:54Z",
+   "official_file": "d29609bed803165de777bafa8cff629d.tzst",
+   "sha256": "bc20df83d1d6c37d46c9ab58496f5af1a75db316f05564a54d24da785667f9c2",
+   "size": 845,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/fa20b2979210b8f2e37c3900095260b1.tzst": {
+   "asset": "Massive_Settings.tzst",
+   "bucket": "settings",
+   "md5": "fa20b2979210b8f2e37c3900095260b1",
+   "mtime": "2026-11-09T03:18:42Z",
+   "official_file": "fa20b2979210b8f2e37c3900095260b1.tzst",
+   "sha256": "f8e198e83e9fc79b279a307293d9747d05b49be448899b3949cfbbdecb38d77b",
+   "size": 261610,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/goldberg.tzst": {
+   "asset": "goldberg.tzst",
+   "bucket": "settings",
+   "md5": "ecc9740c99861fd4227558afc107bb7d",
+   "mtime": "2026-11-09T03:18:24Z",
+   "official_file": "goldberg.tzst",
+   "sha256": "cf8bcaf35cf703219e466ef2ddb7dd7823eeca3fbcc68f304e272bc87c79fc3f",
+   "size": 8714599,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/gujian3.tzst": {
+   "asset": "gujian3.tzst",
+   "bucket": "settings",
+   "md5": "cff349f49c97ad7183b5fc3199552a7a",
+   "mtime": "2026-11-09T03:18:37Z",
+   "official_file": "gujian3.tzst",
+   "sha256": "c74d8ee2a159064c5a470ef3ce76c2693d229fa848ac2db08d2acdc713bf9b7e",
+   "size": 632,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/mediafoundation_lite.tzst": {
+   "asset": "mediafoundation_lite.tzst",
+   "bucket": "settings",
+   "md5": "570283343affa6668e57d3c88c959d77",
+   "mtime": "2026-11-09T03:18:43Z",
+   "official_file": "mediafoundation_lite.tzst",
+   "sha256": "451a4681ce1b9f14219873fb24aa8b61ec804b28891194b9fb9196580825fa4d",
+   "size": 2729180,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/steamagent.tar.zst": {
+   "asset": "steamagent.zst",
+   "bucket": "settings",
+   "md5": "5a27f72e5e93f9b73b4c0d37bd5916cc",
+   "mtime": "2026-11-09T03:18:58Z",
+   "official_file": "steamagent.tar.zst",
+   "sha256": "402fa0f12ec9571993aacafde0bf5eacdfc101963a2688c09288f9842af6b500",
+   "size": 1947595,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_10.0.tar.zst": {
+   "asset": "wine_10.0.zst",
+   "bucket": "settings",
+   "md5": "66e25e9a8fde74e8feb4e3b2ba9f6201",
+   "mtime": "2026-11-09T03:19:43Z",
+   "official_file": "wine_10.0.tar.zst",
+   "sha256": "5c47abf61322e4db095024a49ec8d20c845c01d65f98b51e2b4435f5441c38ec",
+   "size": 163346754,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_10.6_arm64x-2.tar.zst": {
+   "asset": "wine_10.6_arm64x-2.zst",
+   "bucket": "settings",
+   "md5": "aeb9ee7dccf887d5d543963ce823f1cc",
+   "mtime": "2026-11-09T03:19:54Z",
+   "official_file": "wine_10.6_arm64x-2.tar.zst",
+   "sha256": "750eaf165da457fb9fbff9821d961a918abacc8ad6ccd02d9a783acc0acec0fa",
+   "size": 220083873,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_9.13.tar.zst": {
+   "asset": "wine_9.13.zst",
+   "bucket": "settings",
+   "md5": "7b17485af1933955f2cb82958b7d45b7",
+   "mtime": "2026-11-09T03:19:22Z",
+   "official_file": "wine_9.13.tar.zst",
+   "sha256": "10e0c4e42cef8955578535fabbb6326b68e89e2b28af2f3adbfa929562d117de",
+   "size": 154179227,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_9.16.tar.zst": {
+   "asset": "wine_9.16.zst",
+   "bucket": "settings",
+   "md5": "830a254f9b3c92aa850a502621037ae9",
+   "mtime": "2026-11-09T03:19:34Z",
+   "official_file": "wine_9.16.tar.zst",
+   "sha256": "5ad83f3e593599f2c47cfed2679c46d7438f466e76fda11259c11b46a008f65d",
+   "size": 153061370,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_9.5.tar.zst": {
+   "asset": "wine_9.5.zst",
+   "bucket": "settings",
+   "md5": "e78be524fd1b01fb7565eb01a9fd4187",
+   "mtime": "2026-11-09T03:19:14Z",
+   "official_file": "wine_9.5.tar.zst",
+   "sha256": "a06513534c53b19bff43097a0d58260141e1875d653aab5d3601416fc7f86fa9",
+   "size": 157199545,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton10.0-arm64x-5.5.tar.zst": {
+   "asset": "wine_proton10.0_arm64x-2.zst",
+   "bucket": "settings",
+   "md5": "70f5f263fb7c4d2932a099b277764341",
+   "mtime": "2026-11-09T03:20:37Z",
+   "official_file": "wine_proton10.0-arm64x-5.5.tar.zst",
+   "sha256": "485bc935b325c0c4176939b0cfe527d2b951b9e9bc85c81d82945ca5717cbc78",
+   "size": 237065859,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton_10.0_x64.tar.zst": {
+   "asset": "wine_proton_10.0_x64.zst",
+   "bucket": "settings",
+   "md5": "ac15e5a378b17aefd93adf360e875494",
+   "mtime": "2026-11-09T03:20:25Z",
+   "official_file": "wine_proton_10.0_x64.tar.zst",
+   "sha256": "cf753848bd8cf7665edd5389b50da903881bb28d86883b8fca5d882f76a9dd89",
+   "size": 164876854,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton_9.0_arm64x.tar.zst": {
+   "asset": "wine_proton_9.0_arm64x.zst",
+   "bucket": "settings",
+   "md5": "2ff6952b6eec0ef881e97bde57ddc8e6",
+   "mtime": "2026-11-09T03:20:07Z",
+   "official_file": "wine_proton_9.0_arm64x.tar.zst",
+   "sha256": "e35b0a452d6c84653d57eae049c8638a0835c3d5db5ca6e06b83afd1b674c599",
+   "size": 211725844,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton_9.0_x64.tar.zst": {
+   "asset": "wine_proton_9.0_x64.zst",
+   "bucket": "settings",
+   "md5": "83b3a2a16f7d643ce366c8ad686cbcf7",
+   "mtime": "2026-11-09T03:20:16Z",
+   "official_file": "wine_proton_9.0_x64.tar.zst",
+   "sha256": "f04050e95461be7cca29bd8df6b754ad9cd455a7a05e9c6b651b3e09f1d3a607",
+   "size": 156893611,
+   "source": "gamehub"
+  }
+ },
+ "updated": "2026-11-09T03:20:42Z"
+}
