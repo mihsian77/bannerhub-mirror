@@ -1,0 +1,104 @@
+{
+ "mirrored": {
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/26b2cbf4738b74bb257c1877ade9a1cb.tzst": {
+   "asset": "26b2cbf4738b74bb257c1877ade9a1cb.tzst",
+   "bucket": "vkd3d",
+   "md5": "26b2cbf4738b74bb257c1877ade9a1cb",
+   "mtime": "2026-11-09T02:08:13Z",
+   "sha256": "1784873a1c18ba91192e4ae0a6b24b0fddebbaa28afe4562233899841250f51d",
+   "size": 5178980,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/53df43b4a543dad5b0e4b892954d66a9.tzst": {
+   "asset": "53df43b4a543dad5b0e4b892954d66a9.tzst",
+   "bucket": "vkd3d",
+   "md5": "53df43b4a543dad5b0e4b892954d66a9",
+   "mtime": "2026-11-09T02:08:11Z",
+   "sha256": "40455026bea194594fcd3c95a363da8d5b95f6700e22336d965d25d37f50440a",
+   "size": 5011555,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/61957eab69e72d5ab1da83675bf5aee8.tzst": {
+   "asset": "61957eab69e72d5ab1da83675bf5aee8.tzst",
+   "bucket": "vkd3d",
+   "md5": "61957eab69e72d5ab1da83675bf5aee8",
+   "mtime": "2026-11-09T02:08:14Z",
+   "sha256": "43dd1d815689d1aa72dc0c887be63d02e53304182304aa5aa28ba40cc6ac1dab",
+   "size": 3144152,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/62d36c28a5987a67f9d4701004d8fc14.tzst": {
+   "asset": "62d36c28a5987a67f9d4701004d8fc14.tzst",
+   "bucket": "vkd3d",
+   "md5": "62d36c28a5987a67f9d4701004d8fc14",
+   "mtime": "2026-11-09T02:08:16Z",
+   "sha256": "7f316dc16777bf8feeb163b4a2e5b2bee485639ebbf5a256936abaed5b7bf6ff",
+   "size": 4638101,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/96bc280612ec6505f0e44b8f1509ff29.tzst": {
+   "asset": "96bc280612ec6505f0e44b8f1509ff29.tzst",
+   "bucket": "vkd3d",
+   "md5": "96bc280612ec6505f0e44b8f1509ff29",
+   "mtime": "2026-11-09T02:08:20Z",
+   "sha256": "4f3ccb0583e12bf38a1218f953d1b5a7cd716b92ae136cbf37736195114cef03",
+   "size": 3993549,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/b5a082174974219f43c7e3a220eca0e7.tzst": {
+   "asset": "b5a082174974219f43c7e3a220eca0e7.tzst",
+   "bucket": "vkd3d",
+   "md5": "b5a082174974219f43c7e3a220eca0e7",
+   "mtime": "2026-11-09T02:08:17Z",
+   "sha256": "91d0ecb2989e69629e19bfbc39801fd7a9859b2cc8570a5b83fcfce495b2aab8",
+   "size": 3983811,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/c2015804d631059ac2dfbff18e71fcde.tzst": {
+   "asset": "c2015804d631059ac2dfbff18e71fcde.tzst",
+   "bucket": "vkd3d",
+   "md5": "c2015804d631059ac2dfbff18e71fcde",
+   "mtime": "2026-11-09T02:08:09Z",
+   "sha256": "1400528e6df1f696a1423d476e3105189f3b1e52d2ec817ca1090d35cb1179cf",
+   "size": 5011478,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/d3d3b4b51d56dbfe61864221865de168.tzst": {
+   "asset": "d3d3b4b51d56dbfe61864221865de168.tzst",
+   "bucket": "vkd3d",
+   "md5": "d3d3b4b51d56dbfe61864221865de168",
+   "mtime": "2026-11-09T02:08:19Z",
+   "sha256": "968c690901be62992dbced08c2806374e5a6839507bf850d067205af3b2abaf6",
+   "size": 4274656,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vkd3d-2.12.tzst": {
+   "asset": "vkd3d-2.12.tzst",
+   "bucket": "vkd3d",
+   "md5": "4f3e99438281f7749cb2b8b2412c9d10",
+   "mtime": "2026-11-09T02:08:05Z",
+   "sha256": "781ba6e7b3aa12a9dd24627cc8e00f057602a247ba6ed9dfe39895f4193bbf3e",
+   "size": 2643215,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vkd3d-2.13.tzst": {
+   "asset": "vkd3d-2.13.tzst",
+   "bucket": "vkd3d",
+   "md5": "274a6e0b499c8f912205cf41e0be2f58",
+   "mtime": "2026-11-09T02:08:07Z",
+   "sha256": "aacaede5fdada3a1537e896bb5c3e2737ecb94901bd57ece0c09180b866bf935",
+   "size": 2654863,
+   "source": "gamehub"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/vkd3d-proton-2.14.1.tzst": {
+   "asset": "vkd3d-proton-2.14.1.tzst",
+   "bucket": "vkd3d",
+   "md5": "4b5207e61ac2cd7132fa67abca84e7f1",
+   "mtime": "2026-11-09T02:08:08Z",
+   "sha256": "766c49a0f2b32c1d87779b8f74ed79d684a64722c35169cf091fbbe2356aca00",
+   "size": 2959743,
+   "source": "gamehub"
+  }
+ },
+ "updated": "2026-11-09T02:08:20Z"
+}
