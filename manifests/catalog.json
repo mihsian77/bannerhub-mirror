@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-09T03:44:00Z",
+ "generated": "2026-11-09T03:57:13Z",
  "source": "https://the412banner.github.io/bannerhub-api/simulator/v2/getAllComponentList",
- "total": 702,
- "totalBytes": 7812760895,
+ "total": 701,
+ "totalBytes": 7812749027,
  "buckets": {
   "box64": 13,
   "fex": 31,
@@ -12,7 +12,7 @@
   "settings": 69,
   "runtime-yml": 122,
   "steam": 3,
-  "unindexed": 32,
+  "unindexed": 31,
   "runtimes-bin": 14,
   "system": 8,
   "wine": 5
@@ -9089,20 +9089,6 @@
    "size": 3906338,
    "md5": "3dcf8ebb7989c755a2c1ef9deef9074a",
    "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/3dcf8ebb7989c755a2c1ef9deef9074a.tzst"
-  },
-  {
-   "bucket": "unindexed",
-   "type": "release-extra",
-   "id": null,
-   "name": "45e60d211d35955bd045aabfded4e64b",
-   "display": "（未索引）45e60d211d35955bd045aabfded4e64b",
-   "version": "",
-   "gpu": "",
-   "asset": "45e60d211d35955bd045aabfded4e64b.png",
-   "official_file": "45e60d211d35955bd045aabfded4e64b.png",
-   "size": 11868,
-   "md5": "45e60d211d35955bd045aabfded4e64b",
-   "url": "https://github.com/The412Banner/bannerhub-api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png"
   },
   {
    "bucket": "unindexed",

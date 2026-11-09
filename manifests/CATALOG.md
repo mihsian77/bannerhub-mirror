@@ -2,7 +2,7 @@
 
 来源：`getAllComponentList` + `bannerhub-api` 的 `Components` release
 
-共 **702** 个文件，合计 **7.81 GB**。本表由 `tools/mirror.py --manifest` 生成，不要手改。
+共 **701** 个文件，合计 **7.81 GB**。本表由 `tools/mirror.py --manifest` 生成，不要手改。
 
 `资产名` 是 release 里实际的文件名，已从 md5 命名规范化为可读名；`官方文件名` 是 GameHub 目录/Release 里的原名，用于反查。
 
@@ -19,7 +19,7 @@
 | Wine / Proton 容器 | 5 | 1.18 GB |
 | 系统镜像（imagefs） | 8 | 1.37 GB |
 | 运行库安装包（msi / exe） | 14 | 0.31 GB |
-| 未索引的独有文件 | 32 | 0.87 GB |
+| 未索引的独有文件 | 31 | 0.87 GB |
 
 ## GPU 驱动（326）
 
@@ -746,7 +746,7 @@
 | （未索引）witcher32 |  | `witcher32.exe` | 0.1 MB |
 | （未索引）wuchang |  | `wuchang.exe` | 0.1 MB |
 
-## 未索引的独有文件（32）
+## 未索引的独有文件（31）
 
 | 名称 | 版本 | 资产名 | 大小 |
 | --- | --- | --- | ---: |
@@ -759,7 +759,6 @@
 | （未索引）216fccca808125c3c1eaf910cdbc32dd |  | `216fccca808125c3c1eaf910cdbc32dd.tzst` | 1.0 MB |
 | （未索引）3aaddd59e3a3d06948a441c3d34562ae |  | `3aaddd59e3a3d06948a441c3d34562ae.tzst` | 32.5 MB |
 | （未索引）3dcf8ebb7989c755a2c1ef9deef9074a |  | `3dcf8ebb7989c755a2c1ef9deef9074a.tzst` | 3.9 MB |
-| （未索引）45e60d211d35955bd045aabfded4e64b |  | `45e60d211d35955bd045aabfded4e64b.png` | 0.0 MB |
 | （未索引）4b6f415713ea9c4307aac0d880f1cd39 |  | `4b6f415713ea9c4307aac0d880f1cd39.tzst` | 3.4 MB |
 | （未索引）6008bf7c3ced2cafda0d4cfeb89e4ca8 |  | `6008bf7c3ced2cafda0d4cfeb89e4ca8.tzst` | 1.3 MB |
 | （未索引）6356a8a6906189edd93b4d401cc9b1ec |  | `6356a8a6906189edd93b4d401cc9b1ec.tzst` | 2.3 MB |
