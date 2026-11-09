@@ -53,6 +53,8 @@ jobs:
           b = set()
           for src in cfg["sources"]:
               b |= set((src.get("catalogBuckets") or {}).values())
+              for v in (src.get("splitBuckets") or {}).values():
+                  b |= set(v)
           b = sorted(b)
           want = "${{ github.event.inputs.bucket }}"
           if want:
