@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""bannerhub-mirror — 把 bannerhub 组件源指向的构建同步成本仓库 Release 资产。
+"""bannerhub-mirror — 把 GameHub 官方组件目录里的文件同步成本仓库 Release 资产。
 
-数据源只有 upstream.json 里那 7 个地址，不做别的猜测。
-每次运行按 state/index.json 判断哪些还没镜像，按体积/数量上限分批做，下次接上。
+数据源只有 upstream.json 里那一个地址：getAllComponentList。
+不在那份目录里的东西，一个都不镜像——这条是硬约束，不是默认值。
+每次运行按 state/<bucket>.json 判断哪些还没镜像，按体积/数量上限分批做，下次接上。
 """
 
 import argparse
@@ -28,41 +29,26 @@ API = "https://api.github.com"
 UA = "bannerhub-mirror/1.0 (+https://github.com/%s)" % (REPO or "bannerhub-mirror")
 
 BUCKET_TITLES = {
-    "box64": "Box64 / WOWBox64",
+    "box64": "Box64",
     "dxvk": "DXVK",
-    "d7vk": "D7VK",
     "vkd3d": "VKD3D-Proton",
     "fex": "FEXCore",
-    "wine-proton": "Wine / Proton",
-    "drivers": "GPU 驱动（Adreno / Turnip）",
-    "settings": "游戏配置包",
+    "drivers": "GPU 驱动",
+    "settings": "游戏配置包与 Wine 容器",
     "steam": "Steam 客户端",
     "runtime-yml": "运行库定义（yml）",
 }
 
 BUCKET_BLURB = {
-    "box64": "x86_64 → ARM64 用户态转换层，含 WOWBox64 变体。",
-    "dxvk": "D3D9/10/11 → Vulkan，含 async、gplasync、arm64ec 等变体。",
-    "d7vk": "D3D7 → Vulkan。",
-    "vkd3d": "D3D12 → Vulkan。",
-    "fex": "FEXCore x86_64 → ARM64 转换层，含 arm64ec 变体。",
-    "wine-proton": "Wine 容器与 Proton 构建。",
-    "drivers": "Adreno / Turnip / Qualcomm 系列 GPU 驱动包。",
-    "settings": "官方目录 type=5 整体：60 个游戏配置包 + 10 个 Wine / Proton 容器。",
-    "steam": "Steam 客户端打包，官方目录里 type=7。",
-    "runtime-yml": "运行库条目定义，官方目录里 type=6，每项一个 yml。",
+    "box64": "GameHub 目录 type=1 中 Box64 系列，共 13 条。",
+    "fex": "GameHub 目录 type=1 中 FEXCore 系列，共 31 条。",
+    "dxvk": "GameHub 目录 type=3 整体，共 68 条。",
+    "vkd3d": "GameHub 目录 type=4 整体，共 11 条。",
+    "drivers": "GameHub 目录 type=2 整体，共 323 条，Adreno / Turnip / Qualcomm 驱动包。",
+    "settings": "GameHub 目录 type=5 整体，共 70 条：游戏配置包与 Wine / Proton 容器。",
+    "steam": "GameHub 目录 type=7 整体，共 3 条。",
+    "runtime-yml": "GameHub 目录 type=6 整体，共 121 条，每项一个运行库定义 yml。",
 }
-
-FAMILY_HINTS = [
-    (("box64", "wowbox64"), "Box64"),
-    (("fex",), "FEXCore"),
-    (("vkd3d",), "VKD3D"),
-    (("d7vk",), "D7VK"),
-    (("dxvk",), "DXVK"),
-    (("proton",), "Proton"),
-    (("wine",), "Wine"),
-    (("turnip", "adreno", "qualcomm", "mesa", "freedreno", "driver"), "GpuDriver"),
-]
 
 
 def log(*a):
@@ -84,75 +70,53 @@ def get_json(url, retries=4):
             time.sleep(2 * (i + 1))
 
 
-def guess_type(name, default=""):
-    n = name.lower()
-    for keys, t in FAMILY_HINTS:
-        if any(k in n for k in keys):
-            return t
-    return default
-
-
 def collect():
-    """读 7 个源，返回去重后的条目列表。"""
+    """读官方目录，返回去重后的条目列表。非 catalog 源一律忽略。"""
     cfg = json.load(open(UPSTREAM, encoding="utf-8"))
-    tmap = cfg["typeToBucket"]
     items, seen = [], set()
 
-    def add(name, url, typ, src, bucket=None, extra=None):
-        url = (url or "").strip()
-        if not url.startswith("http") or url in seen:
-            return
-        b = bucket or tmap.get(typ)
-        if not b:
-            return
-        seen.add(url)
-        rec = {
-            "bucket": b,
-            "type": typ or "",
-            "name": name or urllib.parse.unquote(url.rsplit("/", 1)[-1]),
-            "url": url,
-            "file": urllib.parse.unquote(url.rsplit("/", 1)[-1]),
-            "source": src,
-        }
-        if extra:
-            rec.update(extra)
-        items.append(rec)
-
     for s in cfg["sources"]:
+        if s.get("kind") != "catalog":
+            log("  !! 跳过非官方源 %s（本仓库只镜像 GameHub 目录内的文件）" % s["id"])
+            continue
         try:
             data = get_json(s["url"])
         except Exception as e:
             log("  !! %s 拉取失败: %s" % (s["id"], e))
             continue
 
-        if s.get("kind") == "catalog":
-            raw = (data or {}).get("data", {}).get("list")
-            lst = json.loads(raw) if isinstance(raw, str) else (raw or [])
-            cmap = s.get("catalogBuckets", {})
-            before = len(items)
-            for x in lst:
-                if not isinstance(x, dict):
-                    continue
-                typ = str(x.get("type"))
-                bucket = cmap.get(typ)
-                nm = (x.get("name") or "").lower()
-                if typ == "1":
-                    bucket = "box64" if ("box" in nm or "wow" in nm) else "fex"
-                add(x.get("name"), x.get("download_url"), "catalog-" + typ, s["id"],
-                    bucket=bucket,
-                    extra={"md5": x.get("file_md5") or "",
-                           "declared_size": x.get("file_size") or 0})
-            log("  %-14s %4d 条（新增 %d，累计 %d）" % (s["id"], len(lst), len(items) - before, len(items)))
-            continue
-
-        if not isinstance(data, list):
-            continue
-        for x in data:
+        raw = (data or {}).get("data", {}).get("list")
+        lst = json.loads(raw) if isinstance(raw, str) else (raw or [])
+        cmap = s.get("catalogBuckets", {})
+        before = len(items)
+        for x in lst:
             if not isinstance(x, dict):
                 continue
-            add(x.get("verName") or x.get("name"), x.get("remoteUrl") or x.get("url"),
-                x.get("type") or "", s["id"])
-        log("  %-14s %4d 条（累计 %d）" % (s["id"], len(data), len(items)))
+            typ = str(x.get("type"))
+            bucket = cmap.get(typ)
+            if typ == "1":  # 转换层里混着 Box64 和 FEXCore，按名字分
+                bucket = "box64" if "box" in (x.get("name") or "").lower() else "fex"
+            if not bucket:
+                continue
+            url = (x.get("download_url") or "").strip()
+            if not url.startswith("http") or url in seen:
+                continue
+            seen.add(url)
+            fname = urllib.parse.unquote(url.rsplit("/", 1)[-1])
+            items.append({
+                "bucket": bucket,
+                "type": "catalog-" + typ,
+                "name": x.get("name") or fname,
+                "display": x.get("display_name") or x.get("name") or fname,
+                "ver": x.get("version") or "",
+                "id": x.get("id"),
+                "url": url,
+                "file": fname,
+                "source": s["id"],
+                "md5": x.get("file_md5") or "",
+                "declared_size": x.get("file_size") or 0,
+            })
+        log("  %-14s %4d 条（新增 %d，累计 %d）" % (s["id"], len(lst), len(items) - before, len(items)))
     return items
 
 
@@ -294,23 +258,80 @@ def upload(rel, path, name):
         return json.loads(r.read())
 
 
+def write_manifest(items):
+    """把官方目录落成两份人类可读清单：JSON 给程序，Markdown 给人看。"""
+    os.makedirs(os.path.join(ROOT, "manifests"), exist_ok=True)
+    order = ["drivers", "box64", "fex", "dxvk", "vkd3d", "settings", "runtime-yml", "steam"]
+    labels = BUCKET_TITLES
+
+    doc = {
+        "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "source": json.load(open(UPSTREAM, encoding="utf-8"))["sources"][0]["url"],
+        "total": len(items),
+        "totalBytes": sum(i.get("declared_size", 0) for i in items),
+        "buckets": {},
+        "items": [],
+    }
+    for it in items:
+        doc["buckets"].setdefault(it["bucket"], 0)
+        doc["buckets"][it["bucket"]] += 1
+        doc["items"].append({
+            "bucket": it["bucket"], "type": it["type"], "id": it.get("id"),
+            "name": it["name"], "display": it["display"], "version": it["ver"],
+            "file": it["file"], "size": it.get("declared_size", 0),
+            "md5": it["md5"], "url": it["url"],
+        })
+    json.dump(doc, open(os.path.join(ROOT, "manifests", "catalog.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+
+    md = ["# GameHub 官方组件清单", "",
+          "来源：`getAllComponentList`（%s）" % doc["source"], "",
+          "共 **%d** 个文件，合计 **%.2f GB**。本表由 `tools/mirror.py --manifest` 生成，不要手改。"
+          % (doc["total"], doc["totalBytes"] / 1e9), "",
+          "| 分类 | 条数 | 体积 |", "| --- | ---: | ---: |"]
+    for b in order:
+        if b not in doc["buckets"]:
+            continue
+        s = sum(i["size"] for i in doc["items"] if i["bucket"] == b)
+        md.append("| %s | %d | %.2f GB |" % (labels.get(b, b), doc["buckets"][b], s / 1e9))
+    md.append("")
+    for b in order:
+        rows = [i for i in doc["items"] if i["bucket"] == b]
+        if not rows:
+            continue
+        md += ["## %s（%d）" % (labels.get(b, b), len(rows)), "",
+               "| 名称 | 版本 | 文件 | 大小 |", "| --- | --- | --- | ---: |"]
+        for i in sorted(rows, key=lambda x: (x["name"] or "").lower()):
+            md.append("| %s | %s | `%s` | %.1f MB |"
+                      % (i["display"], i["version"], i["file"], i["size"] / 1e6))
+        md.append("")
+    open(os.path.join(ROOT, "manifests", "CATALOG.md"), "w", encoding="utf-8").write("\n".join(md))
+    log("  清单已写入 manifests/catalog.json 与 manifests/CATALOG.md")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sync", action="store_true", help="下载并上传缺失资产")
     ap.add_argument("--check", action="store_true", help="只对比，不下载")
+    ap.add_argument("--manifest", action="store_true", help="只重写 manifests 清单")
     ap.add_argument("--max-gb", type=float, default=3.0, help="单次下载体积上限")
     ap.add_argument("--max-files", type=int, default=400, help="单次文件数上限")
     ap.add_argument("--bucket", default="", help="只处理某个分类")
     a = ap.parse_args()
 
-    if not REPO or not TOKEN:
-        raise SystemExit("需要 MIRROR_REPO 与 GH_TOKEN")
-
-    log("== 采集上游清单")
+    log("== 采集官方目录")
     items = collect()
     if a.bucket:
         items = [i for i in items if i["bucket"] == a.bucket]
-    log("合计 %d 条" % len(items))
+    log("合计 %d 个文件，%.2f GB"
+        % (len(items), sum(i.get("declared_size", 0) for i in items) / 1e9))
+
+    if a.manifest:
+        write_manifest(collect())
+        return
+
+    if not REPO or not TOKEN:
+        raise SystemExit("需要 MIRROR_REPO 与 GH_TOKEN")
 
     st = load_state(a.bucket)
     mirrored = st.get("mirrored", {})

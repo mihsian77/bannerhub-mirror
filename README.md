@@ -1,79 +1,85 @@
 # bannerhub-mirror
 
-`bannerhub-revanced` 所索引的组件构建，在这里留一份。
+**GameHub 官方组件文件的完整备份。**
 
-组件项目的构建产物长期挂在个人 GitHub Release 下，删库、改 tag、清资产都发生过。这个仓库不做别的事：**按上游清单把文件取过来，贴上校验值，按类别放好**。下游（Android 上的 Windows 兼容层 / 容器类应用）可以直接从这里取，不必担心某天上游没了。
+客户端能下载的每一个组件，都在这个仓库里留了一份原样副本：同一个文件名、同一份字节，附上 MD5 与 SHA-256。上游某个 release 被删、被改 tag、资产被清空的时候，这里还能取到。
+
+这个仓库不是「我们项目用到的组件列表」，也不是某个作者的个人构建合集。判定标准只有一条：**在不在 GameHub 的官方组件目录里**。
 
 ## 数据源
 
-全部来自 `bannerhub-revanced` 的 `BhComponentRepo.REPOS`，原样转录在 [`upstream.json`](upstream.json)，脚本只认这一份文件。
+唯一来源：
 
-| 源 | 提供 |
-|---|---|
-| [Arihany/WinlatorWCPHub](https://github.com/Arihany/WinlatorWCPHub) | DXVK / VKD3D-Proton / FEXCore 的 `.wcp` |
-| [The412Banner/Nightlies](https://github.com/The412Banner/Nightlies) | Box64 / FEX / DXVK / VKD3D / D7VK / Wine / Proton 全量构建 |
-| Kimchi / StevenMXZ / MTR / Whitebelyash | Adreno / Turnip 驱动 zip |
-| [bannerhub-api 目录](https://the412banner.github.io/bannerhub-api/simulator/v2/getAllComponentList) | 整理后的组件目录，每条带 `file_md5` / `file_size` / 下载地址 |
+```
+https://the412banner.github.io/bannerhub-api/simulator/v2/getAllComponentList
+```
+
+这是客户端启动时拉的组件清单，返回 640 条，每条带 `display_name` / `name` / `version` / `file_name` / `file_md5` / `file_size` / `download_url`。640 条去重后是 **639 个文件、4.07 GB**，全部托管在 `The412Banner/bannerhub-api` 的 `Components` release 下。
+
+`upstream.json` 里只有这一个源。脚本遇到非 `catalog` 类型的源会直接跳过并打警告——多加一个源，这个仓库就不再是「官方备份」了。
+
+> 目录里 307 条的 `display_name` 是空的，`file_name` 又常常是 `md5.tzst`，看着像「没有名字」。真实名称在 `name` 字段里（如 `Box64-0.4.4-Bionic`、`dxvk-1.7.3`），[`manifests/CATALOG.md`](manifests/CATALOG.md) 已按分类整理成人能读的表。
 
 ## 分类
 
-| Release | 内容 |
-|---|---|
-| [`box64`](../../releases/tag/box64) | Box64 与 WOWBox64 |
-| [`fex`](../../releases/tag/fex) | FEXCore |
-| [`dxvk`](../../releases/tag/dxvk) | DXVK（含 async / gplasync / arm64ec 变体） |
-| [`vkd3d`](../../releases/tag/vkd3d) | VKD3D-Proton |
-| [`d7vk`](../../releases/tag/d7vk) | D7VK |
-| [`wine-proton`](../../releases/tag/wine-proton) | Wine 容器与 Proton |
-| [`drivers`](../../releases/tag/drivers) | Adreno / Turnip / Qualcomm 驱动 |
-| [`settings`](../../releases/tag/settings) | 官方目录 type=5：60 个游戏配置包 + 10 个 Wine / Proton 容器 |
-| [`steam`](../../releases/tag/steam) | Steam 客户端打包 |
-| [`runtime-yml`](../../releases/tag/runtime-yml) | 运行库条目定义，每项一个 yml |
+按官方目录的 `type` 字段切分，一一对应，不加不减：
 
-单目录 640 条实测 4.07 GB，其中配置包与驱动各占 1 GB 以上；社区源再补 1504 条、8.59 GB。
+| Release | type | 条数 | 体积 | 内容 |
+|---|---:|---:|---:|---|
+| [`drivers`](../../releases/tag/drivers) | 2 | 323 | 1.14 GB | Adreno / Turnip / Qualcomm 驱动包 |
+| [`settings`](../../releases/tag/settings) | 5 | 69 | 1.85 GB | 游戏配置包 + Wine / Proton 容器 |
+| [`runtime-yml`](../../releases/tag/runtime-yml) | 6 | 121 | <0.01 GB | 运行库定义，每项一个 yml |
+| [`dxvk`](../../releases/tag/dxvk) | 3 | 68 | 0.66 GB | DXVK |
+| [`fex`](../../releases/tag/fex) | 1 | 31 | 0.17 GB | FEXCore |
+| [`box64`](../../releases/tag/box64) | 1 | 13 | 0.06 GB | Box64 |
+| [`vkd3d`](../../releases/tag/vkd3d) | 4 | 11 | 0.04 GB | VKD3D-Proton |
+| [`steam`](../../releases/tag/steam) | 7 | 3 | 0.15 GB | Steam 客户端打包 |
+| **合计** | | **639** | **4.07 GB** | |
+
+`type=1` 是转换层，里面 Box64 和 FEXCore 混在一起，按 `name` 前缀拆成两个 Release。其余 type 与 Release 严格一对一。
+
+资产名保持官方原名，不重命名——这样 `download_url` 的末段可以直接对上资产名，URL 能原样还原。
 
 直链形如：
 
 ```
-https://github.com/<owner>/bannerhub-mirror/releases/download/dxvk/DXVK-v2.7.1.zip
+https://github.com/mihsian77/bannerhub-mirror/releases/download/dxvk/dxvk-1.7.3.tzst
 ```
 
-`tag` 固定，文件只增不删，所以 URL 可以硬编码。
+`tag` 固定，文件只增不删，URL 可以硬编码。
 
 ## 目录
 
 ```
-upstream.json          七个源 + 类型到分类的映射
-manifests/*.json       各分类的条目清单（名称 / 上游地址 / 校验值）
-state/<bucket>.json    已镜像文件 → 大小 / sha256 / 资产名
-tools/mirror.py        同步脚本，标准库实现，无依赖
-.github/workflows/     每天 03:00 (Asia/Shanghai) 自动跑
+upstream.json              唯一数据源 + type → Release 的映射
+manifests/catalog.json     全部 639 条的机读清单（含 md5 / 大小 / 原 URL）
+manifests/CATALOG.md       同一份清单的人读版，按分类排列
+state/<bucket>.json        已镜像文件 → 大小 / sha256 / md5 / 资产名
+tools/mirror.py            同步脚本，标准库实现，无依赖
+.github/workflows/         每天 03:00 (Asia/Shanghai) 自动跑
 ```
 
 ## 自动跟随
 
-每天定时任务按分类并行拉取：比对 `state/<bucket>.json` → 只下载缺失的 → 上传到对应 Release → 回写状态。单分类上限 12 GB / 3000 个文件，超出的下一轮继续，不会半途丢进度。
+每天定时按分类并行跑：拉官方目录 → 比对 `state/<bucket>.json` → 只下载缺的 → 校验 MD5 → 上传到对应 Release → 回写状态。MD5 与目录声明不符的直接丢弃、不记入状态，下一轮重试。
 
-GitHub 对单个 Release 的资产数上限是 1000，分类超过这个数会自动开 `drivers-2`、`drivers-3` 这样的分片，`state` 里记的是实际落到的 tag。
-
-首次全量约 2100 个文件、12 GB。GitHub 对短时间内的批量上传有风控，超过一定量会返回 403，脚本会跳过并在下一轮补 —— 所以第一次跑完可能需要两三天才真正齐，之后每天只增量几条，不会再触发。
+8 个分类各自一个 Release，最大的 `drivers` 是 323 个资产，远低于 GitHub 单 Release 1000 个资产的上限，不需要分片。
 
 手动触发：
 
 ```bash
 GH_TOKEN=xxx MIRROR_REPO=owner/bannerhub-mirror \
-  python3 tools/mirror.py --sync --bucket dxvk --max-gb 12
+  python3 tools/mirror.py --sync --bucket dxvk
 python3 tools/mirror.py --check        # 只看差多少，不下载
+python3 tools/mirror.py --manifest     # 重写 manifests/ 两份清单
 ```
 
 ## 边界
 
-- 只转存**上游公开发布**的构建产物，仓库里没有本仓库自己的二进制。
-- 不含任何客户端软件的私有文件、资源或接口参数；不涉及对任何客户端的修改。
-- 不托管游戏本体、Steam / Epic 内容、付费资源。
-- 每个文件的权利归其上游作者。本仓库只做保留备份与分发，遇到作者异议即下架对应资产。
+- 只转存 GameHub 官方目录里列出的文件，不做任何第三方源的聚合，也没有本仓库自己的二进制。
+- 不含客户端的私有接口参数、资源或修改；不涉及对客户端的任何改动。
+- 不托管游戏本体、Steam / Epic 内容、付费资源。`steam` 分类是官方目录本来就下发的客户端打包，照原样留档。
+- 每个文件的权利归其上游作者。本仓库只做保留备份，收到作者异议即下架对应资产。
 - 本仓库自身代码为 MIT。
 
-> 上游清单本身可能滞后于真实发布。`manifests/` 里的条目数是镜像启动时的快照，`state/` 才是实际已备到的文件。
->
-> 已知上游缺文件：`Resident Evil 3`、`Torchlight II`、`WRC 9` 三条约目录里有、`bannerhub-api` 的 release 里没有，两种文件名写法都是 404。补不了，等上游自己修。
+> 已知上游缺文件：`Resident Evil 3`、`Torchlight II`、`WRC 9` 三条例在目录里、`bannerhub-api` 的 release 里却没有，两种文件名写法都是 404。补不了，等上游自己修。

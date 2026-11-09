@@ -12,7 +12,7 @@ on:
       max_gb:
         description: "单个分类的体积上限（GB）"
         required: false
-        default: "12"
+        default: "5"
 
 permissions:
   contents: write
@@ -28,12 +28,29 @@ jobs:
       buckets: ${{ steps.set.outputs.buckets }}
     steps:
       - uses: actions/checkout@v4
+
+      - name: 生成清单
+        run: python3 tools/mirror.py --manifest
+
+      - name: 提交清单
+        run: |
+          git config user.name "bannerhub-mirror"
+          git config user.email "noreply@github.com"
+          git add manifests
+          if git diff --cached --quiet; then echo "清单无变化"; exit 0; fi
+          git commit -m "manifest: $(date -u +%Y-%m-%d)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "清单推送失败，不影响同步"
+
       - id: set
         run: |
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import json
           cfg = json.load(open("upstream.json"))
-          b = set(cfg["typeToBucket"].values())
+          b = set()
           for src in cfg["sources"]:
               b |= set((src.get("catalogBuckets") or {}).values())
           b = sorted(b)
@@ -49,11 +66,13 @@ jobs:
     timeout-minutes: 350
     strategy:
       fail-fast: false
-      max-parallel: 7
+      max-parallel: 4
       matrix:
         bucket: ${{ fromJSON(needs.plan.outputs.buckets) }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: 同步 ${{ matrix.bucket }}
         env:
@@ -62,8 +81,8 @@ jobs:
         run: |
           python3 tools/mirror.py --sync \
             --bucket "${{ matrix.bucket }}" \
-            --max-gb "${{ github.event.inputs.max_gb || '12' }}" \
-            --max-files 3000
+            --max-gb "${{ github.event.inputs.max_gb || '5' }}" \
+            --max-files 400
 
       - name: 记录进度
         run: |
@@ -75,7 +94,7 @@ jobs:
           fi
           git commit -m "state: ${{ matrix.bucket }} $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+            git pull --rebase --autostash origin main && git push && exit 0
             sleep $((i * 5))
           done
           echo "state 推送失败，下轮会重新比对"; exit 0
