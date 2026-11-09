@@ -1,0 +1,55 @@
+{
+ "mirrored": {
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton10.0-arm64x-2.tar.zst": {
+   "asset": "wine_proton10.0-arm64x-2.tar.zst",
+   "bucket": "wine",
+   "md5": "6dcb13706c9c7720b074ee020ce39bbc",
+   "mtime": "2026-11-09T03:20:34Z",
+   "official_file": "wine_proton10.0-arm64x-2.tar.zst",
+   "sha256": "5b774eeb199655c99d7980a378ee00cbdc6b02f5588cf40fd1f40581a653c91b",
+   "size": 216807973,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton10.0-arm64x-5.1.tar.zst": {
+   "asset": "wine_proton10.0-arm64x-5.1.tar.zst",
+   "bucket": "wine",
+   "md5": "f855339e3d05b3824538c462548c06c3",
+   "mtime": "2026-11-09T03:20:50Z",
+   "official_file": "wine_proton10.0-arm64x-5.1.tar.zst",
+   "sha256": "12c54a1da0b2ae55c0092ed93719690ff56568caa3f7a243591e04923903a82f",
+   "size": 235985629,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton10.0-arm64x-5.4.tar.zst": {
+   "asset": "wine_proton10.0-arm64x-5.4.tar.zst",
+   "bucket": "wine",
+   "md5": "3dcf8ebb7989c755a2c1ef9deef9074a",
+   "mtime": "2026-11-09T03:21:08Z",
+   "official_file": "wine_proton10.0-arm64x-5.4.tar.zst",
+   "sha256": "0c9bcfda10425c9bab4da2ee0a90366c192e97c1ed2e7bae84ae134dcdac6e44",
+   "size": 237038746,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton11.0-arm64x-6.16.tar.zst": {
+   "asset": "wine_proton11.0-arm64x-6.16.tar.zst",
+   "bucket": "wine",
+   "md5": "5ea665ac850fc38153adf1349c0c2b67",
+   "mtime": "2026-11-09T03:21:24Z",
+   "official_file": "wine_proton11.0-arm64x-6.16.tar.zst",
+   "sha256": "333dff30d3433fd2d96c2747d75addb840134427636c04e541327a51d09acd17",
+   "size": 252255525,
+   "source": "components"
+  },
+  "https://github.com/The412Banner/bannerhub-api/releases/download/Components/wine_proton_11.0_arm64x.tar.zst": {
+   "asset": "wine_proton_11.0_arm64x.tar.zst",
+   "bucket": "wine",
+   "md5": "ffcaf1de4ad715449f36fa3e80f8f44c",
+   "mtime": "2026-11-09T03:21:43Z",
+   "official_file": "wine_proton_11.0_arm64x.tar.zst",
+   "sha256": "2d135124b5cef370fc5477aec9f7a151c61eaadd5a8defee3d7ca6f106defbe1",
+   "size": 240592439,
+   "source": "components"
+  }
+ },
+ "updated": "2026-11-09T03:21:43Z"
+}
