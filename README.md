@@ -26,7 +26,7 @@
 - **36 个能看出是什么** —— `wine_proton11.0-arm64x-6.16.tar.zst`、`imagefs_142.zst`、`VC_redist.x64.exe`、`K-Lite_1982.exe` 这类，按内容归入 `wine` / `system` / `runtimes-bin`
 - **109 个文件名是纯 md5** —— 逐个比对后发现 **78 个的 md5 与目录里某条完全相同**，是同一份文件被另存了一份，直接剔除；剩下 **31 个真正独有**，归入 `unindexed`
 
-所以最终收录 **705 个文件 / 7.81 GB**。
+所以最终应收录 705 条，实际备到 **698 个文件 / 7.79 GB**——差的 7 条是上游真的没有（见文末缺件表）。
 
 > 关于「一堆 md5 名字的文件」：那是上游的上传习惯——同一份文件既用可读名存一份，又用内容 md5 存一份，目录只索引了可读名那份。本仓库不再保留重复件，且**资产名已全部规范化**，见下。
 
@@ -40,7 +40,7 @@ release 里的资产名是规范化后的可读名，不再是 `00e8a606…tzst`
 | `ce171769213ec56f46c0ab691d67ea95.tzst` | `turnip_v26.0.0_R1.tzst` |
 | `dxvk-1.7.3.tzst` | `dxvk-1.7.3.tzst` |
 
-原名、md5、官方 URL 全部记在 [`manifests/catalog.json`](manifests/catalog.json) 的 `official_file` / `md5` / `url` 字段，能反查回官方地址。人读版是 [`manifests/CATALOG.md`](manifests/CATALOG.md)，705 条按分类排好，含名称、版本、体积。
+原名、md5、官方 URL 全部记在 [`manifests/catalog.json`](manifests/catalog.json) 的 `official_file` / `md5` / `url` 字段，能反查回官方地址。人读版是 [`manifests/CATALOG.md`](manifests/CATALOG.md)，698 条按分类排好，含名称、版本、体积。
 
 改名不影响校验：GameHub 认的是文件内容的 md5，不是文件名。
 
@@ -48,8 +48,8 @@ release 里的资产名是规范化后的可读名，不再是 `00e8a606…tzst`
 
 | Release | 条数 | 体积 | 内容 |
 |---|---:|---:|---|
-| [`drivers`](../../releases/tag/drivers) | 326 | 1.14 GB | Adreno / Turnip / Qualcomm 驱动包 |
-| [`settings`](../../releases/tag/settings) | 69 | 1.85 GB | 游戏配置包（每款游戏一个） |
+| [`drivers`](../../releases/tag/drivers) | 323 | 1.13 GB | Adreno / Turnip / Qualcomm 驱动包 |
+| [`settings`](../../releases/tag/settings) | 68 | 1.85 GB | 游戏配置包（每款游戏一个） |
 | [`runtime-yml`](../../releases/tag/runtime-yml) | 122 | <0.01 GB | 运行库安装脚本 yml |
 | [`dxvk`](../../releases/tag/dxvk) | 68 | 0.66 GB | DXVK |
 | [`fex`](../../releases/tag/fex) | 31 | 0.17 GB | FEXCore |
@@ -57,10 +57,10 @@ release 里的资产名是规范化后的可读名，不再是 `00e8a606…tzst`
 | [`vkd3d`](../../releases/tag/vkd3d) | 11 | 0.04 GB | VKD3D-Proton |
 | [`steam`](../../releases/tag/steam) | 3 | 0.15 GB | Steam 客户端打包 |
 | [`wine`](../../releases/tag/wine) | 5 | 1.18 GB | Wine / Proton 容器镜像 |
-| [`system`](../../releases/tag/system) | 9 | 1.45 GB | imagefs 系统镜像与 base 包 |
+| [`system`](../../releases/tag/system) | 8 | 1.37 GB | imagefs 系统镜像与 base 包 |
 | [`runtimes-bin`](../../releases/tag/runtimes-bin) | 14 | 0.31 GB | 运行库安装包本体（VC++ / PhysX / wine-mono / K-Lite） |
-| [`unindexed`](../../releases/tag/unindexed) | 31 | 0.83 GB | 无索引独有文件，保留供比对 |
-| **合计** | **705** | **7.81 GB** | |
+| [`unindexed`](../../releases/tag/unindexed) | 32 | 0.86 GB | 无索引独有文件，保留供比对 |
+| **合计** | **698** | **7.79 GB** | |
 
 `type` 与 Release 的对应：1→box64/fex，2→drivers，3→dxvk，4→vkd3d，5→settings，6→runtime-yml，7→steam。type=1 里 Box64 和 FEXCore 混在一起，按 `name` 前缀拆开。
 
@@ -95,7 +95,7 @@ Steps:
 
 ```
 upstream.json              两个源 + type→Release 映射 + 文件名修正表
-manifests/catalog.json     705 条的机读清单（资产名 / 原名 / md5 / 体积 / 官方 URL）
+manifests/catalog.json     698 条的机读清单（资产名 / 原名 / md5 / 体积 / 官方 URL）
 manifests/CATALOG.md       同一份清单的人读版
 state/<bucket>.json        已镜像文件 → 大小 / sha256 / md5
 tools/mirror.py            同步脚本，标准库实现，无依赖
